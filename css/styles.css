@@ -77,3 +77,15 @@
   transform: translate(-50%, -50%);
   font-size: 28px;
 }
+
+@media (min-width: 768px) {
+  .navbar-header {
+    float: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: inline;
+  }
+}
