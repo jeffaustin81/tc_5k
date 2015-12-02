@@ -23,6 +23,7 @@
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="dist/jquery.fatNav.css" rel="stylesheet" type="text/css">
 
   <!-- Custom Links -->
   <link rel="icon" type="image/png" href="img/favicon.png">
@@ -37,17 +38,36 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+  <div class="fat-nav">
+    <div class="fat-nav__wrapper">
+      <ul>
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#about">About</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#download">Download</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
   <!-- Navigation -->
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div>
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
           <svg class="menu_icon" xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24" enable-background="new 0 0 24 24" style="fill: rgb(255, 255, 255);">
             <path style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Bitstream Vera Sans" d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"
             color="#000" overflow="visible" enable-background="accumulate" font-family="Bitstream Vera Sans" />
           </svg>
-        </button>
+        </button> -->
         <a class="navbar-brand page-scroll" href="#page-top">
           <svg class="nav_logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="864px" height="864px" viewBox="0 0 864 864" enable-background="new 0 0 864 864" xml:space="preserve">
             <g>
@@ -87,9 +107,8 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-right navbar-main-collapse">
+      <!-- <div class="collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden">
             <a href="#page-top"></a>
           </li>
@@ -103,7 +122,7 @@
             <a class="page-scroll" href="#contact">Contact</a>
           </li>
         </ul>
-      </div>
+      </div> -->
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
@@ -208,7 +227,6 @@
   </section>
 
 
-
   <!-- Footer -->
   <footer>
     <div class="container text-center">
@@ -217,7 +235,7 @@
   </footer>
 
   <!-- jQuery -->
-  <script src="js/jquery.js"></script>
+  <!-- <script src="js/jquery.js"></script> -->
 
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
@@ -232,6 +250,9 @@
   <script src="js/grayscale.js"></script>
 
   <script src="js/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript" src="dist/jquery.fatNav.js"></script>
+  <script type="text/javascript" src="dist/main.js"></script>
 
 </body>
 
