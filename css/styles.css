@@ -37,11 +37,9 @@
     display: inline;
   }
 }
-@media (max-width:768px) {
-  .title {
+@media(max-width:768px) {
+  .tc_title {
     font-size: 24px;
-    margin-top: -55px;
-    margin-bottom: 55px;
   }
 }
 
