@@ -48,13 +48,13 @@
 }
 
 @font-face {
-  font-family: 'din';
-  src: url(css/DIN Condensed Bold.ttf);
+  font-family: 'my_din';
+  src: url(../fonts/ufonts.com_din-regular.ttf);
 }
 
 .intro-text {
   /*font-family: 'Comfortaa', cursive;*/
-  font-family: 'din';
+  font-family: 'my_din';
   opacity: .8;
 }
 
