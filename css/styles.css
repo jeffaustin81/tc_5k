@@ -40,9 +40,7 @@
   }
 }
 @media(max-width:768px) {
-  .title {
+  .tc_title {
     font-size: 24px;
-    margin-top: -55px;
-    margin-bottom: 55px;
   }
 }
