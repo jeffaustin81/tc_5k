@@ -37,9 +37,15 @@
     display: inline;
   }
 }
-@media(max-width:768px) {
+@media (max-width:768px) {
   .tc_title {
     font-size: 24px;
+  }
+}
+
+@media (max-width:480px) {
+  .tc_title {
+    font-size: 16px;
   }
 }
 

@@ -273,10 +273,14 @@ a:focus {
     -o-background-size: cover;
 }
 
+#about {
+  /*height: 100%;*/
+}
+
 .about-section {
     width: 100%;
-    padding: 400px 0;
-    height: auto;
+    padding: 50px 0;
+    /*height: 100%;*/
     color: #fff;
     background: url(../img/sneakers_original.jpg) no-repeat center center scroll;
     background-color: #000;
