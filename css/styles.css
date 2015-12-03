@@ -1,5 +1,3 @@
-
-/*LOGO STYLES*/
 .nav_logo {
   height: 2em;
   width: 2em;
@@ -19,7 +17,7 @@
 
 /*TITLE HEADER*/
 .tc_title {
-  top: 45px;
+  top: 40px;
   margin: 0;
   position: absolute;
   left: 50%;
@@ -51,6 +49,21 @@
     display: none;
 }
 
+@font-face {
+  font-family: 'din';
+  src: url(css/DIN Condensed Bold.ttf);
+}
+
 .intro-text {
-  font-family: 'Comfortaa', cursive;
+  /*font-family: 'Comfortaa', cursive;*/
+  font-family: 'din';
+  opacity: .8;
+}
+
+.menu-text {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.sneakers {
+  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../img/sneakers.jpg) no-repeat bottom center scroll;
 }
