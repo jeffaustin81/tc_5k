@@ -44,7 +44,7 @@
 
             this.$nav.fadeToggle(400);
 
-			self.toggleBodyOverflow();
+			// self.toggleBodyOverflow();
 
             $().add(this.$hamburger).add(this.$nav).toggleClass('active');
         },
