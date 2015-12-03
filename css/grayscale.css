@@ -273,14 +273,9 @@ a:focus {
     -o-background-size: cover;
 }
 
-#about {
-  /*height: 100%;*/
-}
-
 .about-section {
     width: 100%;
     padding: 50px 0;
-    /*height: 100%;*/
     color: #fff;
     background: url(../img/sneakers_original.jpg) no-repeat center center scroll;
     background-color: #000;
@@ -296,7 +291,32 @@ a:focus {
     margin-top: 100px;
 }
 
-@media(min-width:767px) {
+@media (min-width:767px) {
+
+    .about-section {
+        width: 100%;
+        padding: 400px 0;
+        height: 100%;
+        color: #fff;
+        background: url(../img/sneakers_original.jpg) no-repeat center center scroll;
+        background-color: #000;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+    .full-width {
+      width: 100%;
+    }
+    .align {
+      padding-top: 12%;
+      font-size: 72px;
+      color: #fff;
+    }
+
+    #about {
+      height: 100%;
+    }
     .content-section {
         padding-top: 0px;
     }
