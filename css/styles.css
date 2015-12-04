@@ -3,30 +3,32 @@
   width: 2em;
   fill: #fff;
 }
-
 .main_logo {
   fill: white;
   height: 15em;
   width: 15em;
   border-radius: 50%;
   background-color: rgba(227, 185, 100, .7);
-  color:white;
+  color: white;
   padding: 1%;
   text-align: center;
 }
 
 /*TITLE HEADER*/
+
 .tc_title {
-  top: 40px;
+  top: 35px;
   margin: 0;
   position: absolute;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  font-size: 28px;
+  font-size: 36px;
+  color: #fff;
 }
 
 /*MEDIA QUERIES*/
+
 @media (min-width: 768px) {
   .navbar-header {
     float: none;
@@ -42,38 +44,36 @@
     font-size: 24px;
   }
 }
-
 @media (max-width:480px) {
   .tc_title {
     font-size: 16px;
   }
 }
-
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
-
 @font-face {
   font-family: 'my_din';
   src: url(../fonts/ufonts.com_din-regular.ttf);
 }
-
 .intro-text {
   /*font-family: 'Comfortaa', cursive;*/
   font-family: 'my_din';
   opacity: .8;
 }
-
 .menu-text {
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 .sneakers {
-  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../img/sneakers.jpg) no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/sneakers.jpg) no-repeat bottom center scroll;
 }
-
 .vertical-align {
   vertical-align: middle;
   display: inline-block;
-
+}
+.race-details {
+  margin-top: 11.5px;
+}
+#social {
+  margin-bottom: -10px;
 }

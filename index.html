@@ -2,6 +2,7 @@
 <html lang="en">
 <!-- test -->
 <!-- test -->
+
 <head>
 
   <meta charset="utf-8">
@@ -43,7 +44,9 @@
     <div class="fat-nav__wrapper menu-text">
       <ul>
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-        <li class="hidden"><a href="#page-top"></a></li>
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
         <li><a class="page-scroll" href="#page-top">HOME</a></li>
         <!-- <li><a class="page-scroll" href="#registration">REGISTRATION</a></li> -->
         <li><a class="page-scroll" href="#race-details">RACE DETAILS</a></li>
@@ -56,12 +59,6 @@
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div>
       <div class="navbar-header">
-        <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-          <svg class="menu_icon" xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 24 24" enable-background="new 0 0 24 24" style="fill: rgb(255, 255, 255);">
-            <path style="text-indent:0;text-align:start;line-height:normal;text-transform:none;block-progression:tb;-inkscape-font-specification:Bitstream Vera Sans" d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"
-            color="#000" overflow="visible" enable-background="accumulate" font-family="Bitstream Vera Sans" />
-          </svg>
-        </button> -->
         <a class="navbar-brand page-scroll" href="#page-top">
           <svg class="nav_logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="864px" height="864px" viewBox="0 0 864 864" enable-background="new 0 0 864 864" xml:space="preserve">
             <g>
@@ -164,20 +161,43 @@
   </section> -->
 
   <!-- Race Details Section -->
-  <section id="race-details" class="container content-section text-center">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <h2>Race Details</h2>
-      </div>
-    </div>
+  <section id="race-details" class="content-section text-center">
+    <h2 class="section-titles race-details">Race Details</h2>
+    <!-- Map Section -->
+    <div id="map"></div>
+    <h3 style="text-decoration: underline">FAQ</h3>
+    <ul class="faq-list">
+      <li>
+        <strong>Where is this thing?</strong> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
+      <li>
+        <strong>Where do I park?</strong> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
+      <li>
+        <strong>Will there be support on the course?</strong> Tons of moral support, just look to your fellow participants!</li>
+      <li>
+        <strong>Is the race chip timed?</strong> No, this is a fun run/walk!</li>
+      <li>
+        <strong>Are dogs allowed?</strong> Yes! Friendly pups are welcome on a leash.</li>
+      <li>
+        <strong>Are strollers allowed?</strong> Yes, but there are stairs and narrow trails on the route so be prepared to ask a fellow runner to help navigate those tricky spots.</li>
+      <li>
+        <strong>Is there a kids race?</strong> This race is open to children and children at heart. Discounted registration is available to students with valid student IDs and kids under *7* can join for free without a shirt or bib. Kids under *16* need parent
+        signature.</li>
+      <li>
+        <strong>Where do I pick up my packet?</strong> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see
+        one of the important projects your race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
+      <li>
+        <strong>Is there a bag check?</strong> There is no official bag check.</li>
+      <li>There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li>
+    </ul>
+    <p></p>
   </section>
-  <!-- Map Section -->
-  <div id="map"></div>
 
   <!-- About Section -->
   <section id="about" class="content-section text-center">
     <div class="about-section">
-      <a href="#"><h2 class="align full-width">History of Tabor Challenge</h2></a>
+      <a href="#">
+        <h2 class="align full-width">History of Tabor Challenge</h2>
+      </a>
     </div>
   </section>
 
@@ -185,30 +205,26 @@
   <section id="social" class="container content-section text-center">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <h2>Social</h2>
-        <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-        <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+        <h2 class="section-titles">Social</h2>
+        <!-- <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p> -->
+        <p><a href="mailto:taborchallenge5k@gmail.com">taborchallenge5k@gmail.com</a>
         </p>
         <ul class="list-inline banner-social-buttons">
           <li>
-            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+            <a href="https://www.instagram.com/taborchallenge/" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i><span class="network-name"> Instagram</span></a>
           </li>
           <li>
-            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-          </li>
-          <li>
-            <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+            <a href="https://www.facebook.com/taborchallenge/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name"> Facebook</span></a>
           </li>
         </ul>
       </div>
     </div>
   </section>
 
-
   <!-- Footer -->
   <footer>
     <div class="container text-center">
-      <p>Copyright &copy; Your Website 2014</p>
+      <p>Copyright &copy; Tabor Challenge 2015</p>
     </div>
   </footer>
 
@@ -217,8 +233,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
-
-
 
   <!-- Plugin JavaScript -->
   <script src="js/bootstrap.min.js"></script>
@@ -229,7 +243,6 @@
 
   <!-- Custom Theme JavaScript -->
   <script src="js/grayscale.js"></script>
-
 
   <script src="js/index.js"></script>
   <script type="text/javascript" src="dist/jquery.fatNav.js"></script>
