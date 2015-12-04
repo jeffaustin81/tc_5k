@@ -115,6 +115,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     background:none !important;
 }
 
+<<<<<<< HEAD
 div.sponsor {
   margin: 5px;
   float: left;
@@ -128,4 +129,16 @@ div.sponsor img {
 
 .sponsors {
   /*text-align: center;*/
+=======
+.faq-list {
+  list-style: none;
+  font-size: 20px;
+  text-align: left;
+  margin: 0 75px;
+  /*margin-right: 16.66666667%;*/
+}
+.questions {
+  font-size: 26px;
+  color: #858585;
+>>>>>>> dev
 }
