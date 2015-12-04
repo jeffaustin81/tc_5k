@@ -41,7 +41,7 @@ function init() {
         zoom: 13,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(45.5129, -122.5926), // Portland
+        center: new google.maps.LatLng(45.509670242020604, -122.59437561035156), // Portland
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -188,8 +188,8 @@ function init() {
     var map = new google.maps.Map(mapElement, mapOptions);
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(45.5129, -122.5926);
+    var image = 'img/tc_marker_fill.png';
+    var myLatLng = new google.maps.LatLng(45.509670242020604, -122.59437561035156);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,

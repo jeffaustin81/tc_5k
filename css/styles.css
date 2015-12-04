@@ -25,6 +25,7 @@
   transform: translate(-50%, -50%);
   font-size: 36px;
   color: #fff;
+  font-family: 'section_titles_din';
 }
 
 /*MEDIA QUERIES*/
@@ -53,14 +54,40 @@
   display: none;
 }
 @font-face {
-  font-family: 'my_din';
+  font-family: 'intro_din';
   src: url(../fonts/ufonts.com_din-regular.ttf);
 }
+
+@font-face {
+  font-family: 'sitewide_din';
+  src: url(../fonts/DIN_Condensed_Bold.ttf);
+}
+
+@font-face {
+  font-family: 'section_titles_din';
+  src: url(../fonts/DIN_Alternate_Bold.ttf);
+}
+
+.history_font {
+  font-family: 'sitewide_din';
+  font-size: 110px;
+}
+
 .intro-text {
   /*font-family: 'Comfortaa', cursive;*/
-  font-family: 'my_din';
+  font-family: 'intro_din';
   opacity: .8;
 }
+
+.section-titles {
+  font-family: 'section_titles_din';
+  font-size: 72px;
+}
+
+.sitewide-text {
+  font-family: 'sitewide_din'
+}
+
 .menu-text {
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
