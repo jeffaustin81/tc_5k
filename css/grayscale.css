@@ -279,6 +279,8 @@ a:hover, a:focus {
   }
 }
 .btn {
+  /*height: 50px;
+  width: 50px;*/
   border-radius: 0;
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;

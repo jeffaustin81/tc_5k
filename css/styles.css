@@ -114,3 +114,18 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 .gmnoprint div {
     background:none !important;
 }
+
+div.sponsor {
+  margin: 5px;
+  float: left;
+  width: 50px;
+}
+
+div.sponsor img {
+  width: 100%;
+  height: auto;
+}
+
+.sponsors {
+  /*text-align: center;*/
+}
