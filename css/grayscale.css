@@ -294,8 +294,8 @@ a:focus {
 @media (min-width:767px) {
 
     .about-section {
+        position: relative;
         width: 100%;
-        padding: 400px 0;
         height: 100%;
         color: #fff;
         background: url(../img/sneakers_original.jpg) no-repeat center center scroll;
@@ -309,9 +309,11 @@ a:focus {
       width: 100%;
     }
     .align {
-      padding-top: 12%;
+      position: absolute;
+      top: 45%;
       font-size: 72px;
       color: #fff;
+      margin-bottom: 0;
     }
 
     #about {
