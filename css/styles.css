@@ -116,19 +116,21 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 }
 
 
-div.sponsor {
+/*.sponsor {
   margin: 5px;
-  float: left;
   width: 50px;
 }
 
-div.sponsor img {
+.sponsor img {
   width: 100%;
   height: auto;
-}
+}*/
 
 .sponsors {
-  /*text-align: center;*/
+  text-align: center;
+  list-style: none;
+  list-style-type: none;
+  margin:auto;
 }
 .faq-list {
   list-style: none;
@@ -140,4 +142,14 @@ div.sponsor img {
 .questions {
   font-size: 26px;
   color: #858585;
+}
+
+.line-separator{
+
+height:1px;
+
+background:#717171;
+
+border-bottom:1px solid #A3A3A3;
+
 }
