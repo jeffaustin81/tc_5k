@@ -1,7 +1,15 @@
+body {
+  /*background-color: rgba(152, 157, 160, 0.5);;*/
+}
+
 .nav_logo {
   height: 2em;
   width: 2em;
   fill: #fff;
+  /*border-style: solid;
+  border-width: 1px;
+  border-color: black;*/
+
 }
 .main_logo {
   fill: white;
@@ -82,14 +90,17 @@
 .section-titles {
   font-family: 'section_titles_din';
   font-size: 72px;
+  color: #858585;
 }
 
 .sitewide-text {
-  font-family: 'sitewide_din'
+  font-family: 'section_titles_din';
 }
 
 .menu-text {
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'sitewide_din';
+  font-size: 20px;
 }
 .sneakers {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/sneakers.jpg) no-repeat bottom center scroll;
@@ -150,4 +161,9 @@ background:#717171;
 
 border-bottom:1px solid #A3A3A3;
 
+}
+
+.btn-lg,
+.btn-group-lg > .btn {
+  padding: 10px 10px;
 }

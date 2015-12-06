@@ -30,7 +30,7 @@ p {
 }
 @media(min-width:768px) {
   p {
-    margin: 0 0 35px;
+    /*margin: 0 0 35px;*/
     font-size: 20px;
     line-height: 1.6;
   }
@@ -284,7 +284,7 @@ a:hover, a:focus {
 .btn {
   /*height: 50px;
   width: 50px;*/
-  border-radius: 0;
+  border-radius: 50%;
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -322,7 +322,7 @@ ul.banner-social-buttons {
   }
 }
 footer {
-  padding: 50px 0;
+  /*padding: 50px 0;*/
 }
 footer p {
   margin: 0;
