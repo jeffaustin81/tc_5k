@@ -58,6 +58,7 @@ body {
     font-size: 16px;
   }
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -166,4 +167,9 @@ border-bottom:1px solid #A3A3A3;
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 10px;
+}
+
+.copyright_text {
+  font-family: 'section_titles_din';
+  font-size: 12px;
 }
