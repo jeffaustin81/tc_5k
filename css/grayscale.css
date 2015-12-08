@@ -324,6 +324,7 @@ ul.banner-social-buttons {
 @media(max-width:416px) {
   body {
     width: 100%;
+    overflow-x: hidden;
   }
   ul.banner-social-buttons li {
     /*display: inline-block;
