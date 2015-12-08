@@ -322,19 +322,15 @@ ul.banner-social-buttons {
 }
 
 @media(max-width:416px) {
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
   ul.banner-social-buttons li {
-    /*display: inline-block;
-    margin-bottom: 20px;*/
-    /*padding-right: 2px;
-    padding-left: 2px;*/
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-right: 2px;
+    padding-left: 2px;
   }
-  /*ul.banner-social-buttons li:last-child {
+  ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
-  }*/
+  }
 }
 
 footer {
