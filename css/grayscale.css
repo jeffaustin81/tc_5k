@@ -322,6 +322,9 @@ ul.banner-social-buttons {
 }
 
 @media(max-width:416px) {
+  body {
+    width: 100%;
+  }
   ul.banner-social-buttons li {
     /*display: inline-block;
     margin-bottom: 20px;*/
