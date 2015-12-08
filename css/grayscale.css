@@ -48,7 +48,7 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
-  color: #000;
+  color: rgba(227, 185, 100, .9);
 }
 .light {
   font-weight: 400;
@@ -313,14 +313,28 @@ ul.banner-social-buttons {
 }
 @media(max-width:767px) {
   ul.banner-social-buttons li {
-    display: block;
+    display: inline-block;
     margin-bottom: 20px;
-    padding: 0;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
 }
+
+@media(max-width:416px) {
+  ul.banner-social-buttons li {
+    /*display: inline-block;
+    margin-bottom: 20px;*/
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+  /*ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
+  }*/
+}
+
 footer {
   /*padding: 50px 0;*/
 }
