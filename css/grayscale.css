@@ -121,7 +121,7 @@ a:hover, a:focus {
   padding: 100px 0;
   text-align: center;
   color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/streetResize.jpg) no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/street.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
