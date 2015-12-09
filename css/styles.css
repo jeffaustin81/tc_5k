@@ -43,6 +43,10 @@
   color: #858585;
 }
 
+.race-details-position {
+  padding-bottom: 35px;
+}
+
 /*MEDIA QUERIES*/
 
 @media (min-width: 768px) {
