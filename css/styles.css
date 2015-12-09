@@ -37,7 +37,7 @@
   font-size: 110px;
 }
 
-.section-titles {
+.race-details-title {
   font-family: 'section_titles_din';
   font-size: 72px;
   color: #858585;
@@ -71,7 +71,7 @@
     font-size: 50px;
   }
 
-  .section-titles {
+  .race-details-title {
     font-size: 36px;
   }
 
