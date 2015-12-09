@@ -213,8 +213,8 @@ a:hover, a:focus {
   }
 }
 .content-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .about-section {
   width: 100%;
@@ -275,7 +275,7 @@ a:hover, a:focus {
   }
   #map {
     height: 400px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     margin-top: -25px;
     /*margin-top: 250px;*/
   }
