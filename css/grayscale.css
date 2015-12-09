@@ -213,7 +213,8 @@ a:hover, a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .about-section {
   width: 100%;
