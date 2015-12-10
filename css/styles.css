@@ -25,6 +25,17 @@
   src: url(../fonts/DIN_Alternate_Bold.ttf);
 }
 
+.body {
+  color: #fff;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #fff;
+  text-decoration: none;
+}
+
 .nav_logo {
   height: 2em;
   width: 2em;
@@ -202,6 +213,19 @@ border-bottom:1px solid #A3A3A3;
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 10px;
+}
+
+.register {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'section_titles_din';
+  border: 1px solid rgba(255, 255, 255, .9);
+  border-radius: 22px;
+}
+
+.register:hover {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, .9);
 }
 
 .copyright_text {
