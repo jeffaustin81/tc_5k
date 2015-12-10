@@ -72,8 +72,9 @@
   padding-top: 11.5px;
 }
 
-.intro-text {
+.subtitle-text {
   /*font-family: 'Comfortaa', cursive;*/
+  font-size: 18px;
   font-family: 'intro_din';
   opacity: .8;
 }
@@ -184,12 +185,20 @@ border-bottom:1px solid #A3A3A3;
   }
 }
 @media (max-width:480px) {
-  .tc_title {
+  /*.tc_title {
     font-size: 16px;
-  }
+  }*/
 }
 
 @media(max-width:416px) {
+
+  .tc_title {
+    font-size: 20px;
+  }
+
+  .subtitle-text {
+    font-size: 14px;
+  }
 
   .main_logo {
     fill: white;
