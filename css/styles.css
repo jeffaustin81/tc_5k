@@ -190,6 +190,18 @@ border-bottom:1px solid #A3A3A3;
 }
 
 @media(max-width:416px) {
+
+  .main_logo {
+    fill: white;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: rgba(227, 185, 100, .7);
+    color: white;
+    padding: 1%;
+    text-align: center;
+  }
+
   .history_font {
     font-size: 50px;
   }
