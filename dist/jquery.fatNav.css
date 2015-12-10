@@ -125,3 +125,10 @@
 .fat-nav li a {
   text-decoration: none;
 }
+
+/*@media(max-width:416px) {
+  .hamburger {
+
+    right: 5px;
+  }
+}*/

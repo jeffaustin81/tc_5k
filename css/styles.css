@@ -257,6 +257,10 @@ border-bottom:1px solid #A3A3A3;
     font-size: 20px;
   }
 
+  /*.nav_logo {
+    margin-left: -5px;
+  }*/
+
   .subtitle-text {
     font-size: 14px;
   }
