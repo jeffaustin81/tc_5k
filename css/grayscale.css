@@ -135,7 +135,10 @@ a:hover, a:focus {
   font-size: 40px;
 }
 .intro .intro-body .intro-text {
+  /*font-size: 18px;*/
   font-size: 18px;
+  font-family: 'intro_din';
+  opacity: .8;
 }
 @media(min-width:768px) {
   .intro {
@@ -146,7 +149,7 @@ a:hover, a:focus {
     font-size: 100px;
   }
   .intro .intro-body .intro-text {
-    font-size: 26px;
+    font-size: 14px;
   }
 }
 .btn-circle {

@@ -72,12 +72,11 @@
   padding-top: 11.5px;
 }
 
-.intro .intro-body .intro-text {
-  /*font-family: 'Comfortaa', cursive;*/
+/*.intro .intro-body .intro-text {
   font-size: 18px;
   font-family: 'intro_din';
   opacity: .8;
-}
+}*/
 
 .sitewide-text {
   font-family: 'section_titles_din';
@@ -261,9 +260,9 @@ border-bottom:1px solid #A3A3A3;
     margin-left: -5px;
   }*/
 
-  .intro .intro-body .intro-text {
+  /*.intro .intro-body .intro-text {
     font-size: 14px;
-  }
+  }*/
 
   .main_logo {
     fill: white;
