@@ -184,9 +184,9 @@ border-bottom:1px solid #A3A3A3;
   }
 }
 @media (max-width:480px) {
-  .tc_title {
+  /*.tc_title {
     font-size: 16px;
-  }
+  }*/
 }
 
 @media(max-width:416px) {
@@ -200,6 +200,10 @@ border-bottom:1px solid #A3A3A3;
     color: white;
     padding: 1%;
     text-align: center;
+  }
+
+  .tc_title {
+    font-size: 18px;
   }
 
   .history_font {
