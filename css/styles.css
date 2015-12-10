@@ -128,7 +128,68 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
   margin: 0 75px;
   /*margin-right: 16.66666667%;*/
 }
+
+.faq-mobile {
+  visibility: hidden;
+  display: none;
+}
+
+.faq {
+  visibility: visible;
+  display: inline;
+}
+
 .questions {
+  font-size: 26px;
+  color: #858585;
+}
+
+/*.mobile-questions {
+  font-size: 26px;
+  color: #858585;
+}*/
+
+#mobile-question-1 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-2 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-3 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-4 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-5 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-6 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-7 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-8 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-9 {
   font-size: 26px;
   color: #858585;
 }
@@ -237,6 +298,16 @@ border-bottom:1px solid #A3A3A3;
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .faq-mobile {
+    visibility: visible;
+    display: inline;
+  }
+  .faq {
+    visibility: hidden;
+    display: none;
+  }
+
 
   .questions {
     font-size: 18px;

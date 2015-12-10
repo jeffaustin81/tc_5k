@@ -166,7 +166,7 @@
     <!-- Map Section -->
     <div id="map"></div>
     <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
-    <div class="faqs">
+    <div class="faq">
       <ul class="faq-list sitewide-text">
         <li><span class="questions">Where is this thing?</span> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
         <li><span class="questions">Where do I park?</span> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
@@ -181,22 +181,22 @@
         <p></p>
       </ul>
     </div>
-    <!-- MOBILE VERSION -->
-    <!-- <div class="faqs">
+    <!-- CLICKABLE MOBILE VERSION -->
+    <div class="faq-mobile">
       <ul class="faq-list sitewide-text">
-        <li><span class="questions">Where is this thing?</span> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
-        <li><span class="questions">Where do I park?</span> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
-        <li><span class="questions">Will there be support on the course?</span> Tons of moral support, just look to your fellow participants!</li>
-        <li><span class="questions">Is the race chip timed?</span> No, this is a fun run/walk!</li>
-        <li><span class="questions">Are dogs allowed?</span> Yes! Friendly pups are welcome on a leash.</li>
-        <li><span class="questions">Are strollers allowed?</span> Yes, but there are stairs and narrow trails on the route so be prepared to ask a fellow runner to help navigate those tricky spots.</li>
-        <li><span class="questions">Is there a kids race?</span> This race is open to children and children at heart. Discounted registration is available to students with valid student IDs and kids under *7* can join for free without a shirt or bib. Kids under *16* need parent signature.</li>
-        <li><span class="questions">Where do I pick up my packet?</span> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see one of the important projects your race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
-        <li><span class="questions">Is there a bag check?</span> There is no official bag check.</li>
+        <li><span id="mobile-question-1" onclick="show()">Where is this thing?</span><span id="mobile-answer-1" style="visibility: hidden; display: none;"> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li></span>
+        <li><span id="mobile-question-2">Where do I park?</span> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
+        <li><span id="mobile-question-3">Will there be support on the course?</span> Tons of moral support, just look to your fellow participants!</li>
+        <li><span id="mobile-question-4">Is the race chip timed?</span> No, this is a fun run/walk!</li>
+        <li><span id="mobile-question-5">Are dogs allowed?</span> Yes! Friendly pups are welcome on a leash.</li>
+        <li><span id="mobile-question-6">Are strollers allowed?</span> Yes, but there are stairs and narrow trails on the route so be prepared to ask a fellow runner to help navigate those tricky spots.</li>
+        <li><span id="mobile-question-7">Is there a kids race?</span> This race is open to children and children at heart. Discounted registration is available to students with valid student IDs and kids under *7* can join for free without a shirt or bib. Kids under *16* need parent signature.</li>
+        <li><span id="mobile-question-8">Where do I pick up my packet?</span> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see one of the important projects your race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
+        <li><span id="mobile-question-9">Is there a bag check?</span> There is no official bag check.</li>
         <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li>
         <p></p>
       </ul>
-    </div> -->
+    </div>
   </section>
 
   <!-- About Section -->
@@ -286,6 +286,7 @@
   <script src="js/index.js"></script>
   <script type="text/javascript" src="dist/jquery.fatNav.js"></script>
   <script type="text/javascript" src="dist/main.js"></script>
+  <script type="text/javascript" src="dist/mobileQuestions.js"></script>
   <!-- <script type="text/javascript" src="dist/jquery.faqList.js"></script> -->
 
 </body>
