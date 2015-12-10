@@ -1,4 +1,0 @@
-.sampleClass {padding-left: :30px;}
-@media only screen and (max-width: 800px){
-	.sampleClass {padding-left:200px;}
-}
