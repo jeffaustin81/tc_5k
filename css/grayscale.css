@@ -221,6 +221,7 @@ a:hover, a:focus {
 }
 .about-section {
   width: 100%;
+  /*height: 100%;*/
   /*padding: 50px 0;*/
   color: #fff;
   background: url(../img/sneakers_original.jpg) no-repeat center center scroll;
@@ -230,6 +231,19 @@ a:hover, a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
+
+.merch-section {
+  width: 100%;
+  /*padding: 50px 0;*/
+  color: #fff;
+  background: url(../img/crew.jpeg) no-repeat center center scroll;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 #map {
   width: 100%;
   height: 200px;
@@ -254,6 +268,18 @@ a:hover, a:focus {
     background-size: cover;
     -o-background-size: cover;
   }
+  .merch-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: url(../img/crew.jpeg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
   .full-width {
     width: 100%;
   }
@@ -268,6 +294,9 @@ a:hover, a:focus {
     color: rgba(255, 255, 255, .8)
   }
   #about {
+    height: 100%;
+  }
+  #merch {
     height: 100%;
   }
   .content-section {

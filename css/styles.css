@@ -220,7 +220,7 @@ border-bottom:1px solid #A3A3A3;
   color: #fff;
   font-family: 'section_titles_din';
   border: 1px solid rgba(255, 255, 255, .9);
-  border-radius: 22px;
+  border-radius: 24px;
 }
 
 .register:hover {
@@ -240,6 +240,11 @@ border-bottom:1px solid #A3A3A3;
 
 .about-section {
   box-sizing: border-box;
+}
+
+.merch-section {
+  box-sizing: border-box;
+  
 }
 
 /*.navbar-custom {
