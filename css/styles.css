@@ -254,7 +254,7 @@ border-bottom:1px solid #A3A3A3;
   box-sizing: border-box;
 }
 
-.merch-section {
+#merch {
   box-sizing: border-box;
 
 }
@@ -300,7 +300,7 @@ border-bottom:1px solid #A3A3A3;
 
   .tc_title {
     font-size: 20px;
-    top: 35px;
+    top: 37px;
   }
 
   /*.nav_logo {
@@ -372,6 +372,20 @@ border-bottom:1px solid #A3A3A3;
     /*width: 100%;
     height: 200px;*/
     margin-top: 0;
+  }
+
+  #merch {
+    position: relative;
+    width: 100%;
+    /*height: 85%;*/
+    height: auto;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/crew.jpeg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
   }
 
   /*.intro {

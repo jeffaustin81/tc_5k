@@ -127,9 +127,28 @@ a:hover, a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
+
+#merch {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  /*padding: 50px 0;*/
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/crew.jpeg) no-repeat center center scroll;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
+}
+#merch .merch-section {
+  display: table-cell;
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
@@ -150,6 +169,10 @@ a:hover, a:focus {
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
+  }
+  #merch {
+    height: 100%;
+    padding: 0;
   }
 }
 .btn-circle {
@@ -232,18 +255,6 @@ a:hover, a:focus {
   -o-background-size: cover;
 }
 
-.merch-section {
-  width: 100%;
-  /*padding: 50px 0;*/
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/crew.jpeg) no-repeat center center scroll;
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
 #map {
   width: 100%;
   height: 200px;
@@ -268,7 +279,7 @@ a:hover, a:focus {
     background-size: cover;
     -o-background-size: cover;
   }
-  .merch-section {
+  #merch {
     position: relative;
     width: 100%;
     height: 85%;
@@ -297,7 +308,7 @@ a:hover, a:focus {
     height: 100%;
   }
   #merch {
-    height: 100%;
+    /*height: 100%;*/
   }
   .content-section {
     padding-top: 0px;
