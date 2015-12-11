@@ -25,6 +25,11 @@
   src: url(../fonts/DIN_Alternate_Bold.ttf);
 }
 
+@font-face {
+  font-family: 'tabor_font';
+  src: url(../fonts/Haymaker.ttf);
+}
+
 .body {
   color: #fff;
 }
@@ -56,7 +61,7 @@
 /*TITLE HEADER*/
 
 .tc_title {
-  top: 35px;
+  top: 40px;
   margin: 0;
   position: absolute;
   left: 50%;
@@ -69,9 +74,9 @@
   transform: translate(-50%,-50%);*/
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  font-size: 36px;
+  font-size: 46px;
   color: #fff;
-  font-family: 'section_titles_din';
+  font-family: 'tabor_font';
 }
 
 .history_font {
