@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'intro_din';
-  src: url(../fonts/ufonts.com_din-regular.ttf);
+  src: url(../fonts/gidole-regular.otf);
 }
 
 @font-face {
@@ -60,11 +60,15 @@
   margin: 0;
   position: absolute;
   left: 50%;
-  -moz-transform: translate(-50%,-50%);
+  /* Bring back once hanburger menu is in the nav and TC title is centered */
+
+  /*-moz-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);*/
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
   font-size: 36px;
   color: #fff;
   font-family: 'section_titles_din';
