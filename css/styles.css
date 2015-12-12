@@ -264,6 +264,10 @@ border-bottom:1px solid #A3A3A3;
   font-size: 50px
 }
 
+.merch-items {
+  padding-top: 10px;
+}
+
 /*.navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255,255,255,.3);
