@@ -1,6 +1,6 @@
 $("#register-now").click(function(){
     $("#merch").fadeIn();
-    $("#merch-items").fadeIn();
+    $("#merch-test").fadeIn();
     $("#splash").hide(); // or .fadeIn(), etc.
     $("#race-details").hide();
     $("#about").hide();

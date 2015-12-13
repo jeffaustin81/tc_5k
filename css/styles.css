@@ -254,9 +254,35 @@ border-bottom:1px solid #A3A3A3;
   box-sizing: border-box;
 }
 
-#merch {
-  box-sizing: border-box;
+#merch-test {
+  width: 75%;
+  margin: auto;
+}
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.photos{
+  width:75%;
+  margin: auto;
+}
+
+.photos ul{
+  list-style: none;
+
+}
+
+.margin-test {
+  padding-right: 25px;
+}
+
+.photo {
+  /*margin: 1.66%;*/
+  /*margin-left: 10px;
+  margin-right: 10px;*/
 }
 
 .merch-font {
