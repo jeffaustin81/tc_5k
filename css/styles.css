@@ -264,9 +264,54 @@ border-bottom:1px solid #A3A3A3;
   font-size: 50px
 }
 
-.merch-items {
+.merch-items-list {
   padding-top: 10px;
 }
+
+.merch-items-list ul{
+  list-style: none;
+}
+
+.merch-items-list img{
+  max-width:10%;
+}
+
+.merch-items {
+
+}
+
+.merch-item {
+
+}
+
+/*body, html {
+  height: 100%;
+}*/
+
+.merch-items-list {
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 300px;
+  margin: auto;
+}
+
+.merch-item {
+
+  float: left;
+  width: 50%;
+  background: #fff;
+  color: #ccc;
+  text-align: center;
+  height: 50%;
+}
+
+.col.two, .col.three {
+  background: #eaeaea;
+}
+
+
+
 
 /*.navbar-custom {
   margin-bottom: 0;
@@ -394,6 +439,11 @@ border-bottom:1px solid #A3A3A3;
 
   .merch-font {
     font-size: 20px;
+  }
+
+  .merch-items-list li{
+    display:list-item;
+    text-align:center;
   }
 
   /*.intro {
