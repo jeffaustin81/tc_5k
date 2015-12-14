@@ -34,7 +34,6 @@
   <script type="text/javascript" src="https://cdn.snipcart.com/scripts/snipcart.js" id="snipcart" data-api-key="Y2NmN2Y3MzAtZjEwZi00NDhmLWI2ZTMtZTg4ZTlkMGEzZWQy"></script>
   <link type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" rel="stylesheet" />
 
-
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -55,10 +54,9 @@
         <!-- <li class="hidden">
           <a href="#page-top"></a>
         </li> -->
-        <li><a class="page-scroll" href="#page-top" onclick="externalMenu()">HOME</a></li>
-        <!-- <li><a class="page-scroll" href="#registration">REGISTRATION</a></li> -->
-        <li><a class="page-scroll" href="#race-details" onclick="externalMenu()">RACE DETAILS</a></li>
-        <li><a class="page-scroll" href="#about" onclick="externalMenu()">ABOUT TC</a></li>
+        <li><a class="page-scroll" href="#page-top" onclick="externalMenuHome()">HOME</a></li>
+        <li><a class="page-scroll" href="#race-details" onclick="externalMenuRaceDetails()">RACE DETAILS</a></li>
+        <li><a class="page-scroll" href="#about" onclick="externalMenuAbout()">ABOUT TC</a></li>
       </ul>
     </div>
   </div>
@@ -155,17 +153,6 @@
     </div>
   </header>
 
-  <!-- Registration Section -->
-  <!-- <section id="registration" class="content-section text-center">
-    <div class="download-section">
-      <div class="container">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h2>Registration</h2>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <!-- Race Details Section -->
   <section id="race-details" class="content-section text-center">
     <div class="race-details-position">
@@ -260,12 +247,7 @@
 
   <!-- Merch Section -->
   <section id="merch" class="content-section text-center history_padding" style="display: none;">
-    <div class="merch-section">
-      <div>
-        <!-- <div class="line-separator"></div> -->
-        <!-- <h2 class="align full-width history_font merch-font">Merch</h2> -->
-      </div>
-    </div>
+    <div class="merch-section"></div>
   </section>
 
   <section id="merch-test" class="group" style="display: none;">
@@ -274,38 +256,27 @@
       <ul>
         <li>
           <a href="#" class="snipcart-add-item" data-item-id="1" data-item-name="Adult Registration" data-item-price="35.00" data-item-weight="20" data-item-url="/" data-item-image="../img/adult.png" data-item-description="Adult Registration">
-          <img class="merch-item photo margin-test" src="../img/adult.png" alt="Adult Registration" /></a>
+            <img class="merch-item photo margin-test" src="../img/adult.png" alt="Adult Registration" />
+          </a>
         </li>
         <li>
           <a href="#" class="snipcart-add-item" data-item-id="2" data-item-name="Student Registration" data-item-price="20.00" data-item-weight="20" data-item-url="/" data-item-image="../img/student.png" data-item-description="Student Registration">
-          <img class="merch-item photo margin-test" src="../img/student.png" alt="Student Registration" /></a>
+            <img class="merch-item photo margin-test" src="../img/student.png" alt="Student Registration" />
+          </a>
         </li>
       </ul>
       <ul>
         <li>
           <a href="#" class="snipcart-add-item" data-item-id="3" data-item-name="T-Shirt" data-item-price="20.00" data-item-weight="20" data-item-url="/" data-item-image="../img/shirt.png" data-item-description="Tabor Challenge T-Shirt">
-          <img class="merch-item photo margin-test" src="../img/shirt.png" alt="T Shirt" /></a>
+            <img class="merch-item photo margin-test" src="../img/shirt.png" alt="T Shirt" />
+          </a>
         </li>
         <li>
           <a href="#" class="snipcart-add-item" data-item-id="4" data-item-name="Koozie" data-item-price="5.00" data-item-weight="20" data-item-url="/" data-item-image="../img/koozie.png" data-item-description="Tabor Challenge Koozie">
-          <img class="merch-item photo margin-test" src="../img/koozie.png" alt="Koozie" /></a>
+            <img class="merch-item photo margin-test" src="../img/koozie.png" alt="Koozie" />
+          </a>
         </li>
       </ul>
-    </div> -->
-
-
-
-
-    <!-- <div class="merch-item shirt1">1</div>
-    <div class="merch-item shirt2">2</div>
-    <div class="merch-item shirt3">3</div>
-    <div class="merch-item shirt4">4</div> -->
-
-    <!-- <div class="merch-items-list">
-      <div class="one merch-item">1</div>
-      <div class="two merch-item">2</div>
-      <div class="three merch-item">3</div>
-      <div class="four merch-item">4</div>
     </div> -->
   </section>
 
@@ -389,8 +360,6 @@
   <script type="text/javascript" src="dist/navigation.js"></script>
   <script type="text/javascript" src="dist/homeLogo.js"></script>
   <script type="text/javascript" src="dist/externalPageMenu.js"></script>
-  <!-- <script type="text/javascript" src="dist/jquery.faqList.js"></script> -->
 
 </body>
-
 </html>
