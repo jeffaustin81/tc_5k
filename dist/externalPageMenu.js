@@ -33,3 +33,15 @@ function externalMenuAbout() {
     $("#about").fadeIn();
   }
 }
+
+function externalMenuMerch() {
+  var external = document.getElementById("merch");
+
+  if (document.getElementById("merch").style['display'] == 'none') {
+    $("#merch").fadeIn();
+    $("#merch-test").fadeIn();
+    $("#splash").hide();
+    $("#race-details").hide();
+    $("#about").hide();
+  }
+}
