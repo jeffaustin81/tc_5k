@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- test -->
-<!-- test -->
 
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,9 +23,16 @@
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Comfortaa:300' rel='stylesheet' type='text/css'>
   <link href="dist/jquery.fatNav.css" rel="stylesheet" type="text/css">
+  <!-- <link href="dist/jquery.faqList.css" rel="stylesheet" type="text/css"> -->
 
   <!-- Custom Links -->
   <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <!-- Snipcart Links -->
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.snipcart.com/scripts/snipcart.js" id="snipcart" data-api-key="Y2NmN2Y3MzAtZjEwZi00NDhmLWI2ZTMtZTg4ZTlkMGEzZWQy"></script>
+  <link type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" rel="stylesheet" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,28 +41,31 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+  <!-- test -->
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <!-- FATNAV MENU -->
   <div class="fat-nav">
     <div class="fat-nav__wrapper menu-text">
       <ul>
         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-        <li class="hidden">
+        <!-- <li class="hidden">
           <a href="#page-top"></a>
-        </li>
-        <li><a class="page-scroll" href="#page-top">HOME</a></li>
-        <!-- <li><a class="page-scroll" href="#registration">REGISTRATION</a></li> -->
-        <li><a class="page-scroll" href="#race-details">RACE DETAILS</a></li>
-        <li><a class="page-scroll" href="#about">ABOUT TC</a></li>
+        </li> -->
+        <li><a class="page-scroll" href="#page-top" onclick="externalMenuHome()">HOME</a></li>
+        <li><a class="page-scroll" href="#race-details" onclick="externalMenuRaceDetails()">RACE DETAILS</a></li>
+        <li><a class="page-scroll" href="#about" onclick="externalMenuAbout()">ABOUT TC</a></li>
+        <li><a class="page-scroll" href="#merch" onclick="externalMenuMerch()">MERCH + REGISTRATION</a></li>
       </ul>
     </div>
   </div>
   <!-- Navigation -->
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div>
-      <div class="navbar-header">
-        <a class="navbar-brand page-scroll" href="#page-top">
+      <div class="navbar-header" id="home-logo">
+        <a class="navbar-brand page-scroll" href="">
           <svg class="nav_logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="864px" height="864px" viewBox="0 0 864 864" enable-background="new 0 0 864 864" xml:space="preserve">
             <g>
               <path d="M742.305,325.513c-0.586,16.465-1.551,31.064-3.068,41.834l-1.297,9.887c-4.367,35.334-13.445,108.865-54.332,197.219
@@ -98,7 +105,7 @@
   </nav>
 
   <!-- Intro Header -->
-  <header class="intro">
+  <header id="splash" class="intro">
     <div class="intro-body">
       <div class="container">
         <div class="row">
@@ -136,8 +143,10 @@
             <p></p>
             <p class="intro-text">ROUND TWO
               <br>4.9.2016</p>
-            <a href="#race-details" class="btn btn-circle page-scroll">
-              <i class="fa fa-angle-double-down animated"></i>
+            <!-- <a href="#race-details" class="btn btn-circle page-scroll"> -->
+            <!-- <i class="fa fa-angle-double-down animated"></i> -->
+            <a class="btn register page-scroll" id="register-now">
+              <i class="fa animated"></i>REGISTER NOW
             </a>
           </div>
         </div>
@@ -145,24 +154,15 @@
     </div>
   </header>
 
-  <!-- Registration Section -->
-  <!-- <section id="registration" class="content-section text-center">
-    <div class="download-section">
-      <div class="container">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h2>Registration</h2>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <!-- Race Details Section -->
   <section id="race-details" class="content-section text-center">
-    <h2 class="section-titles race-details">Race Details</h2>
+    <div class="race-details-position">
+      <h2 class="race-details-title race-details">Race Details</h2>
+    </div>
     <!-- Map Section -->
     <div id="map"></div>
-    <h3 style="text-decoration: underline" class="sitewide-text questions">FAQ</h3>
-    <div class="faqs">
+    <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
+    <div class="faq">
       <ul class="faq-list sitewide-text">
         <li>
           <span class="questions">Where is this thing?</span> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
@@ -186,22 +186,99 @@
         <li>
           <span class="questions">Is there a bag check?</span> There is no official bag check.</li>
         <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li>
+        <p></p>
       </ul>
-      <p>
-
-      </p>
+    </div>
+    <!-- CLICKABLE MOBILE VERSION -->
+    <div class="faq-mobile">
+      <ul class="faq-list sitewide-text">
+        <li>
+          <span id="mobile-question-1" onclick="show1()">Where is this thing?</span>
+          <span id="mobile-answer-1" style="visibility: hidden; display: none;"> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
+        </span>
+        <li>
+          <span id="mobile-question-2" onclick="show2()">Where do I park?</span>
+          <span id="mobile-answer-2" style="visibility: hidden; display: none;"> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
+        </span>
+        <li>
+          <span id="mobile-question-3" onclick="show3()">Will there be support on the course?</span>
+          <span id="mobile-answer-3" style="visibility: hidden; display: none;"> Tons of moral support, just look to your fellow participants!</li>
+        </span>
+        <li>
+          <span id="mobile-question-4" onclick="show4()">Is the race chip timed?</span>
+          <span id="mobile-answer-4" style="visibility: hidden; display: none;"> No, this is a fun run/walk!</li>
+        </span>
+        <li>
+          <span id="mobile-question-5" onclick="show5()">Are dogs allowed?</span>
+          <span id="mobile-answer-5" style="visibility: hidden; display: none;"> Yes! Friendly pups are welcome on a leash.</li>
+        </span>
+        <li>
+          <span id="mobile-question-6" onclick="show6()">Are strollers allowed?</span>
+          <span id="mobile-answer-6" style="visibility: hidden; display: none;"> Yes, but there are stairs and narrow trails on the route so be prepared to ask a fellow runner to help navigate those tricky spots.</li>
+        </span>
+        <li>
+          <span id="mobile-question-7" onclick="show7()">Is there a kids race?</span>
+          <span id="mobile-answer-7" style="visibility: hidden; display: none;"> This race is open to children and children at heart. Discounted registration is available to students with valid student IDs and kids under *7* can join for free without a shirt or bib. Kids under *16* need parent signature.</li>
+        </span>
+        <li>
+          <span id="mobile-question-8" onclick="show8()">Where do I pick up my packet?</span>
+          <span id="mobile-answer-8" style="visibility: hidden; display: none;"> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see one of the important projects your
+            race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
+        </span>
+        <li>
+          <span id="mobile-question-9" onclick="show9()">Is there a bag check?</span>
+          <span id="mobile-answer-9" style="visibility: hidden; display: none;"> There is no official bag check.</li>
+        </span>
+        <!-- <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li> -->
+        <p></p>
+      </ul>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about" class="content-section text-center about-section">
+  <section id="about" class="content-section text-center about-section history_padding">
     <div>
       <div>
         <a href="#">
-          <h2 class="align full-width history_font">History of Tabor Challenge</h2>
+          <h2 class="align full-width history-font">History of Tabor Challenge</h2>
         </a>
       </div>
     </div>
+  </section>
+
+  <!-- Merch Section -->
+  <section id="merch" class="content-section text-center history_padding" style="display: none;">
+    <div class="merch-section"></div>
+  </section>
+
+  <section id="merch-test" class="group" style="display: none;">
+    <h2 class="full-width text-center merch-font">Merchandise + Registration</h2>
+    <!-- <div class="photos group">
+      <ul>
+        <li>
+          <a href="#" class="snipcart-add-item" data-item-id="1" data-item-name="Adult Registration" data-item-price="35.00" data-item-weight="20" data-item-url="/" data-item-image="../img/adult.png" data-item-description="Adult Registration">
+            <img class="merch-item photo margin-test" src="../img/adult.png" alt="Adult Registration" />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="snipcart-add-item" data-item-id="2" data-item-name="Student Registration" data-item-price="20.00" data-item-weight="20" data-item-url="/" data-item-image="../img/student.png" data-item-description="Student Registration">
+            <img class="merch-item photo margin-test" src="../img/student.png" alt="Student Registration" />
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#" class="snipcart-add-item" data-item-id="3" data-item-name="T-Shirt" data-item-price="20.00" data-item-weight="20" data-item-url="/" data-item-image="../img/shirt.png" data-item-description="Tabor Challenge T-Shirt">
+            <img class="merch-item photo margin-test" src="../img/shirt.png" alt="T Shirt" />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="snipcart-add-item" data-item-id="4" data-item-name="Koozie" data-item-price="5.00" data-item-weight="20" data-item-url="/" data-item-image="../img/koozie.png" data-item-description="Tabor Challenge Koozie">
+            <img class="merch-item photo margin-test" src="../img/koozie.png" alt="Koozie" />
+          </a>
+        </li>
+      </ul>
+    </div> -->
   </section>
 
   <!-- Social Section -->
@@ -227,22 +304,22 @@
             <ul class="list-inline text-center">
               <li class="sponsor">
                 <a target="_blank">
-                  <img src="img/tecate.png" alt="Northern Lights" width="50" height="auto">
+                  <img src="img/tecate.png" alt="Tecate Logo" width="50" height="auto">
                 </a>
               </li>
               <li class="sponsor">
                 <a target="_blank">
-                  <img src="img/gatorade.png" alt="Fjords" width="50" height="auto">
+                  <img src="img/gatorade.png" alt="Gatorade Logo" width="50" height="auto">
                 </a>
               </li>
               <li class="sponsor">
                 <a target="_blank">
-                  <img src="img/nike.png" alt="Mountains" width="50" height="auto">
+                  <img src="img/nike.png" alt="Nike Logo" width="50" height="auto">
                 </a>
               </li>
               <li class="sponsor">
                 <a target="_blank">
-                  <img src="img/visa.png" alt="Forest" width="50" height="auto">
+                  <img src="img/visa.png" alt="Visa Logo" width="50" height="auto">
                 </a>
               </li>
             </ul>
@@ -280,6 +357,10 @@
   <script src="js/index.js"></script>
   <script type="text/javascript" src="dist/jquery.fatNav.js"></script>
   <script type="text/javascript" src="dist/main.js"></script>
+  <script type="text/javascript" src="dist/mobileQuestions.js"></script>
+  <script type="text/javascript" src="dist/navigation.js"></script>
+  <script type="text/javascript" src="dist/homeLogo.js"></script>
+  <script type="text/javascript" src="dist/externalPageMenu.js"></script>
 
 </body>
 </html>

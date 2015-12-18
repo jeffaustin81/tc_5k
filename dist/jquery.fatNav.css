@@ -4,7 +4,7 @@
   height: 50px;
   position: fixed;
   top: 15px;
-  right: 15px;
+  right: 8px;
   z-index: 10000;
   padding: 12px;
   -moz-box-sizing: border-box;
@@ -125,3 +125,10 @@
 .fat-nav li a {
   text-decoration: none;
 }
+
+/*@media(max-width:416px) {
+  .hamburger {
+
+    right: 5px;
+  }
+}*/

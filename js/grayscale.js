@@ -46,7 +46,7 @@ function init() {
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
         scrollwheel: false,
-        draggable: true,
+        draggable: false,
 
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.

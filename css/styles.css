@@ -1,12 +1,52 @@
+/** {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}*/
+
+/*NAVBAR*/
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: 'intro_din';
+  src: url(../fonts/gidole-regular.otf);
+}
+
+@font-face {
+  font-family: 'sitewide_din';
+  src: url(../fonts/DIN_Condensed_Bold.ttf);
+}
+
+@font-face {
+  font-family: 'section_titles_din';
+  src: url(../fonts/DIN_Alternate_Bold.ttf);
+}
+
+@font-face {
+  font-family: 'tabor_font';
+  src: url(../fonts/Haymaker.ttf);
+}
+
+.body {
+  color: #fff;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #fff;
+  text-decoration: none;
+}
+
 .nav_logo {
   height: 2em;
   width: 2em;
   fill: #fff;
-  /*border-style: solid;
-  border-width: 1px;
-  border-color: black;*/
-
 }
+
 .main_logo {
   fill: white;
   height: 15em;
@@ -21,74 +61,46 @@
 /*TITLE HEADER*/
 
 .tc_title {
-  top: 35px;
+  top: 40px;
   margin: 0;
   position: absolute;
   left: 50%;
+  /* Bring back once hanburger menu is in the nav and TC title is centered */
+
+  /*-moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);*/
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  font-size: 36px;
+  font-size: 46px;
   color: #fff;
-  font-family: 'section_titles_din';
+  font-family: 'tabor_font';
 }
 
-/*MEDIA QUERIES*/
-
-@media (min-width: 768px) {
-  .navbar-header {
-    float: none;
-  }
-}
-@media (min-width: 768px) {
-  .navbar-toggle {
-    display: inline;
-  }
-}
-@media (max-width:768px) {
-  .tc_title {
-    font-size: 24px;
-  }
-}
-@media (max-width:480px) {
-  .tc_title {
-    font-size: 16px;
-  }
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
-@font-face {
-  font-family: 'intro_din';
-  src: url(../fonts/ufonts.com_din-regular.ttf);
-}
-
-@font-face {
-  font-family: 'sitewide_din';
-  src: url(../fonts/DIN_Condensed_Bold.ttf);
-}
-
-@font-face {
-  font-family: 'section_titles_din';
-  src: url(../fonts/DIN_Alternate_Bold.ttf);
-}
-
-.history_font {
+.history-font {
   font-family: 'sitewide_din';
   font-size: 110px;
+  /*line-height: .5;*/
 }
 
-.intro-text {
-  /*font-family: 'Comfortaa', cursive;*/
-  font-family: 'intro_din';
-  opacity: .8;
-}
-
-.section-titles {
+.race-details-title {
   font-family: 'section_titles_din';
   font-size: 72px;
   color: #858585;
 }
+
+.race-details-position {
+  padding-bottom: 35px;
+  padding-top: 11.5px;
+}
+
+/*.intro .intro-body .intro-text {
+  font-size: 18px;
+  font-family: 'intro_din';
+  opacity: .8;
+}*/
 
 .sitewide-text {
   font-family: 'section_titles_din';
@@ -106,9 +118,14 @@
   vertical-align: middle;
   display: inline-block;
 }
-.race-details {
+/*.race-details {
   margin-top: 11.5px;
+}*/
+
+.faq-title {
+  padding-bottom: 10px;
 }
+
 #social {
   margin-top: 15px;
   margin-bottom: 10px;
@@ -124,16 +141,6 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     background:none !important;
 }
 
-/*.sponsor {
-  margin: 5px;
-  width: 50px;
-}
-
-.sponsor img {
-  width: 100%;
-  height: auto;
-}*/
-
 .sponsors {
   margin: -15px 0;
 }
@@ -144,7 +151,68 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
   margin: 0 75px;
   /*margin-right: 16.66666667%;*/
 }
+
+.faq-mobile {
+  visibility: hidden;
+  display: none;
+}
+
+.faq {
+  visibility: visible;
+  display: inline;
+}
+
 .questions {
+  font-size: 26px;
+  color: #858585;
+}
+
+/*.mobile-questions {
+  font-size: 26px;
+  color: #858585;
+}*/
+
+#mobile-question-1 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-2 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-3 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-4 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-5 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-6 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-7 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-8 {
+  font-size: 26px;
+  color: #858585;
+}
+
+#mobile-question-9 {
   font-size: 26px;
   color: #858585;
 }
@@ -160,6 +228,19 @@ border-bottom:1px solid #A3A3A3;
   padding: 10px 10px;
 }
 
+.register {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'section_titles_din';
+  border: 1px solid rgba(255, 255, 255, .9);
+  border-radius: 24px;
+}
+
+.register:hover {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, .9);
+}
+
 .copyright_text {
   font-family: 'section_titles_din';
   font-size: 12px;
@@ -170,11 +251,235 @@ border-bottom:1px solid #A3A3A3;
   margin-bottom: 10px;
 }
 
-body
-{
-  width: 100%;
+.about-section {
+  box-sizing: border-box;
+}
+
+#merch-test {
+  width: 75%;
+  margin: auto;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.photos{
+  width:75%;
+  margin: auto;
+}
+
+.photos ul{
+  list-style: none;
+
+}
+
+.margin-test {
+  padding-right: 25px;
+}
+
+.photo {
+  /*margin: 1.66%;*/
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+}
+
+.merch-font {
+  top: 80px;
+  font-size: 72px;
+  color: #858585;
+  padding-top: 20px;
+  font-family: 'section_titles_din';
+
+}
+
+.merch-items-list {
+  padding-top: 10px;
+}
+
+.merch-items-list ul{
+  list-style: none;
+}
+
+.merch-items-list img{
+  max-width:10%;
+}
+
+.merch-items {
+
+}
+
+.merch-item {
+
+}
+
+/*body, html {
   height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
+}*/
+
+.merch-items-list {
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 300px;
+  margin: auto;
+}
+
+.merch-item {
+
+  float: left;
+  width: 50%;
+  background: #fff;
+  color: #ccc;
+  text-align: center;
+  height: 50%;
+}
+
+.col.two, .col.three {
+  background: #eaeaea;
+}
+
+/*.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+  text-transform: uppercase;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 10px;
+}*/
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 768px) {
+  .navbar-header {
+    float: none;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: inline;
+  }
+}
+@media (max-width:768px) {
+  .tc_title {
+    font-size: 24px;
+  }
+
+  .merch-font {
+    font-size: 52px;
+  }
+}
+@media (max-width:480px) {
+  /*.tc_title {
+    font-size: 16px;
+  }*/
+}
+
+@media(max-width:416px) {
+
+  .tc_title {
+    font-size: 20px;
+    top: 37px;
+  }
+
+  /*.nav_logo {
+    margin-left: -5px;
+  }*/
+
+  /*.intro .intro-body .intro-text {
+    font-size: 14px;
+  }*/
+
+  .main_logo {
+    fill: white;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: rgba(227, 185, 100, .7);
+    color: white;
+    padding: 1%;
+    text-align: center;
+  }
+
+  .history-font {
+    font-size: 50px;
+  }
+
+  .race-details-title {
+    font-size: 30px;
+  }
+
+  .history_padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .race-details-position {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .faq-list {
+    list-style: none;
+    font-size: 15px;
+    text-align: left;
+    margin: 0 0;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .faq-mobile {
+    visibility: visible;
+    display: inline;
+  }
+  .faq {
+    visibility: hidden;
+    display: none;
+  }
+
+
+  .questions {
+    font-size: 18px;
+    /*color: #858585;*/
+  }
+
+  .faq-title {
+    padding-top: 10px;
+  }
+
+  #map {
+    /*width: 100%;
+    height: 200px;*/
+    margin-top: 0;
+  }
+
+  #merch {
+    position: relative;
+    width: 100%;
+    /*height: 100%;*/
+    height: 45%;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/crew.jpeg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .merch-font {
+    font-size: 20px;
+  }
+
+  .merch-items-list li{
+    display:list-item;
+    text-align:center;
+  }
+
+  .merch-font {
+    font-size: 30px;
+  }
+
 }
