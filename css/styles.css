@@ -10,9 +10,9 @@
   display: none;
 }
 
-::-moz-scrollbar {
+/*::-moz-scrollbar {
   display: none;
-}
+}*/
 
 @font-face {
   font-family: 'intro_din';
