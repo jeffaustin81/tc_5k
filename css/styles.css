@@ -10,6 +10,10 @@
   display: none;
 }
 
+::-moz-scrollbar {
+  display: none;
+}
+
 @font-face {
   font-family: 'intro_din';
   src: url(../fonts/gidole-regular.otf);
