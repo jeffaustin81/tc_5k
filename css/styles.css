@@ -238,6 +238,18 @@ background:#717171;
 border-bottom:1px solid #A3A3A3;
 }
 
+.flex-footer-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-footer {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  border-top: 1px solid #A3A3A3;
+}
+
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 10px;
@@ -256,14 +268,28 @@ border-bottom:1px solid #A3A3A3;
   background-color: rgba(255, 255, 255, .9);
 }
 
+.sign-up {
+  font-size: 10px;
+  color: white;
+  font-family: 'section_titles_din';
+  /*border: 1px solid #858585;*/
+  border-radius: 1px;
+  padding: 6px;
+  background-color: #858585;
+}
+
+.sign-up:hover {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, .9);
+}
+
 .copyright_text {
   font-family: 'section_titles_din';
   font-size: 12px;
 }
-
-.email_text {
+.mailing-list-text {
   font-family: 'section_titles_din';
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .about-section {
