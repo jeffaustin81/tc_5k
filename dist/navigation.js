@@ -4,6 +4,9 @@ $("#register-now").click(function(){
     $("#splash").hide(); // or .fadeIn(), etc.
     $("#race-details").hide();
     $("#about").hide();
+    $("#race-details-mobile").hide();
+    $("#merch-mobile").hide();
+
 });
 
 // $(document).ready(function(){
