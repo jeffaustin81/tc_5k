@@ -406,6 +406,23 @@ border-bottom:1px solid #A3A3A3;
 
 }
 
+.snipcart-add-item {
+  overflow:hidden;
+}
+
+#overlay-adultreg {
+  background:rgba(0,0,0,.75);
+  text-align:center;
+  padding:45px 0 66px 0;
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+#adultreg:hover #overlay-adultreg {
+  opacity:1;
+}
+
 /*.navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255,255,255,.3);
