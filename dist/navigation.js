@@ -13,7 +13,7 @@ $("#register-now").click(function(){
 $("#race-details-mobile-link").click(function(){
     window.scrollTo(0, 0);
     $("#race-details").fadeIn();
-    $("#map").fadeIn();
+    // $("#map").fadeIn();
     $("#splash").hide(); // or .fadeIn(), etc.
     $("#merch").hide();
     $("#merch-test").hide();

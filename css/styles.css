@@ -111,6 +111,11 @@
   display: none;
 }
 
+#map-mobile {
+  visibility: hidden;
+  display: none;
+}
+
 #social-mobile {
   visibility: hidden;
   display: none;
@@ -235,6 +240,10 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 #mobile-question-9 {
   font-size: 24px;
   color: #858585;
+}
+
+.map-mobile {
+
 }
 
 .line-separator{
@@ -495,6 +504,11 @@ border-bottom:1px solid #A3A3A3;
   }
 
   #merch-mobile {
+    visibility: visible;
+    display: inline-flex;
+  }
+
+  #map-mobile {
     visibility: visible;
     display: inline-flex;
   }
