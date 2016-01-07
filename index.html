@@ -154,15 +154,23 @@
     </div>
   </header>
 
-  <!-- Race Details Section -->
+  <!-- Race Details Mobile -->
+  <section id="race-details-mobile" class="content-section text-center race-details-mobile history_padding history-flex">
+    <a id=race-details-mobile-link>
+      <h2 class="full-width history-font">Race Details</h2>
+    </a>
+  </section>
+
+  <!-- Race Details Section for Web -->
   <section id="race-details" class="content-section text-center">
-    <div class="race-details-position">
-      <h2 class="race-details-title race-details">Race Details</h2>
-    </div>
-    <!-- Map Section -->
-    <div id="map"></div>
-    <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
+    <!-- Race Details Title -->
+
     <div class="faq">
+      <div class="race-details-position">
+        <h2 class="race-details-title race-details">Race Details</h2>
+      </div>
+      <div id="map"></div>
+      <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
       <ul class="faq-list sitewide-text">
         <li>
           <span class="questions">Where is this thing?</span> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
@@ -189,8 +197,11 @@
         <p></p>
       </ul>
     </div>
+
     <!-- CLICKABLE MOBILE VERSION -->
+
     <div class="faq-mobile">
+      <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
       <ul class="faq-list sitewide-text">
         <li>
           <span id="mobile-question-1" onclick="show1()">Where is this thing?</span>
@@ -233,17 +244,38 @@
         <p></p>
       </ul>
     </div>
+    <a href="https://www.google.com/maps/place/SE+Reservoir+Loop+Dr,+Portland,+OR+97215/@45.5114749,-122.5964876,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a056250dc94f:0xb472a61eedcde9c1">
+      <img id="map-mobile" src="img/map-text.png" alt="map" width="100%" height="auto" />
+    </a>
   </section>
 
+
   <!-- About Section -->
-  <section id="about" class="content-section text-center about-section history_padding">
-    <div>
-      <div>
-        <a href="#">
-          <h2 class="align full-width history-font">History of Tabor Challenge</h2>
-        </a>
-      </div>
-    </div>
+  <section id="about" class="content-section text-center about-section history_padding history-flex">
+    <a href="#">
+      <h2 class="full-width history-font">History of Tabor Challenge</h2>
+    </a>
+  </section>
+
+  <section id="merch-mobile" class="content-section text-center merch-mobile history_padding history-flex">
+    <a id="merch-mobile-link">
+      <h2 class="full-width history-font">Registration
+        <br>+ Merch</h2>
+    </a>
+  </section>
+
+  <section id="social-mobile" class="content-section text-center social-mobile history_padding history-flex">
+    <ul class="list-inline social-icons-list">
+      <li>
+        <a href="https://www.instagram.com/taborchallenge/" target="_blank" class="social-icons-mobile"><i class="fa fa-instagram fa-fw"></i><span class="instagram"></span></a>
+      </li>
+      <li>
+        <a href="mailto:taborchallenge5k@gmail.com" target="_blank" class="social-icons-mobile"><i class="fa fa-envelope fa-fw"></i><span class="mail"></span></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/taborchallenge/" target="_blank" class="social-icons-mobile"><i class="fa fa-facebook-square fa-fw"></i><span class="facebook"></span></a>
+      </li>
+    </ul>
   </section>
 
   <!-- Merch Section -->
@@ -252,7 +284,8 @@
   </section>
 
   <section id="merch-test" class="group" style="display: none;">
-    <h2 class="full-width text-center merch-font">Merch + Registration</h2>
+    <h2 class="full-width text-center merch-font">Registration
+      <br>+ Merch</h2>
     <div class="photos group">
       <ul>
         <li>
@@ -268,13 +301,13 @@
       </ul>
       <ul>
         <li>
-          <a href="#" class="snipcart-add-item" data-item-id="3" data-item-name="T-Shirt" data-item-price="20.00" data-item-weight="20" data-item-url="/" data-item-image="img/shirt.png" data-item-description="Tabor Challenge T-Shirt">
-            <img class="merch-item photo margin-test" src="img/shirt.png" alt="T Shirt" />
+          <a href="#" class="snipcart-add-item" data-item-id="3" data-item-name="T-Shirt" data-item-price="20.00" data-item-weight="20" data-item-url="/" data-item-image="img/shirt.jpg" data-item-description="Tabor Challenge T-Shirt">
+            <img class="merch-item photo margin-test" src="img/shirt.jpg" alt="T Shirt" />
           </a>
         </li>
         <li>
-          <a href="#" class="snipcart-add-item" data-item-id="4" data-item-name="Koozie" data-item-price="5.00" data-item-weight="20" data-item-url="/" data-item-image="img/koozie.png" data-item-description="Tabor Challenge Koozie">
-            <img class="merch-item photo margin-test" src="img/koozie.png" alt="Koozie" />
+          <a href="#" class="snipcart-add-item" data-item-id="4" data-item-name="Koozie" data-item-price="5.00" data-item-weight="20" data-item-url="/" data-item-image="img/koozie.jpg" data-item-description="Tabor Challenge Koozie">
+            <img class="merch-item photo margin-test" src="img/koozie.jpg" alt="Koozie" />
           </a>
         </li>
       </ul>
@@ -285,7 +318,6 @@
   <section id="social" class="container content-section text-center">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <!-- <h2 class="section-titles">Social</h2> -->
         <ul class="list-inline banner-social-buttons">
           <li>
             <a href="https://www.instagram.com/taborchallenge/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i><span class="instagram"></span></a>
@@ -297,46 +329,58 @@
             <a href="mailto:taborchallenge5k@gmail.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i><span class="mail"></span></a>
           </li>
         </ul>
-        <!-- <p class="email_text">Drop us a line at <a href="mailto:taborchallenge5k@gmail.com" target="_blank">taborchallenge5k@gmail.com</a> -->
-        <!-- </p> -->
-        <div class="row sponsers">
-          <div>
-            <ul class="list-inline text-center">
-              <li class="sponsor">
-                <a target="_blank">
-                  <img src="img/tecate.png" alt="Tecate Logo" width="55" height="auto">
-                </a>
-              </li>
-              <li class="sponsor">
-                <a target="_blank">
-                  <img src="img/gatorade.png" alt="Gatorade Logo" width="55" height="auto">
-                </a>
-              </li>
-              <li class="sponsor">
-                <a target="_blank">
-                  <img src="img/nike.png" alt="Nike Logo" width="55" height="auto">
-                </a>
-              </li>
-              <li class="sponsor">
-                <a target="_blank">
-                  <img src="img/visa.png" alt="Visa Logo" width="55" height="auto">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </div>
   </section>
 
 
   <!-- Footer -->
-  <div>
-    <div class="container text-center col-lg-2 col-lg-offset-5">
-      <div class="line-separator"></div>
-      <p class="copyright_text">Copyright &copy; Tabor Challenge 2015</p>
+  <section id="footer">
+    <div class="container content-section text-center">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <!-- <br> -->
+          <p class="mailing-list-text">Like us? Join our mailing list!
+          </p>
+          <form class="email_text">
+            <input type="text" name="firstname" placeholder="Email Address">
+            <a class="btn sign-up page-scroll" id="sign-up">
+              <i></i>SIGN UP
+            </a>
+          </form>
+          <br>
+          <div class="row sponsers">
+            <div>
+              <ul class="list-inline text-center">
+                <li class="sponsor">
+                  <a target="_blank">
+                    <img src="img/tecate.png" alt="Tecate Logo" width="40" height="auto">
+                  </a>
+                </li>
+                <li class="sponsor">
+                  <a target="_blank">
+                    <img src="img/gatorade.png" alt="Gatorade Logo" width="40" height="auto">
+                  </a>
+                </li>
+                <li class="sponsor">
+                  <a target="_blank">
+                    <img src="img/nike.png" alt="Nike Logo" width="40" height="auto">
+                  </a>
+                </li>
+                <li class="sponsor">
+                  <a target="_blank">
+                    <img src="img/visa.png" alt="Visa Logo" width="40" height="auto">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="line-separator"></div> -->
+          <p class="copyright_text">&copy; 2015 Tabor Challenge</p>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 
   <!-- jQuery -->
   <script src="js/jquery-1.11.3.js"></script>
@@ -363,4 +407,5 @@
   <script type="text/javascript" src="dist/externalPageMenu.js"></script>
 
 </body>
+
 </html>
