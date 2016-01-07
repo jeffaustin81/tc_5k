@@ -135,7 +135,7 @@ a:hover, a:focus {
   padding-top: 50px;
   /*padding: 50px 0;*/
   color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/crew.jpeg) no-repeat center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/reg.jpg) no-repeat center center scroll;
   background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -276,7 +276,7 @@ a:hover, a:focus {
   /*height: 100%;*/
   /*padding: 50px 0;*/
   color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/crew.jpeg) no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/reg.jpg) no-repeat bottom center scroll;
   /*background: url(../img/crew.jpeg) no-repeat center center scroll;*/
   background-color: #fff;
   -webkit-background-size: cover;
@@ -341,7 +341,7 @@ a:hover, a:focus {
     width: 100%;
     height: 75%;
     color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/crew.jpeg) no-repeat center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/reg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -353,7 +353,7 @@ a:hover, a:focus {
     width: 100%;
     height: 100%;
     color: #fff;
-    background: url(../img/crew.jpeg) no-repeat center center scroll;
+    background: url(../img/reg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
