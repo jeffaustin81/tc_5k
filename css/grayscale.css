@@ -262,7 +262,7 @@ a:hover, a:focus {
   /*height: 100%;*/
   /*padding: 50px 0;*/
   color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/race.jpg) no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/race-crop.jpg) no-repeat bottom center scroll;
   /*background: url(../img/race.jpg) no-repeat center center scroll;*/
   background-color: #fff;
   -webkit-background-size: cover;
@@ -329,7 +329,7 @@ a:hover, a:focus {
     width: 100%;
     height: 100%;
     color: #fff;
-    background: url(../img/race.jpg) no-repeat center center scroll;
+    background: url(../img/race-crop.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
