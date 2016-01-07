@@ -69,8 +69,6 @@
   margin: 0;
   position: absolute;
   left: 50%;
-  /* Bring back once hanburger menu is in the nav and TC title is centered */
-
   -moz-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
@@ -303,8 +301,8 @@ border-bottom:1px solid #A3A3A3;
 }
 
 .sign-up:hover {
-  color: rgba(0, 0, 0, 0.5);
-  background-color: rgba(255, 255, 255, .9);
+  /*color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, .9);*/
 }
 
 .copyright_text {
