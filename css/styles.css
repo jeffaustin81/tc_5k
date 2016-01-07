@@ -71,11 +71,11 @@
   left: 50%;
   /* Bring back once hanburger menu is in the nav and TC title is centered */
 
-  /*-moz-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);*/
+  transform: translate(-50%,-50%);
   margin-right: -50%;
   transform: translate(-50%, -50%);
   font-size: 46px;
