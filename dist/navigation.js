@@ -1,14 +1,14 @@
 $("#register-now").click(function(){
-    $("#merch").hide();
-    $("#merch-mobile").fadeIn();
-    $("#merch-test").fadeIn();
-    $("#splash").hide(); // or .fadeIn(), etc.
+    $("#splash").hide();
+    $("#registration").hide();
+    $("#history").hide();
     $("#race-details").hide();
-    $("#about").hide();
-    $("#race-details-mobile").hide();
-
-    $("#social-mobile").hide();
-
+    $("#map").hide();
+    $("#tc15").hide();
+    $("#donate").hide();
+    $("#social").hide();
+    $("#merch-page").fadeIn();
+    // $("#merch-test").fadeIn();
 });
 
 $("#race-details-mobile-link").click(function(){
