@@ -45,7 +45,7 @@
   text-decoration: none;
 }
 
-.nav_logo {
+.tc-nav-logo {
   height: 2em;
   width: 2em;
   fill: #fff;
@@ -64,7 +64,7 @@
 
 /*TITLE HEADER*/
 
-.tc_title {
+.tc-title {
   top: 40px;
   margin: 0;
   position: absolute;
@@ -100,7 +100,7 @@
 
 .external-page-header {
   text-align: center;
-  padding: 100px 0 0;
+  padding: 80px 0 0;
 }
 
 .external-page-title {
@@ -114,6 +114,10 @@
 .external-page-content {
   max-width: 640px;
   margin: 0 auto;
+}
+
+#registration-page {
+  /*color: red;*/
 }
 
 /*.race-details-title {
@@ -367,18 +371,18 @@ border-bottom:1px solid #A3A3A3;
   margin: auto;
 }
 
-.group:after {
+.merch-items-group:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.photos{
-  width:75%;
+.merch-items{
+  /*width:75%;*/
   margin: auto;
 }
 
-.photos ul{
+.merch-items ul{
   list-style: none;
 
 }
@@ -400,37 +404,12 @@ border-bottom:1px solid #A3A3A3;
 
 }
 
-.merch-items-list {
-  padding-top: 10px;
-}
 
-.merch-items-list ul{
-  list-style: none;
-}
-
-.merch-items-list img{
-  max-width:10%;
-}
-
-.merch-items {
-
-}
-
-.merch-item {
-
-}
 
 /*body, html {
   height: 100%;
 }*/
 
-.merch-items-list {
-  top: 0;
-  left: 0;
-  width: 25%;
-  height: 300px;
-  margin: auto;
-}
 
 .merch-item {
 
@@ -439,7 +418,7 @@ border-bottom:1px solid #A3A3A3;
   background: #fff;
   color: #ccc;
   text-align: center;
-  height: 50%;
+  height: auto;
 }
 
 .col.two, .col.three {
@@ -479,6 +458,15 @@ border-bottom:1px solid #A3A3A3;
   /*height: 100px;*/
   justify-content: center;
   align-items: center;
+}
+
+.center-banner {
+  /*display: flex;*/
+  width: 100%;
+  height: auto;
+  /*height: 100px;*/
+  /*justify-content: center;
+  align-items: center;*/
 }
 
 .racetest {
@@ -611,7 +599,7 @@ border-bottom:1px solid #A3A3A3;
   }
 }
 @media (max-width:768px) {
-  .tc_title {
+  .tc-title {
     font-size: 24px;
   }
 
@@ -620,7 +608,7 @@ border-bottom:1px solid #A3A3A3;
   }
 }
 @media (max-width:480px) {
-  /*.tc_title {
+  /*.tc-title {
     font-size: 16px;
   }*/
 }
@@ -633,7 +621,7 @@ border-bottom:1px solid #A3A3A3;
 
 @media(max-width:416px) {
 
-  /*.nav_logo {
+  /*.tc-nav-logo {
     height: 1.5em;
     width: 1.5em;
     fill: #fff;
@@ -685,12 +673,17 @@ border-bottom:1px solid #A3A3A3;
     visibility: hidden;
   }
 
-  .tc_title {
+  .center-banner {
+    display: none;
+    visibility: hidden;
+  }
+
+  .tc-title {
     font-size: 20px;
     top: 37px;
   }
 
-  /*.nav_logo {
+  /*.tc-nav-logo {
     margin-left: -5px;
   }*/
 
@@ -730,6 +723,11 @@ border-bottom:1px solid #A3A3A3;
   .history-font {
     font-size: 34px;
     color: white;
+  }
+
+  .merch-item {
+    width: 100%;
+    height: auto;
   }
 
   /*#race-details {
@@ -836,11 +834,6 @@ border-bottom:1px solid #A3A3A3;
 
   .merch-font {
     font-size: 20px;
-  }
-
-  .merch-items-list li{
-    display:list-item;
-    text-align:center;
   }
 
   .merch-font {

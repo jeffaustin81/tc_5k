@@ -3,12 +3,11 @@ $("#register-now").click(function(){
     $("#registration-banner").hide();
     $("#history-banner").hide();
     $("#race-details-banner").hide();
-    $("#map").hide();
+    $(".center-banner").hide();
     $("#tc15-banner").hide();
     $("#donate-banner").hide();
     $("#social-banner").hide();
     $("#registration-page").fadeIn();
-    // $("#merch-test").fadeIn();
 });
 
 $("#race-details-mobile-link").click(function(){
