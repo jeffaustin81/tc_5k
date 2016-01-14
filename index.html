@@ -52,10 +52,6 @@
   <div class="fat-nav">
     <div class="fat-nav__wrapper menu-text">
       <ul>
-        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-        <!-- <li class="hidden">
-          <a href="#page-top"></a>
-        </li> -->
         <li><a class="page-scroll" href="#page-top" onclick="externalMenuHome()">HOME</a></li>
         <li><a class="page-scroll" href="#race-details" onclick="externalMenuRaceDetails()">RACE DETAILS</a></li>
         <li><a class="page-scroll" href="#about" onclick="externalMenuAbout()">ABOUT TC</a></li>
@@ -111,7 +107,8 @@
     Tabor Challenge
   </div>
 
-  <!-- Intro Header -->
+  <!-- SPLASH PAGE -->
+
   <header id="splash" class="intro">
     <div class="intro-body">
       <div class="container">
@@ -150,8 +147,6 @@
             <p></p>
             <p class="intro-text">ROUND TWO
               <br>4.9.2016</p>
-            <!-- <a href="#race-details" class="btn btn-circle page-scroll"> -->
-            <!-- <i class="fa fa-angle-double-down animated"></i> -->
             <a class="btn register page-scroll" id="register-now">
               <i class="animated"></i>REGISTER NOW
             </a>
@@ -161,18 +156,11 @@
     </div>
   </header>
 
-  <!-- <div>
+  <!-- FIRST BANNERS GROUP -->
 
-    <img class="col-md-4 flexbanner tester" src="../img/race-crop.jpg" alt="Adult Registration" />
-    <img class="col-md-4 flexbanner tester" src="../img/sneakers_original.jpg" alt="Adult Registration" />
-    <img class="col-md-4 flexbanner tester" src="../img/reg.jpg" alt="Adult Registration" />
-
-  </div> -->
-
-  <div class="flextest">
-
+  <div id="banners-1" class="flextest">
     <div id="registration-banner" class="flexbanner registration-margin">
-        <img class="flexbanner tester" src="img/registration-text.jpg" alt="Registration" />
+      <img class="flexbanner tester" src="img/registration-text.jpg" alt="Registration" />
     </div>
     <div id="history-banner" class="flexbanner history-margin">
       <a href="#">
@@ -180,28 +168,26 @@
       </a>
     </div>
     <div id="race-details-banner" class="flexbanner race-details-margin">
-        <img class="flexbanner tester" src="img/race-text.jpg" alt="Race Details" />
+      <img class="flexbanner tester" src="img/race-text.jpg" alt="Race Details" />
     </div>
   </div>
 
-  <!-- <div id="map"></div> -->
-  <!-- <div class="trees"></div> -->
+  <!-- WIDER CENTER BANNER -->
+
   <img class="center-banner flexbanner tester" src="img/trees3.jpg" alt="Center Banner" />
 
+  <!-- SECOND BANNERS GROUP -->
 
-  <div class="flextest">
+  <div id="banners-2" class="flextest">
     <div id="tc15-banner" class="flexbanner tc15-margin">
-        <img class="flexbanner tester" src="img/cheers-text.jpg" alt="TC 2015" />
+      <img class="flexbanner tester" src="img/cheers-text.jpg" alt="TC 2015" />
     </div>
     <div id="donate-banner" class="flexbanner donate-margin">
-        <img class="flexbanner tester" src="img/donate-text.jpg" alt="Donate" />
+      <img class="flexbanner tester" src="img/donate-text.jpg" alt="Donate" />
     </div>
-
     <div id="icons-on-path" class="flexbanner social-margin tester">
       <img id="social-icons-image" class="flexbanner tester" src="img/path.jpg" alt="Social" />
-
       <div id="path-icons" class="social-logos social-logos-group social-flex text-center">
-
         <a href="https://www.instagram.com/taborchallenge/" target="_blank">
           <img class="social-logo" src="img/instagram-logo.png" alt="Student Registration" />
         </a>
@@ -211,21 +197,17 @@
         <a href="https://www.facebook.com/taborchallenge/" target="_blank">
           <img class="social-logo" src="img/facebook-logo.png" alt="Student Registration" />
         </a>
-
       </div>
-
     </div>
   </div>
 
-<!-- <div id="newtest" style="display: none;"></div> -->
-
+  <!-- REGISTRATION AND MERCH PAGE -->
 
   <section id="registration-page" class="external-page group" style="display: none;">
     <div class="external-page-header">
       <h1 class="external-page-title">Registration</h1>
     </div>
     <div class="external-page-content">
-
       <div>
         <img class="flexbanner tester" src="img/registration.jpg" alt="Adult Registration" />
       </div>
@@ -255,23 +237,35 @@
           </li>
         </ul>
       </div>
-
     </div>
   </section>
 
+  <!-- HISTORY OF TC PAGE -->
 
+  <section id="history-page" class="external-page group" style="display: none;">
+    <div class="external-page-header">
+      <h1 class="external-page-title">Race Details</h1>
+    </div>
+    <div class="external-page-content">
+      <div>
+        <img class="flexbanner tester" src="img/history.jpg" alt="Race Details Page" />
+      </div>
+    </div>
+  </section>
+
+  <!-- RACE DETAILS PAGE -->
 
   <section id="race-details-page" class="external-page group" style="display: none;">
     <div class="external-page-header">
       <h1 class="external-page-title">Race Details</h1>
     </div>
     <div class="external-page-content">
-
       <div>
         <img class="flexbanner tester" src="img/race.jpg" alt="Race Details Page" />
       </div>
 
       <!-- WEB FAQ -->
+
       <div class="faq">
         <!-- <div id="map"></div> -->
         <br>
@@ -294,8 +288,8 @@
             signature.
           </li>
           <li>
-            <span class="questions">Where do I pick up my packet?</span> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see
-            one of the important projects your race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
+            <span class="questions">Where do I pick up my packet?</span> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and
+            see one of the important projects your race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
           <li>
             <span class="questions">Is there a bag check?</span> There is no official bag check.</li>
           <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li>
@@ -352,93 +346,8 @@
           <img id="map-mobile" src="img/map-text.png" alt="map" width="100%" height="auto"/>
         </a> -->
       </div>
-
     </div>
   </section>
-
-  <!-- Race Details Section for Web -->
-
-  <!-- <section id="race-details" class="content-section text-center">
-    <div class="faq">
-      <div id="map"></div>
-      <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
-      <ul class="faq-list sitewide-text">
-        <li>
-          <span class="questions">Where is this thing?</span> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
-        <li>
-          <span class="questions">Where do I park?</span> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
-        <li>
-          <span class="questions">Will there be support on the course?</span> Tons of moral support, just look to your fellow participants!</li>
-        <li>
-          <span class="questions">Is the race chip timed?</span> No, this is a fun run/walk!</li>
-        <li>
-          <span class="questions">Are dogs allowed?</span> Yes! Friendly pups are welcome on a leash.</li>
-        <li>
-          <span class="questions">Are strollers allowed?</span> Yes, but there are stairs and narrow trails on the route so be prepared to ask a fellow runner to help navigate those tricky spots.</li>
-        <li>
-          <span class="questions">Is there a kids race?</span> This race is open to children and children at heart. Discounted registration is available to students with valid student IDs and kids under *7* can join for free without a shirt or bib. Kids under *16* need parent
-          signature.
-        </li>
-        <li>
-          <span class="questions">Where do I pick up my packet?</span> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see
-          one of the important projects your race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
-        <li>
-          <span class="questions">Is there a bag check?</span> There is no official bag check.</li>
-        <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li>
-        <p></p>
-      </ul>
-    </div> -->
-
-
-    <!-- <div class="faq-mobile">
-      <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
-      <ul class="faq-list sitewide-text">
-        <li>
-          <span id="mobile-question-1" onclick="show1()">Where is this thing?</span>
-          <span id="mobile-answer-1" style="visibility: hidden; display: none;"> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
-        </span>
-        <li>
-          <span id="mobile-question-2" onclick="show2()">Where do I park?</span>
-          <span id="mobile-answer-2" style="visibility: hidden; display: none;"> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
-        </span>
-        <li>
-          <span id="mobile-question-3" onclick="show3()">Will there be support on the course?</span>
-          <span id="mobile-answer-3" style="visibility: hidden; display: none;"> Tons of moral support, just look to your fellow participants!</li>
-        </span>
-        <li>
-          <span id="mobile-question-4" onclick="show4()">Is the race chip timed?</span>
-          <span id="mobile-answer-4" style="visibility: hidden; display: none;"> No, this is a fun run/walk!</li>
-        </span>
-        <li>
-          <span id="mobile-question-5" onclick="show5()">Are dogs allowed?</span>
-          <span id="mobile-answer-5" style="visibility: hidden; display: none;"> Yes! Friendly pups are welcome on a leash.</li>
-        </span>
-        <li>
-          <span id="mobile-question-6" onclick="show6()">Are strollers allowed?</span>
-          <span id="mobile-answer-6" style="visibility: hidden; display: none;"> Yes, but there are stairs and narrow trails on the route so be prepared to ask a fellow runner to help navigate those tricky spots.</li>
-        </span>
-        <li>
-          <span id="mobile-question-7" onclick="show7()">Is there a kids race?</span>
-          <span id="mobile-answer-7" style="visibility: hidden; display: none;"> This race is open to children and children at heart. Discounted registration is available to students with valid student IDs and kids under *7* can join for free without a shirt or bib. Kids under *16* need parent signature.</li>
-        </span>
-        <li>
-          <span id="mobile-question-8" onclick="show8()">Where do I pick up my packet?</span>
-          <span id="mobile-answer-8" style="visibility: hidden; display: none;"> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see one of the important projects your
-            race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
-        </span>
-        <li>
-          <span id="mobile-question-9" onclick="show9()">Is there a bag check?</span>
-          <span id="mobile-answer-9" style="visibility: hidden; display: none;"> There is no official bag check.</li>
-        </span>
-        <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li>
-        <p></p>
-      </ul>
-      <a href="https://www.google.com/maps/place/SE+Reservoir+Loop+Dr,+Portland,+OR+97215/@45.5114749,-122.5964876,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a056250dc94f:0xb472a61eedcde9c1">
-        <img id="map-mobile" src="img/map-text.png" alt="map" width="100%" height="auto"/>
-      </a>
-    </div>
-  </section> -->
-
 
   <!-- About Section -->
 
