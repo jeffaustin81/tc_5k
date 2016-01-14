@@ -9,7 +9,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#registration-banner").click(function(){
+    $(".flexbanner").click(function(){
         $(".tc-title").css("color", "#464e54");
         $(".tc-nav-logo").css("fill", "#464e54");
         $(".hamburger .hamburger__icon").css("background-color", "#464e54");

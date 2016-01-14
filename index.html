@@ -172,22 +172,15 @@
   <div class="flextest">
 
     <div id="registration-banner" class="flexbanner registration-margin">
-      <!-- <a href="#"> -->
         <img class="flexbanner tester" src="img/registration-text.jpg" alt="Registration" />
-        <!-- <h2 class="history-font text-center">Registration</h2> -->
-      <!-- </a> -->
     </div>
     <div id="history-banner" class="flexbanner history-margin">
       <a href="#">
         <img class="flexbanner tester" src="img/history-text.jpg" alt="History" />
-        <!-- <h2 class="history-font text-center">History of<br>Tabor Challenge</h2> -->
       </a>
     </div>
     <div id="race-details-banner" class="flexbanner race-details-margin">
-      <a href="#">
         <img class="flexbanner tester" src="img/race-text.jpg" alt="Race Details" />
-        <!-- <h2 class="history-font text-center">Race Details</h2> -->
-      </a>
     </div>
   </div>
 
@@ -198,16 +191,10 @@
 
   <div class="flextest">
     <div id="tc15-banner" class="flexbanner tc15-margin">
-      <a href="#">
         <img class="flexbanner tester" src="img/cheers-text.jpg" alt="TC 2015" />
-        <!-- <h2 class="history-font text-center">Race Details</h2> -->
-      </a>
     </div>
     <div id="donate-banner" class="flexbanner donate-margin">
-      <a href="#">
         <img class="flexbanner tester" src="img/donate-text.jpg" alt="Donate" />
-        <!-- <h2 class="history-font text-center">History of<br>Tabor Challenge</h2> -->
-      </a>
     </div>
     <div id="social-banner" class="flexbanner social-margin">
       <img class="flexbanner tester" src="img/path.jpg" alt="Social" />
@@ -270,21 +257,105 @@
 
 
 
-  <!-- Race Details Mobile -->
+  <section id="race-details-page" class="external-page group" style="display: none;">
+    <div class="external-page-header">
+      <h1 class="external-page-title">Race Details</h1>
+    </div>
+    <div class="external-page-content">
 
-  <!-- <section id="race-details-mobile" class="content-section text-center race-details-mobile history_padding history-flex">
-    <a id=race-details-mobile-link>
-      <h2 class="full-width history-font">Race Details</h2>
-    </a>
-  </section> -->
+      <div>
+        <img class="flexbanner tester" src="img/race.jpg" alt="Race Details Page" />
+      </div>
+
+      <!-- WEB FAQ -->
+      <div class="faq">
+        <!-- <div id="map"></div> -->
+        <br>
+        <h3 style="text-decoration: underline" class="sitewide-text text-center questions faq-title">FAQ</h3>
+        <ul class="faq-list sitewide-text">
+          <li>
+            <span class="questions">Where is this thing?</span> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
+          <li>
+            <span class="questions">Where do I park?</span> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
+          <li>
+            <span class="questions">Will there be support on the course?</span> Tons of moral support, just look to your fellow participants!</li>
+          <li>
+            <span class="questions">Is the race chip timed?</span> No, this is a fun run/walk!</li>
+          <li>
+            <span class="questions">Are dogs allowed?</span> Yes! Friendly pups are welcome on a leash.</li>
+          <li>
+            <span class="questions">Are strollers allowed?</span> Yes, but there are stairs and narrow trails on the route so be prepared to ask a fellow runner to help navigate those tricky spots.</li>
+          <li>
+            <span class="questions">Is there a kids race?</span> This race is open to children and children at heart. Discounted registration is available to students with valid student IDs and kids under *7* can join for free without a shirt or bib. Kids under *16* need parent
+            signature.
+          </li>
+          <li>
+            <span class="questions">Where do I pick up my packet?</span> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see
+            one of the important projects your race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
+          <li>
+            <span class="questions">Is there a bag check?</span> There is no official bag check.</li>
+          <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li>
+          <p></p>
+        </ul>
+      </div>
+
+      <!-- MOBILE FAQ  -->
+
+      <div class="faq-mobile">
+        <h3 style="text-decoration: underline" class="sitewide-text text-center questions faq-title">FAQ</h3>
+        <ul class="faq-list sitewide-text">
+          <li>
+            <span id="mobile-question-1" onclick="show1()">Where is this thing?</span>
+            <span id="mobile-answer-1" style="visibility: hidden; display: none;"> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
+          </span>
+          <li>
+            <span id="mobile-question-2" onclick="show2()">Where do I park?</span>
+            <span id="mobile-answer-2" style="visibility: hidden; display: none;"> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
+          </span>
+          <li>
+            <span id="mobile-question-3" onclick="show3()">Will there be support on the course?</span>
+            <span id="mobile-answer-3" style="visibility: hidden; display: none;"> Tons of moral support, just look to your fellow participants!</li>
+          </span>
+          <li>
+            <span id="mobile-question-4" onclick="show4()">Is the race chip timed?</span>
+            <span id="mobile-answer-4" style="visibility: hidden; display: none;"> No, this is a fun run/walk!</li>
+          </span>
+          <li>
+            <span id="mobile-question-5" onclick="show5()">Are dogs allowed?</span>
+            <span id="mobile-answer-5" style="visibility: hidden; display: none;"> Yes! Friendly pups are welcome on a leash.</li>
+          </span>
+          <li>
+            <span id="mobile-question-6" onclick="show6()">Are strollers allowed?</span>
+            <span id="mobile-answer-6" style="visibility: hidden; display: none;"> Yes, but there are stairs and narrow trails on the route so be prepared to ask a fellow runner to help navigate those tricky spots.</li>
+          </span>
+          <li>
+            <span id="mobile-question-7" onclick="show7()">Is there a kids race?</span>
+            <span id="mobile-answer-7" style="visibility: hidden; display: none;"> This race is open to children and children at heart. Discounted registration is available to students with valid student IDs and kids under *7* can join for free without a shirt or bib. Kids under *16* need parent signature.</li>
+          </span>
+          <li>
+            <span id="mobile-question-8" onclick="show8()">Where do I pick up my packet?</span>
+            <span id="mobile-answer-8" style="visibility: hidden; display: none;"> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see one of the important projects your
+              race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
+          </span>
+          <li>
+            <span id="mobile-question-9" onclick="show9()">Is there a bag check?</span>
+            <span id="mobile-answer-9" style="visibility: hidden; display: none;"> There is no official bag check.</li>
+          </span>
+          <!-- <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li> -->
+          <p></p>
+        </ul>
+        <!-- <a href="https://www.google.com/maps/place/SE+Reservoir+Loop+Dr,+Portland,+OR+97215/@45.5114749,-122.5964876,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a056250dc94f:0xb472a61eedcde9c1">
+          <img id="map-mobile" src="img/map-text.png" alt="map" width="100%" height="auto"/>
+        </a> -->
+      </div>
+
+    </div>
+  </section>
 
   <!-- Race Details Section for Web -->
 
   <!-- <section id="race-details" class="content-section text-center">
     <div class="faq">
-      <div class="race-details-position">
-        <h2 class="race-details-title race-details">Race Details</h2>
-      </div>
       <div id="map"></div>
       <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
       <ul class="faq-list sitewide-text">
@@ -314,7 +385,6 @@
       </ul>
     </div> -->
 
-    <!-- CLICKABLE MOBILE VERSION -->
 
     <!-- <div class="faq-mobile">
       <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
@@ -359,10 +429,10 @@
         <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li>
         <p></p>
       </ul>
+      <a href="https://www.google.com/maps/place/SE+Reservoir+Loop+Dr,+Portland,+OR+97215/@45.5114749,-122.5964876,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a056250dc94f:0xb472a61eedcde9c1">
+        <img id="map-mobile" src="img/map-text.png" alt="map" width="100%" height="auto"/>
+      </a>
     </div>
-    <a href="https://www.google.com/maps/place/SE+Reservoir+Loop+Dr,+Portland,+OR+97215/@45.5114749,-122.5964876,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a056250dc94f:0xb472a61eedcde9c1">
-      <img id="map-mobile" src="img/map-text.png" alt="map" width="100%" height="auto"/>
-    </a>
   </section> -->
 
 

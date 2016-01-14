@@ -23,18 +23,17 @@ $("#registration-banner").click(function(){
     $("#registration-page").fadeIn();
 });
 
-$("#race-details-mobile-link").click(function(){
+$("#race-details-banner").click(function(){
     window.scrollTo(0, 0);
-    $("#race-details").fadeIn();
-    // $("#map").fadeIn();
-    $("#splash").hide(); // or .fadeIn(), etc.
-    $("#merch").hide();
-    $("#merch-test").hide();
-    $("#about").hide();
-    // $("#race-details-mobile").hide();
-    $("#merch-mobile").hide();
-    $("#social-mobile").hide();
-
+    $("#splash").hide();
+    $("#registration-banner").hide();
+    $("#history-banner").hide();
+    $("#race-details-banner").hide();
+    $(".center-banner").hide();
+    $("#tc15-banner").hide();
+    $("#donate-banner").hide();
+    $("#social-banner").hide();
+    $("#race-details-page").fadeIn();
 });
 
 $("#merch-mobile-link").click(function(){
