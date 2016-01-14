@@ -10,6 +10,19 @@ $("#register-now").click(function(){
     $("#registration-page").fadeIn();
 });
 
+$("#registration-banner").click(function(){
+    window.scrollTo(0, 0);
+    $("#splash").hide();
+    $("#registration-banner").hide();
+    $("#history-banner").hide();
+    $("#race-details-banner").hide();
+    $(".center-banner").hide();
+    $("#tc15-banner").hide();
+    $("#donate-banner").hide();
+    $("#social-banner").hide();
+    $("#registration-page").fadeIn();
+});
+
 $("#race-details-mobile-link").click(function(){
     window.scrollTo(0, 0);
     $("#race-details").fadeIn();
