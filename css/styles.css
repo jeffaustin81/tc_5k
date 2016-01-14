@@ -735,6 +735,14 @@ border-bottom:1px solid #A3A3A3;
     color: white;
   }
 
+  .external-page-title {
+    font-size: 14px;
+  }
+
+  .external-page-header {
+    padding: 60px 0 0;
+  }
+
   .merch-item {
     width: 100%;
     height: auto;
