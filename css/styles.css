@@ -596,43 +596,41 @@ border-bottom:1px solid #A3A3A3;
 }
 
 .social-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .social-logo {
-  /*float: left;*/
   width: 65%;
-  /*color: #ccc;
-  text-align: center;
-  height: auto;*/
 }
 
 .sports-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: auto;
 }
 
 .sports-photo {
-  /*float: left;*/
   width: 25%;
   height: 100%;
-  /*height: auto;*/
-  /*color: #ccc;
-  text-align: center;
-  height: auto;*/
 }
 
 .sports-photos-group:after {
   content: "";
   display: table;
   clear: both;
-}
-
-.sports-photos{
-  /*width:75%;*/
-  /*margin: auto;*/
 }
 
 .pilot-photo {
@@ -671,7 +669,8 @@ border-bottom:1px solid #A3A3A3;
   position:absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
 }
 
 .social-logos ul{
