@@ -7,7 +7,7 @@ function hamburgerMenuHome() {
 
 function hamburgerMenuRegistration() {
 
-  if (1) {
+  if (document.getElementById("splash").style['display'] == 'none') {
     window.scrollTo(0, 0);
     $("#splash").hide();
     $("#banners-1").hide();

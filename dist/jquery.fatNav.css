@@ -131,4 +131,7 @@
 
     right: -6px;
   }
+  .fat-nav li {
+    font-size: 1.5em;
+  }
 }
