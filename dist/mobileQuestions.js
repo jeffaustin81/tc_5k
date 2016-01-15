@@ -1,19 +1,17 @@
-// FAQ answers
-var answer1 = document.getElementById("mobile-answer-1");
-var answer2 = document.getElementById("mobile-answer-2");
-var answer3 = document.getElementById("mobile-answer-3");
-var answer4 = document.getElementById("mobile-answer-4");
-var answer5 = document.getElementById("mobile-answer-5");
-var answer6 = document.getElementById("mobile-answer-6");
-var answer7 = document.getElementById("mobile-answer-7");
-var answer8 = document.getElementById("mobile-answer-8");
-var answer9 = document.getElementById("mobile-answer-9");
-
-// Array of FAQ answers
-var answers = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9]; //Array of answers
-
-// Loop thru answer objects and check if showing, close it if showing
 function show1() {
+
+  // var answer1 = document.getElementById("mobile-answer-1");
+  var answer2 = document.getElementById("mobile-answer-2");
+  var answer3 = document.getElementById("mobile-answer-3");
+  var answer4 = document.getElementById("mobile-answer-4");
+  var answer5 = document.getElementById("mobile-answer-5");
+  var answer6 = document.getElementById("mobile-answer-6");
+  var answer7 = document.getElementById("mobile-answer-7");
+  var answer8 = document.getElementById("mobile-answer-8");
+  var answer9 = document.getElementById("mobile-answer-9");
+
+  var answers = [answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9];
+
   for (var i=0; i<answers.length; i++) {
     if (answers[i].style['visibility'] == 'visible') {
       answers[i].style.visibility = "hidden";
@@ -32,6 +30,19 @@ function show1() {
 }
 
 function show2() {
+
+  var answer1 = document.getElementById("mobile-answer-1");
+  // var answer2 = document.getElementById("mobile-answer-2");
+  var answer3 = document.getElementById("mobile-answer-3");
+  var answer4 = document.getElementById("mobile-answer-4");
+  var answer5 = document.getElementById("mobile-answer-5");
+  var answer6 = document.getElementById("mobile-answer-6");
+  var answer7 = document.getElementById("mobile-answer-7");
+  var answer8 = document.getElementById("mobile-answer-8");
+  var answer9 = document.getElementById("mobile-answer-9");
+
+  var answers = [answer1, answer3, answer4, answer5, answer6, answer7, answer8, answer9];
+
   for (var i=0; i<answers.length; i++) {
     if (answers[i].style['visibility'] == 'visible') {
       answers[i].style.visibility = "hidden";
@@ -50,6 +61,19 @@ function show2() {
 }
 
 function show3() {
+
+  var answer1 = document.getElementById("mobile-answer-1");
+  var answer2 = document.getElementById("mobile-answer-2");
+  // var answer3 = document.getElementById("mobile-answer-3");
+  var answer4 = document.getElementById("mobile-answer-4");
+  var answer5 = document.getElementById("mobile-answer-5");
+  var answer6 = document.getElementById("mobile-answer-6");
+  var answer7 = document.getElementById("mobile-answer-7");
+  var answer8 = document.getElementById("mobile-answer-8");
+  var answer9 = document.getElementById("mobile-answer-9");
+
+  var answers = [answer1, answer2, answer4, answer5, answer6, answer7, answer8, answer9];
+
   for (var i=0; i<answers.length; i++) {
     if (answers[i].style['visibility'] == 'visible') {
       answers[i].style.visibility = "hidden";
@@ -68,6 +92,19 @@ function show3() {
 }
 
 function show4() {
+
+  var answer1 = document.getElementById("mobile-answer-1");
+  var answer2 = document.getElementById("mobile-answer-2");
+  var answer3 = document.getElementById("mobile-answer-3");
+  // var answer4 = document.getElementById("mobile-answer-4");
+  var answer5 = document.getElementById("mobile-answer-5");
+  var answer6 = document.getElementById("mobile-answer-6");
+  var answer7 = document.getElementById("mobile-answer-7");
+  var answer8 = document.getElementById("mobile-answer-8");
+  var answer9 = document.getElementById("mobile-answer-9");
+
+  var answers = [answer1, answer2, answer3, answer5, answer6, answer7, answer8, answer9];
+
   for (var i=0; i<answers.length; i++) {
     if (answers[i].style['visibility'] == 'visible') {
       answers[i].style.visibility = "hidden";
@@ -86,6 +123,19 @@ function show4() {
 }
 
 function show5() {
+
+  var answer1 = document.getElementById("mobile-answer-1");
+  var answer2 = document.getElementById("mobile-answer-2");
+  var answer3 = document.getElementById("mobile-answer-3");
+  var answer4 = document.getElementById("mobile-answer-4");
+  // var answer5 = document.getElementById("mobile-answer-5");
+  var answer6 = document.getElementById("mobile-answer-6");
+  var answer7 = document.getElementById("mobile-answer-7");
+  var answer8 = document.getElementById("mobile-answer-8");
+  var answer9 = document.getElementById("mobile-answer-9");
+
+  var answers = [answer1, answer2, answer3, answer4, answer6, answer7, answer8, answer9];
+
   for (var i=0; i<answers.length; i++) {
     if (answers[i].style['visibility'] == 'visible') {
       answers[i].style.visibility = "hidden";
@@ -104,6 +154,19 @@ function show5() {
 }
 
 function show6() {
+
+  var answer1 = document.getElementById("mobile-answer-1");
+  var answer2 = document.getElementById("mobile-answer-2");
+  var answer3 = document.getElementById("mobile-answer-3");
+  var answer4 = document.getElementById("mobile-answer-4");
+  var answer5 = document.getElementById("mobile-answer-5");
+  // var answer6 = document.getElementById("mobile-answer-6");
+  var answer7 = document.getElementById("mobile-answer-7");
+  var answer8 = document.getElementById("mobile-answer-8");
+  var answer9 = document.getElementById("mobile-answer-9");
+
+  var answers = [answer1, answer2, answer3, answer4, answer5, answer7, answer8, answer9];
+
   for (var i=0; i<answers.length; i++) {
     if (answers[i].style['visibility'] == 'visible') {
       answers[i].style.visibility = "hidden";
@@ -122,6 +185,19 @@ function show6() {
 }
 
 function show7() {
+
+  var answer1 = document.getElementById("mobile-answer-1");
+  var answer2 = document.getElementById("mobile-answer-2");
+  var answer3 = document.getElementById("mobile-answer-3");
+  var answer4 = document.getElementById("mobile-answer-4");
+  var answer5 = document.getElementById("mobile-answer-5");
+  var answer6 = document.getElementById("mobile-answer-6");
+  // var answer7 = document.getElementById("mobile-answer-7");
+  var answer8 = document.getElementById("mobile-answer-8");
+  var answer9 = document.getElementById("mobile-answer-9");
+
+  var answers = [answer1, answer2, answer3, answer4, answer5, answer6, answer8, answer9];
+
   for (var i=0; i<answers.length; i++) {
     if (answers[i].style['visibility'] == 'visible') {
       answers[i].style.visibility = "hidden";
@@ -140,6 +216,19 @@ function show7() {
 }
 
 function show8() {
+
+  var answer1 = document.getElementById("mobile-answer-1");
+  var answer2 = document.getElementById("mobile-answer-2");
+  var answer3 = document.getElementById("mobile-answer-3");
+  var answer4 = document.getElementById("mobile-answer-4");
+  var answer5 = document.getElementById("mobile-answer-5");
+  var answer6 = document.getElementById("mobile-answer-6");
+  var answer7 = document.getElementById("mobile-answer-7");
+  // var answer8 = document.getElementById("mobile-answer-8");
+  var answer9 = document.getElementById("mobile-answer-9");
+
+  var answers = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer9];
+
   for (var i=0; i<answers.length; i++) {
     if (answers[i].style['visibility'] == 'visible') {
       answers[i].style.visibility = "hidden";
@@ -158,6 +247,19 @@ function show8() {
 }
 
 function show9() {
+
+  var answer1 = document.getElementById("mobile-answer-1");
+  var answer2 = document.getElementById("mobile-answer-2");
+  var answer3 = document.getElementById("mobile-answer-3");
+  var answer4 = document.getElementById("mobile-answer-4");
+  var answer5 = document.getElementById("mobile-answer-5");
+  var answer6 = document.getElementById("mobile-answer-6");
+  var answer7 = document.getElementById("mobile-answer-7");
+  var answer8 = document.getElementById("mobile-answer-8");
+  // var answer9 = document.getElementById("mobile-answer-9");
+
+  var answers = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8];
+
   for (var i=0; i<answers.length; i++) {
     if (answers[i].style['visibility'] == 'visible') {
       answers[i].style.visibility = "hidden";

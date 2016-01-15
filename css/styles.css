@@ -916,40 +916,10 @@ border-bottom:1px solid #A3A3A3;
     height: auto;
   }
 
-  /*.social-logo {
-    width: 100%;
-    height: auto;
-  }*/
-
-  /*#race-details {
-    visibility: hidden;
-    display: none;
-  }*/
-
-  /*#social {
-    visibility: hidden;
-    display: none;
+  .pilot-photo {
+    width: 75%;
+    height: 100%;
   }
-
-  #race-details-mobile {
-    visibility: visible;
-    display: inline-flex;
-  }
-
-  #merch-mobile {
-    visibility: visible;
-    display: inline-flex;
-  }
-
-  #map-mobile {
-    visibility: visible;
-    display: inline-flex;
-  }
-
-  #social-mobile {
-    visibility: visible;
-    display: inline-flex;
-  }*/
 
   .faq-mobile {
     visibility: visible;

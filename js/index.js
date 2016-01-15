@@ -1,3 +1,3 @@
 // $(window).scroll(function(){
-//   $(".tc-title").css("opacity", 1 - $(window).scrollTop() / 10);
+//   $(".tc-title").css("opacity", 1 - $(window).scrollTop() / 50);
 // });
