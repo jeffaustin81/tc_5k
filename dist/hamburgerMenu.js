@@ -1,24 +1,22 @@
-function externalMenuHome() {
-  var external = document.getElementById("splash");
+function hamburgerMenuHome() {
 
   if (document.getElementById("splash").style['display'] == 'none') {
-    $("#merch").hide();
-    $("#merch-test").hide();
-    $("#splash").fadeIn();
-    $("#race-details").fadeIn();
-    $("#about").fadeIn();
+    location.reload();
   }
 }
 
-function externalMenuRaceDetails() {
-  var external = document.getElementById("race-details");
+function hamburgerMenuRegistration() {
 
-  if (document.getElementById("race-details").style['display'] == 'none') {
-    $("#merch").hide();
-    $("#merch-test").hide();
-    $("#splash").fadeIn();
-    $("#race-details").fadeIn();
-    $("#about").fadeIn();
+  if (1) {
+    window.scrollTo(0, 0);
+    $("#splash").hide();
+    $("#banners-1").hide();
+    $("#banners-2").hide();
+    $(".center-banner").hide();
+    $("#history-page").hide();
+    $("#race-details-page").hide();
+    $("#tc15-page").hide();
+    $("#registration-page").fadeIn();
   }
 }
 

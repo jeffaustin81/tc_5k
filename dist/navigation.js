@@ -6,7 +6,7 @@ $("#register-now").click(function(){
     $("#registration-page").fadeIn();
 });
 
-$("#registration-banner").click(function(){
+$(".registration-banner").click(function(){
     window.scrollTo(0, 0);
     $("#splash").hide();
     $("#banners-1").hide();
@@ -15,7 +15,7 @@ $("#registration-banner").click(function(){
     $("#registration-page").fadeIn();
 });
 
-$("#history-banner").click(function(){
+$(".history-banner").click(function(){
     window.scrollTo(0, 0);
     $("#splash").hide();
     $("#banners-1").hide();
@@ -24,7 +24,7 @@ $("#history-banner").click(function(){
     $("#history-page").fadeIn();
 });
 
-$("#race-details-banner").click(function(){
+$(".race-details-banner").click(function(){
     window.scrollTo(0, 0);
     $("#splash").hide();
     $("#banners-1").hide();
@@ -33,7 +33,7 @@ $("#race-details-banner").click(function(){
     $("#race-details-page").fadeIn();
 });
 
-$("#tc15-banner").click(function(){
+$(".tc15-banner").click(function(){
     window.scrollTo(0, 0);
     $("#splash").hide();
     $("#banners-1").hide();
