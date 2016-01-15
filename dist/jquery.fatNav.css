@@ -41,6 +41,12 @@
     background-color: #fff;
 }
 
+.hamburger .hamburger__icon.special,
+.hamburger .hamburger__icon.special:before,
+.hamburger .hamburger__icon.special:after {
+    background-color: #464e54;
+}
+
 .hamburger__icon:before, .hamburger__icon:after {
   position: absolute;
   content: "";
