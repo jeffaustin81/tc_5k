@@ -608,6 +608,33 @@ border-bottom:1px solid #A3A3A3;
   height: auto;*/
 }
 
+.sports-flex {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.sports-photo {
+  /*float: left;*/
+  width: 25%;
+  height: 100%;
+  /*height: auto;*/
+  /*color: #ccc;
+  text-align: center;
+  height: auto;*/
+}
+
+.sports-photos-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sports-photos{
+  /*width:75%;*/
+  /*margin: auto;*/
+}
+
 .social-logos-group:after {
   content: "";
   display: table;
