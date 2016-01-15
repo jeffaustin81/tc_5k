@@ -779,6 +779,17 @@ border-bottom:1px solid #A3A3A3;
     /*margin: .9% 0 0;*/
   }
 
+  .paragraph-text {
+    text-indent: 25px;
+    font-family: 'intro_din';
+    font-size: 12px;
+  }
+
+  .history-quote p {
+    /*width: 50%;*/
+    font-size: 18px;
+  }
+
   .registration-margin {
     /*margin-top: .9%;*/
   }
