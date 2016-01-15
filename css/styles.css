@@ -98,6 +98,31 @@
   padding-right: 40px;
 }
 
+.paragraph-text {
+  text-indent: 50px;
+  font-family: 'intro_din';
+}
+
+.history-text {
+
+}
+
+.history-quote {
+  display: flex;
+  justify-content: center;
+  /*width: 50%;*/
+  /*font-size: 72px;*/
+  /*font-weight: bold;*/
+}
+
+.history-quote p {
+  /*width: 50%;*/
+  font-family: 'section_titles_din';
+  font-size: 42px;
+  font-weight: bold;
+  color: #464e54;
+}
+
 .faq-list {
   padding: 0;
 }
