@@ -81,6 +81,13 @@
   font-family: 'tabor_font';
 }
 
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 .history-font {
   font-family: 'sitewide_din';
   /*font-size: 110px;*/
@@ -745,6 +752,11 @@ border-bottom:1px solid #A3A3A3;
     font-size: 100px;
 
 }*/
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
 
 /*MEDIA QUERIES*/
 

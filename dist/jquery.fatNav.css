@@ -2,7 +2,7 @@
   display: block;
   width: 50px;
   height: 50px;
-  position: fixed;
+  position: absolute;
   top: 15px;
   right: 8px;
   z-index: 10000;
@@ -41,9 +41,9 @@
     background-color: #fff;
 }
 
-.hamburger .hamburger__icon.special,
-.hamburger .hamburger__icon.special:before,
-.hamburger .hamburger__icon.special:after {
+.hamburger .hamburger__icon.darken,
+.hamburger .hamburger__icon.darken:before,
+.hamburger .hamburger__icon.darken:after {
     background-color: #464e54;
 }
 
