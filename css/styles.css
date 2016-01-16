@@ -81,12 +81,12 @@
   font-family: 'tabor_font';
 }
 
-.navbar-fixed-top, .navbar-fixed-bottom {
+/*.navbar-fixed-top, .navbar-fixed-bottom {
     position: absolute;
     right: 0;
     left: 0;
     z-index: 1030;
-}
+}*/
 
 .history-font {
   font-family: 'sitewide_din';
