@@ -3,6 +3,13 @@ $(".home-banner").click(function(){
     window.scrollTo(0, 0);
 });
 
+$(".fat-nav").click(function(){
+    // $(".hamburger.toggler").toggleClass("active");
+    // window.scrollTo(0, 0);
+});
+
+// REGISTER NOW BUTTON
+
 $("#register-now").click(function(){
     window.scrollTo(0, 0);
     $("#splash").hide();
@@ -15,6 +22,8 @@ $("#register-now").click(function(){
     $("#donate-page").hide();
     $("#registration-page").fadeIn();
 });
+
+// BANNERS
 
 $(".registration-banner").click(function(){
     window.scrollTo(0, 0);
@@ -79,4 +88,22 @@ $(".donate-banner").click(function(){
     $("#race-details-page").hide();
     $("#tc15-page").hide();
     $("#donate-page").fadeIn();
+});
+
+// MERCH ITEMS
+
+$(".adult-reg-product").click(function(){
+    window.scrollTo(0, 0);
+    $(".reg-photo").hide();
+    $(".merch-items").hide();
+    $(".external-page-title").hide();
+    $(".adult-reg-details").fadeIn();
+});
+
+$(".adult-reg-back").click(function(){
+    window.scrollTo(0, 0);
+    $(".adult-reg-details").hide();
+    $(".reg-photo").fadeIn();
+    $(".merch-items").fadeIn();
+    $(".external-page-title").fadeIn();
 });
