@@ -809,11 +809,10 @@ body {
 
 @media(max-width:416px) {
 
-  /*.tc-nav-logo {
-    height: 1.5em;
-    width: 1.5em;
-    fill: #fff;
-  }*/
+  .btn-circle {
+    margin-top: 10px;
+    font-size: 30px;
+  }
 
   .flextest {
     -webkit-box-orient: vertical;
