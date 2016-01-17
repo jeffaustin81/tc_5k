@@ -67,3 +67,16 @@ $(".tc15-banner").click(function(){
     $("#donate-page").hide();
     $("#tc15-page").fadeIn();
 });
+
+$(".donate-banner").click(function(){
+    window.scrollTo(0, 0);
+    $("#splash").hide();
+    $("#banners-1").hide();
+    $("#banners-2").hide();
+    $("#center-banner").hide();
+    $("#registration-page").hide();
+    $("#history-page").hide();
+    $("#race-details-page").hide();
+    $("#tc15-page").hide();
+    $("#donate-page").fadeIn();
+});

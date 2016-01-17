@@ -36,6 +36,7 @@
 
 .body {
   color: #fff;
+
 }
 
 .btn:hover,
@@ -65,6 +66,7 @@
 /*TITLE HEADER*/
 
 .tc-title {
+  z-index: 9998;
   top: 40px;
   margin: 0;
   position: absolute;
@@ -758,6 +760,20 @@ border-bottom:1px solid #A3A3A3;
   overflow: hidden;
 }
 
+.link-illusion {
+    cursor: pointer;
+}
+
+
+
+/*html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}*/
+
 /*MEDIA QUERIES*/
 
 @media (min-width: 768px) {
@@ -1027,5 +1043,13 @@ border-bottom:1px solid #A3A3A3;
     margin-left: 0;
     list-style: none;
   }
+
+  /*html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }*/
 
 }
