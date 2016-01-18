@@ -733,12 +733,20 @@
           <br>
           <p class="mailing-list-text">Like us? Join our mailing list!
           </p>
-          <form class="email_text">
-            <input type="text" name="firstname" placeholder="Email Address">
-            <a class="btn sign-up page-scroll" id="sign-up">
+          <form class="email_text" action="//formspree.io/austinpdx@gmail.com" method="POST">
+            <input type="text" name="_replyto" placeholder="Email Address">
+            <a type="submit" class="btn sign-up page-scroll" id="sign-up">
               <i></i>SIGN UP
             </a>
           </form>
+
+          <!-- <form action="//formspree.io/your@email.com" method="POST">
+            <input type="text" name="name">
+            <input type="email" name="_replyto">
+            <input type="submit" value="Send">
+          </form> -->
+
+
           <br>
           <div class="row sponsers">
             <div>
