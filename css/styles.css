@@ -238,6 +238,11 @@
   display: none;
 }*/
 
+.mobile-registration-banner {
+  visibility: hidden;
+  display: none;
+}
+
 .tabor-title-1 {
   visibility: visible;
   display: inline;
@@ -276,7 +281,7 @@
 .menu-text {
   /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: 'sitewide_din';
-  font-size: 20px;
+  font-size: 18px;
 }
 .sneakers {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/sneakers.jpg) no-repeat bottom center scroll;
@@ -919,10 +924,6 @@ body {
     font-size: 18px;
   }
 
-  .registration-margin {
-    /*margin-top: .9%;*/
-  }
-
   .tc15-margin {
     /*margin-top: .9%;*/
   }
@@ -946,6 +947,11 @@ body {
   .center-banner {
     display: none;
     visibility: hidden;
+  }
+
+  .mobile-registration-banner {
+    display: inline;
+    visibility: visible;
   }
 
   .tc-title {
