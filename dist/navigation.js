@@ -129,7 +129,7 @@ $(".donate-banner").click(function(){
 $(".adult-reg-product").click(function(){
     window.scrollTo(0, 0);
     $(".reg-photo").hide();
-    $(".merch-items").hide();
+    $(".flex-merch").hide();
     $(".external-page-title").hide();
     $(".adult-reg-details").fadeIn();
 });
@@ -137,7 +137,7 @@ $(".adult-reg-product").click(function(){
 $(".student-reg-product").click(function(){
     window.scrollTo(0, 0);
     $(".reg-photo").hide();
-    $(".merch-items").hide();
+    $(".flex-merch").hide();
     $(".external-page-title").hide();
     $(".student-reg-details").fadeIn();
 });
@@ -145,7 +145,7 @@ $(".student-reg-product").click(function(){
 $(".shirt-product").click(function(){
     window.scrollTo(0, 0);
     $(".reg-photo").hide();
-    $(".merch-items").hide();
+    $(".flex-merch").hide();
     $(".external-page-title").hide();
     $(".shirt-details").fadeIn();
 });
@@ -153,7 +153,7 @@ $(".shirt-product").click(function(){
 $(".koozie-product").click(function(){
     window.scrollTo(0, 0);
     $(".reg-photo").hide();
-    $(".merch-items").hide();
+    $(".flex-merch").hide();
     $(".external-page-title").hide();
     $(".koozie-details").fadeIn();
 });
@@ -162,7 +162,7 @@ $(".adult-reg-back").click(function(){
     window.scrollTo(0, 0);
     $(".adult-reg-details").hide();
     $(".reg-photo").fadeIn();
-    $(".merch-items").fadeIn();
+    $(".flex-merch").fadeIn();
     $(".external-page-title").fadeIn();
 });
 
@@ -170,7 +170,7 @@ $(".student-reg-back").click(function(){
     window.scrollTo(0, 0);
     $(".student-reg-details").hide();
     $(".reg-photo").fadeIn();
-    $(".merch-items").fadeIn();
+    $(".flex-merch").fadeIn();
     $(".external-page-title").fadeIn();
 });
 
@@ -178,7 +178,7 @@ $(".shirt-back").click(function(){
     window.scrollTo(0, 0);
     $(".shirt-details").hide();
     $(".reg-photo").fadeIn();
-    $(".merch-items").fadeIn();
+    $(".flex-merch").fadeIn();
     $(".external-page-title").fadeIn();
 });
 
@@ -186,6 +186,6 @@ $(".koozie-back").click(function(){
     window.scrollTo(0, 0);
     $(".koozie-details").hide();
     $(".reg-photo").fadeIn();
-    $(".merch-items").fadeIn();
+    $(".flex-merch").fadeIn();
     $(".external-page-title").fadeIn();
 });
