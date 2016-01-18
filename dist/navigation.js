@@ -12,6 +12,7 @@ $(".fat-nav").click(function(){
 
 $("#register-now").click(function(){
     window.scrollTo(0, 0);
+    $(".tc-subtitle").hide();
     $("#splash").hide();
     $("#mobile-registration-banner").hide();
     $("#banners-1").hide();
@@ -29,6 +30,7 @@ $("#register-now").click(function(){
 
 $(".race-details-banner").click(function(){
     window.scrollTo(0, 0);
+    $(".tc-subtitle").hide();
     $("#splash").hide();
     $("#mobile-registration-banner").hide();
     $("#banners-1").hide();
@@ -44,6 +46,7 @@ $(".race-details-banner").click(function(){
 
 $(".history-banner").click(function(){
     window.scrollTo(0, 0);
+    $(".tc-subtitle").hide();
     $("#splash").hide();
     $("#mobile-registration-banner").hide();
     $("#banners-1").hide();
@@ -59,6 +62,7 @@ $(".history-banner").click(function(){
 
 $(".tc15-banner").click(function(){
     window.scrollTo(0, 0);
+    $(".tc-subtitle").hide();
     $("#splash").hide();
     $("#mobile-registration-banner").hide();
     $("#banners-1").hide();
@@ -74,6 +78,7 @@ $(".tc15-banner").click(function(){
 
 $(".registration-banner").click(function(){
     window.scrollTo(0, 0);
+    $(".tc-subtitle").hide();
     $("#splash").hide();
     $("#mobile-registration-banner").hide();
     $("#banners-1").hide();
@@ -89,6 +94,7 @@ $(".registration-banner").click(function(){
 
 $(".sponsor-banner").click(function(){
     window.scrollTo(0, 0);
+    $(".tc-subtitle").hide();
     $("#splash").hide();
     $("#banners-1").hide();
     $("#banners-2").hide();
@@ -104,6 +110,7 @@ $(".sponsor-banner").click(function(){
 
 $(".donate-banner").click(function(){
     window.scrollTo(0, 0);
+    $(".tc-subtitle").hide();
     $("#splash").hide();
     $("#banners-1").hide();
     $("#banners-2").hide();

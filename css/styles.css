@@ -83,6 +83,25 @@
   font-family: 'tabor_font';
 }
 
+.tc-subtitle {
+  z-index: 9998;
+  top: 75px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: 'intro_din';
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
 /*.navbar-fixed-top, .navbar-fixed-bottom {
     position: absolute;
     right: 0;
@@ -957,6 +976,11 @@ body {
   .tc-title {
     font-size: 20px;
     top: 37px;
+  }
+
+  .tc-subtitle {
+    top: 60px;
+    font-size: 16px;
   }
 
   /*.tc-nav-logo {
