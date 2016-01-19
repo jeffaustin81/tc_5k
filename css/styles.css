@@ -99,10 +99,11 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   font-family: 'intro_din';
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   color: #fff;
   text-shadow: 0 0 .1px black;
+  text-transform: uppercase;
 }
 
 /*.navbar-fixed-top, .navbar-fixed-bottom {
@@ -1202,7 +1203,7 @@ body {
 
   .tc-subtitle {
     top: 60px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /*.tc-nav-logo {
