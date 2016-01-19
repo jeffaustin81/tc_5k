@@ -862,6 +862,14 @@ border-bottom:1px solid #A3A3A3;
   height: 100%;
 }
 
+.tc15-gallery {
+  /*padding-top: 15px;*/
+  font-family: 'sitewide_din';
+  font-size: 26px;
+  color: black;
+  text-align: center;
+}
+
 .social-logos-group:after {
   content: "";
   display: table;
@@ -1335,6 +1343,10 @@ body {
 
   .product-details {
     font-family: 'intro_din';
+  }
+
+  .tc15-gallery {
+    font-size: 16px;
   }
 
   .donate-description {
