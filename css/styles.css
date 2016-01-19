@@ -1387,7 +1387,11 @@ body {
   }
 
   .product-details-back {
+    display: flex;
     font-family: 'intro_din';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
   }
 
   .adult-reg-back {
