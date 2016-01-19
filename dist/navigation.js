@@ -96,6 +96,7 @@ $(".sponsor-banner").click(function(){
     window.scrollTo(0, 0);
     $(".tc-subtitle").hide();
     $("#splash").hide();
+    $("#mobile-registration-banner").hide();
     $("#banners-1").hide();
     $("#banners-2").hide();
     $("#center-banner").hide();
