@@ -650,10 +650,10 @@ border-bottom:1px solid #A3A3A3;
 
 .product-layout-left {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 40%;
   height: auto;
-  /*align-items: center;*/
+  align-items: center;
 }
 
 .product-layout-right {
@@ -1353,11 +1353,11 @@ body {
   }
 
   .product-layout-left {
-    display: flex;
-    flex-direction: row;
+    /*display: flex;*/
+    /*flex-direction: row;*/
     width: 100%;
     height: auto;
-    justify-content: center;
+    /*justify-content: center;*/
 
     /*align-items: center;*/
   }
