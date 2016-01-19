@@ -792,7 +792,7 @@ border-bottom:1px solid #A3A3A3;
   margin-right: .8%;
 }
 
-.donate-description {
+.sponsor-description {
   font-family: 'sitewide_din';
   color: black;
   font-size: 24px;
@@ -1345,7 +1345,7 @@ body {
     font-size: 16px;
   }
 
-  .donate-description {
+  .sponsor-description {
     font-size: 16px;
   }
 
