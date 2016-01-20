@@ -636,9 +636,16 @@ border-bottom:1px solid #A3A3A3;
   height: auto;
 }
 
+#registration-page {
+  min-width: 1px;
+  min-height: 1px;
+}
+
 .adult-reg-details {
   /*display: flex;
   flex-direction: column;*/
+  min-width: 1px;
+  min-height: 1px;
 
 }
 
@@ -647,15 +654,12 @@ border-bottom:1px solid #A3A3A3;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-width: 1px;
+  min-height: 1px;
 }
 
 .product-layout-left {
@@ -663,14 +667,16 @@ border-bottom:1px solid #A3A3A3;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-
+  min-width: 1px;
+  min-height: 1px;
   width: 40%;
-
 }
 
 .product-layout-right {
   width: 60%;
   height: auto;
+  min-width: 1px;
+  min-height: 1px;
 }
 
 .product-photo {
@@ -678,6 +684,8 @@ border-bottom:1px solid #A3A3A3;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  min-width: 1px;
+  min-height: 1px;
   height: 75%;
   width: 75%;
 }
@@ -695,10 +703,6 @@ border-bottom:1px solid #A3A3A3;
 }
 
 .agreement {
-  /*display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;*/
   text-align: center;
 }
 
@@ -1379,10 +1383,10 @@ body {
   }
 
   .product-layout {
-    display: -webkit-box;
+    /*display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: flex;*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1418,13 +1422,13 @@ body {
   }
 
   .product-photo {
-    height: 75%;
+    height: 100%;
     width: 75%;
   }
 
   .mmm {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
   }
 
   .product-title {
