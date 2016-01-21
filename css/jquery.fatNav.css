@@ -132,7 +132,7 @@
   text-decoration: none;
 }
 
-@media(max-width:479px) {
+@media(max-width:744px) {
   .hamburger {
 
     right: -6px;
@@ -141,5 +141,17 @@
     font-size: 1.5em;
   }
 
+
+}
+
+@media(max-height:420px) {
+
+  .fat-nav li {
+    font-size: 1.2em;
+  }
+
+  .fat-nav li {
+    padding: 4px;
+  }
 
 }

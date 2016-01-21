@@ -1211,7 +1211,7 @@ body {
     font-size: 52px;
   }
 }
-@media (max-width:479px) {
+@media (max-width:744px) {
   .navbar-brand {
     float: left;
     height: 50px;
@@ -1227,9 +1227,11 @@ body {
 
 }
 
-/*@media(max-height:656px) {
 
-  .tc-title {
+
+@media(max-height:656px) {
+
+  /*.tc-title {
     font-size: 20px;
     top: 37px;
   }
@@ -1248,9 +1250,9 @@ body {
     color: white;
     padding: 1%;
     text-align: center;
-  }
+  }*/
 
-}*/
+}
 
 @media(max-width:416px) {
 
