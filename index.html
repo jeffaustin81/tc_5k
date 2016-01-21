@@ -22,7 +22,7 @@
   <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Comfortaa:300' rel='stylesheet' type='text/css'>
-  <link href="dist/jquery.fatNav.css" rel="stylesheet" type="text/css">
+  <link href="css/jquery.fatNav.css" rel="stylesheet" type="text/css">
   <!-- <link href="dist/jquery.faqList.css" rel="stylesheet" type="text/css"> -->
 
   <!-- Custom Links -->
@@ -33,14 +33,11 @@
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdn.snipcart.com/scripts/snipcart.js" id="snipcart" data-api-key="Y2NmN2Y3MzAtZjEwZi00NDhmLWI2ZTMtZTg4ZTlkMGEzZWQy"></script>
   <link type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" rel="stylesheet" />
-  <link type="text/css" href="css/snipcart-overwrite.css" rel="stylesheet">
 
 
   <!-- More custom links -->
   <script type="text/javascript" src="dist/navColor.js"></script>
   <script type="text/javascript" src="dist/scrollToggle.js"></script>
-
-
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,7 +50,7 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="snipcart-overwrite">
 
   <!-- FATNAV MENU -->
 
@@ -164,11 +161,7 @@
             <a class="btn register page-scroll" id="register-now">
               <i class="animated"></i>REGISTER NOW
             </a>
-            <!-- <br> -->
             <br>
-            <!-- <a class="fa fa-angle-double-down page-scroll" id="register-now">
-              <i class="animated"></i>
-            </a> -->
             <a href="#start-scroll" class="btn btn-circle page-scroll">
               <i class="fa fa-angle-double-down animated"></i>
             </a>
@@ -203,6 +196,7 @@
   <!-- WIDER CENTER BANNER -->
 
   <img id="center-banner" class="center-banner registration-banner flexbanner tester nav-color link-illusion" src="img/trees-banner-text.jpg" alt="Center Banner" />
+  <!-- <div id="map" class="tc-map"></div> -->
 
   <!-- SECOND BANNERS GROUP -->
 
@@ -228,6 +222,7 @@
       </div>
     </div>
   </div>
+
 
   <!-- REGISTRATION AND MERCH PAGE -->
 
@@ -284,9 +279,9 @@
           <div class="product-layout-left">
             <div class="product-layout-left-image-button">
               <img src="img/adultreg-og.jpg" class="product-photo" alt="Adult Registration" />
-              <!-- <a href="#" class="snipcart-add-item btn donate" data-item-image="img/adultreg-og.jpg" data-item-id="Adult-Registration" data-item-name="Adult Registration" data-item-price="35.00" data-item-custom1-name="Shirt Size" data-item-custom1-options="Small|Medium|Large|X-Large" data-item-custom1-required="true" data-item-custom2-name="Runner Name" data-item-custom2-type="textarea" data-item-custom2-required="true" data-item-stackable="false" data-item-url="/">
+              <a href="#" class="snipcart-add-item btn donate" data-item-image="img/adultreg-og.jpg" data-item-id="Adult-Registration" data-item-name="Adult Registration" data-item-price="35.00" data-item-custom1-name="Shirt Size" data-item-custom1-options="Small|Medium|Large|X-Large" data-item-custom1-required="true" data-item-custom2-name="Runner Name" data-item-custom2-type="textarea" data-item-custom2-required="true" data-item-stackable="false" data-item-url="/">
                 <i class="animated"></i>REGISTER
-              </a> -->
+              </a>
             </div>
             <div class="empty-test"></div>
           </div>
@@ -333,9 +328,9 @@
           <div class="product-layout-left">
             <div class="product-layout-left-image-button">
               <img src="img/studentreg.jpg" class="product-photo" alt="Student Registration" />
-              <!-- <a href="#" class="snipcart-add-item btn donate" data-item-image="img/studentreg.jpg" data-item-id="Student-Registration" data-item-name="Student Registration" data-item-price="20.00" data-item-custom1-name="Shirt Size" data-item-custom1-options="Small|Medium|Large|X-Large" data-item-custom1-required="true" data-item-custom2-name="Runner Name" data-item-custom2-type="textarea" data-item-custom2-required="true" data-item-stackable="false" data-item-url="/">
+              <a href="#" class="snipcart-add-item btn donate" data-item-image="img/studentreg.jpg" data-item-id="Student-Registration" data-item-name="Student Registration" data-item-price="20.00" data-item-custom1-name="Shirt Size" data-item-custom1-options="Small|Medium|Large|X-Large" data-item-custom1-required="true" data-item-custom2-name="Runner Name" data-item-custom2-type="textarea" data-item-custom2-required="true" data-item-stackable="false" data-item-url="/">
                 <i class="animated"></i>REGISTER
-              </a> -->
+              </a>
             </div>
             <div class="empty-test"></div>
           </div>
@@ -385,9 +380,9 @@
           <div class="product-layout-left">
             <div class="product-layout-left-image-button">
             <img src="img/shirt.jpg" class="product-photo" alt="T shirt" />
-            <!-- <a href="#" class="snipcart-add-item btn donate" data-item-image="img/shirt.jpg" data-item-description="That's a good lookin' shirt..." data-item-id="Shirt" data-item-name="TC Shirt" data-item-price="20.00" data-item-custom1-name="Size" data-item-custom1-options="Small|Medium|Large|X-Large" data-item-url="/">
+            <a href="#" class="snipcart-add-item btn donate" data-item-image="img/shirt.jpg" data-item-description="That's a good lookin' shirt..." data-item-id="Shirt" data-item-name="TC Shirt" data-item-price="20.00" data-item-custom1-name="Size" data-item-custom1-options="Small|Medium|Large|X-Large" data-item-url="/">
               <i class="animated"></i>ADD TO CART
-            </a> -->
+            </a>
             </div>
             <div class="empty-test"></div>
           </div>
@@ -425,9 +420,9 @@
           <div class="product-layout-left">
             <div class="product-layout-left-image-button">
               <img src="img/koozie.jpg" class="product-photo" alt="Koozie" />
-              <!-- <a href="#" class="snipcart-add-item btn donate" data-item-image="img/koozie.jpg" data-item-description="The Perfect Koozie..." data-item-id="Koozie" data-item-name="TC Koozie" data-item-price="5.00" data-item-url="/">
+              <a href="#" class="snipcart-add-item btn donate" data-item-image="img/koozie.jpg" data-item-description="The Perfect Koozie..." data-item-id="Koozie" data-item-name="TC Koozie" data-item-price="5.00" data-item-url="/">
                 <i class="animated"></i>ADD TO CART
-              </a> -->
+              </a>
             </div>
             <div class="empty-test"></div>
           </div>
@@ -451,66 +446,6 @@
     </div>
   </section>
 
-  <!-- HISTORY OF TC PAGE -->
-
-  <section id="history-page" class="external-page group" style="display: none;">
-    <div class="external-page-header">
-      <h1 class="external-page-title">History</h1>
-    </div>
-    <div class="external-page-content">
-      <div>
-        <img class="flexbanner tester" src="img/history.jpg" alt="History of TC Page" />
-      </div>
-      <br>
-      <!-- TC QUOTE -->
-      <div class="history-quote text-center">
-        <p>
-          "Believe in yourselves.
-          <br>Believe in each other.
-          <br>The rest will come." - TC
-        </p>
-      </div>
-      <!-- HISTORY TEXT -->
-      <div class="history-text">
-        <p class="paragraph-text">
-          The Tabor Challenge was created to honor the memory of LTJG Thomas Cameron by rewarding athletically and academically exemplary seniors at Grover Cleveland High School with a college scholarship that will inspire them to achieve. We believe that encouraging
-          young athletes to pursue higher education will empower them to make a difference in their community. Thomas embodied this belief; he showed us that scholastic and athletic success was the merit of formidable personal qualities, like leadership,
-          integrity, smarts, passion and teamwork. Moreover, he inspired others to succeed by encouraging classmates, teammates, friends and perfect strangers—his lasting impact will not be forgotten.
-        </p>
-        <!-- SPORTS PHOTOS -->
-        <div class="sports-photos sports-photos sports-photos-group sports-flex">
-          <img class="sports-photo" src="img/bball1.png" alt="Basketball" />
-          <img class="sports-photo" src="img/soccer.jpg" alt="Soccer" />
-          <img class="sports-photo" src="img/bball2.png" alt="Basketball" />
-          <img class="sports-photo" src="img/tank.png" alt="TC" />
-        </div>
-        <br>
-        <p class="paragraph-text">
-          In addition to being a star athlete in three sports, Thomas excelled academically, which he worked hard to achieve. After graduating high school with countless accolades, he was accepted into the esteemed United States Coast Guard Academy. It was there
-          that Thomas honed his leadership capabilities and became captain of the USCGA soccer team, a role that blended three qualities he valued most: education, athletics and camaraderie. While enrolled at the academy, Thomas pursued his dream of serving
-          his country by becoming a helicopter pilot, and thus continued his life’s mission to help people.
-        </p>
-        <div class="sports-photos sports-photos sports-photos-group sports-flex">
-          <img class="pilot-photo" src="img/pilot.jpg" alt="Pilot" />
-        </div>
-        <br>
-        <p class="paragraph-text">
-          In 2012 Thomas lost his life when his helicopter went down during a Coast Guard training mission. His sudden absence was immediately felt throughout the community he inspired so much. In the aftermath of this tragedy, the outpouring of support by all
-          who had the pleasure of knowing Thomas was palpable—a testament to the number of people who were touched by his caring spirit. After drying our tears, we memorialized Thomas by renovating the clubhouse at Cleveland High School field.
-        </p>
-        <div class="sports-photos sports-photos sports-photos-group sports-flex">
-          <img class="clubhouse-photo" src="img/clubhouse-crew.JPG" alt="Clubhouse" />
-        </div>
-        <br>
-        <p class="paragraph-text">
-          The Tabor Challenge expands on what we started in renovating the Cleveland clubhouse by creating real opportunity for deserving members of the senior class at Cleveland High School. Indeed, the proceeds of this annual run will fund scholarships for students
-          who regularly demonstrate the virtues that were so important to Thomas. Thomas would agree that success on the field and in the classroom is essential, but no more important than being kind and fair, which are the hallmarks of a true role model.
-          We hope the Tabor Challenge will inspire students to fulfill their potential and follow their dreams—just like Thomas Cameron.
-        </p>
-      </div>
-    </div>
-  </section>
-
   <!-- RACE DETAILS PAGE -->
 
   <section id="race-details-page" class="external-page group" style="display: none;">
@@ -521,8 +456,6 @@
       <div>
         <img class="flexbanner tester" src="img/race.jpg" alt="Race Details Page" />
       </div>
-      <!-- <br>
-      <div id="map"></div> -->
       <!-- WEB FAQ -->
       <div class="faq">
         <br>
@@ -561,7 +494,7 @@
           <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li>
           <p></p>
         </ul>
-        <!-- <div id="map"></div> -->
+        <!-- <div id="map" class="tc-map"></div> -->
       </div>
       <!-- MOBILE FAQ  -->
       <div class="faq-mobile">
@@ -659,6 +592,66 @@
     </div>
   </section>
 
+  <!-- HISTORY OF TC PAGE -->
+
+  <section id="history-page" class="external-page group" style="display: none;">
+    <div class="external-page-header">
+      <h1 class="external-page-title">History</h1>
+    </div>
+    <div class="external-page-content">
+      <div>
+        <img class="flexbanner tester" src="img/history.jpg" alt="History of TC Page" />
+      </div>
+      <br>
+      <!-- TC QUOTE -->
+      <div class="history-quote text-center">
+        <p>
+          "Believe in yourselves.
+          <br>Believe in each other.
+          <br>The rest will come." - TC
+        </p>
+      </div>
+      <!-- HISTORY TEXT -->
+      <div class="history-text">
+        <p class="paragraph-text">
+          The Tabor Challenge was created to honor the memory of LTJG Thomas Cameron by rewarding athletically and academically exemplary seniors at Grover Cleveland High School with a college scholarship that will inspire them to achieve. We believe that encouraging
+          young athletes to pursue higher education will empower them to make a difference in their community. Thomas embodied this belief; he showed us that scholastic and athletic success was the merit of formidable personal qualities, like leadership,
+          integrity, smarts, passion and teamwork. Moreover, he inspired others to succeed by encouraging classmates, teammates, friends and perfect strangers—his lasting impact will not be forgotten.
+        </p>
+        <!-- SPORTS PHOTOS -->
+        <div class="sports-photos sports-photos sports-photos-group sports-flex">
+          <img class="sports-photo" src="img/bball1.png" alt="Basketball" />
+          <img class="sports-photo" src="img/soccer.jpg" alt="Soccer" />
+          <img class="sports-photo" src="img/bball2.png" alt="Basketball" />
+          <img class="sports-photo" src="img/tank.png" alt="TC" />
+        </div>
+        <br>
+        <p class="paragraph-text">
+          In addition to being a star athlete in three sports, Thomas excelled academically, which he worked hard to achieve. After graduating high school with countless accolades, he was accepted into the esteemed United States Coast Guard Academy. It was there
+          that Thomas honed his leadership capabilities and became captain of the USCGA soccer team, a role that blended three qualities he valued most: education, athletics and camaraderie. While enrolled at the academy, Thomas pursued his dream of serving
+          his country by becoming a helicopter pilot, and thus continued his life’s mission to help people.
+        </p>
+        <div class="sports-photos sports-photos sports-photos-group sports-flex">
+          <img class="pilot-photo" src="img/pilot.jpg" alt="Pilot" />
+        </div>
+        <br>
+        <p class="paragraph-text">
+          In 2012 Thomas lost his life when his helicopter went down during a Coast Guard training mission. His sudden absence was immediately felt throughout the community he inspired so much. In the aftermath of this tragedy, the outpouring of support by all
+          who had the pleasure of knowing Thomas was palpable—a testament to the number of people who were touched by his caring spirit. After drying our tears, we memorialized Thomas by renovating the clubhouse at Cleveland High School field.
+        </p>
+        <div class="sports-photos sports-photos sports-photos-group sports-flex">
+          <img class="clubhouse-photo" src="img/clubhouse-crew.JPG" alt="Clubhouse" />
+        </div>
+        <br>
+        <p class="paragraph-text">
+          The Tabor Challenge expands on what we started in renovating the Cleveland clubhouse by creating real opportunity for deserving members of the senior class at Cleveland High School. Indeed, the proceeds of this annual run will fund scholarships for students
+          who regularly demonstrate the virtues that were so important to Thomas. Thomas would agree that success on the field and in the classroom is essential, but no more important than being kind and fair, which are the hallmarks of a true role model.
+          We hope the Tabor Challenge will inspire students to fulfill their potential and follow their dreams—just like Thomas Cameron.
+        </p>
+      </div>
+    </div>
+  </section>
+
   <!-- TC 2015 PAGE -->
 
   <section id="tc15-page" class="external-page group" style="display: none;">
@@ -727,9 +720,9 @@
               5. Because you support local non-profits that make a direct impact.
             </p>
           </div>
-          <!-- <a href="#" class="snipcart-add-item btn donate" data-item-id="Donation" data-item-name="Donation" data-item-custom1-name="Amount" data-item-custom1-options="$0[+0.00]|$5[+5.00]|$10[+10.00]|$15[+15.00]|$20[+20.00]|$25[+25.00]|$50[+50.00]|$100[+100.00]|$250[+250.00]|$500[+500.00]" data-item-price="0.00" data-item-url="/" data-item-description="Thanks for donating!" data-item-shippable="false" data-item-quantity="false">
+          <a href="#" class="snipcart-add-item btn donate" data-item-id="Donation" data-item-name="Donation" data-item-custom1-name="Amount" data-item-custom1-options="$0[+0.00]|$5[+5.00]|$10[+10.00]|$15[+15.00]|$20[+20.00]|$25[+25.00]|$50[+50.00]|$100[+100.00]|$250[+250.00]|$500[+500.00]" data-item-price="0.00" data-item-url="/" data-item-description="Thanks for donating!" data-item-shippable="false" data-item-quantity="false">
             <i class="animated"></i>DONATE
-          </a> -->
+          </a>
         </div>
         <div class="donate-layout-right">
         </div>
@@ -757,50 +750,31 @@
   </section> -->
 
   <!-- Footer -->
+
   <section id="footer">
-    <div class="container content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <br>
-          <p class="mailing-list-text">Like us? Join our mailing list!
-          </p>
-          <form action="//formspree.io/austinpdx@gmail.com" method="POST" class="email_text">
-            <input type="email" name="_replyto" placeholder="Email Address">
-            <!-- <input type="submit" value="Send"> -->
-            <a type="submit" class="btn sign-up page-scroll" id="sign-up">
-              <i></i>SIGN UP
-            </a>
-          </form>
-          <br>
-          <div class="row sponsers">
-            <div>
-              <ul class="list-inline text-center">
-                <li class="sponsor">
-                  <a target="_blank">
-                    <img src="img/tecate.png" alt="Tecate Logo" width="40" height="auto">
-                  </a>
-                </li>
-                <li class="sponsor">
-                  <a target="_blank">
-                    <img src="img/gatorade.png" alt="Gatorade Logo" width="40" height="auto">
-                  </a>
-                </li>
-                <li class="sponsor">
-                  <a target="_blank">
-                    <img src="img/nike.png" alt="Nike Logo" width="40" height="auto">
-                  </a>
-                </li>
-                <li class="sponsor">
-                  <a target="_blank">
-                    <img src="img/visa.png" alt="Visa Logo" width="40" height="auto">
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <p class="copyright_text">&copy; 2015 Tabor Challenge</p>
-        </div>
+    <div class="flex-mailing-list">
+      <p class="mailing-list-text">Like us? Join our mailing list!
+      </p>
+    </div>
+    <div class="flex-mailing-list">
+      <form action="//formspree.io/austinpdx@gmail.com" method="POST" class="email_text">
+        <input type="email" name="_replyto" placeholder="Email Address">
+        <!-- <input type="submit" value="Send"> -->
+        <a type="submit" class="btn sign-up page-scroll" id="sign-up">
+          <i></i>SIGN UP
+        </a>
+      </form>
+    </div>
+    <div class="flex-sponsor-footer">
+      <div class="flex-sponsor-logos">
+        <img class="flex-sponsor-logo" src="img/tecate.png" alt="Race Details Page" />
+        <img class="flex-sponsor-logo" src="img/gatorade.png" alt="Race Details Page" />
+        <img class="flex-sponsor-logo" src="img/nike.png" alt="Race Details Page" />
+        <img class="flex-sponsor-logo" src="img/visa.png" alt="Race Details Page" />
       </div>
+    </div>
+    <div class="flex-copyright">
+      <p class="copyright_text">&copy; 2015 Tabor Challenge</p>
     </div>
   </section>
 
@@ -815,7 +789,7 @@
   <script src="js/index.js"></script>
 
   <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-  <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script> -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
   <!-- Custom Theme JavaScript -->
   <script src="js/grayscale.js"></script>
@@ -827,6 +801,7 @@
   <script type="text/javascript" src="dist/mobileQuestions.js"></script>
   <script type="text/javascript" src="dist/agreement.js"></script>
   <script type="text/javascript" src="dist/navigation.js"></script>
+  <link type="text/css" href="css/snipcart-overwrite.css" rel="stylesheet">
 
 
   <!-- <script type="text/javascript" src="dist/hamburgerMenu.js"></script> -->

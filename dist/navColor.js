@@ -16,3 +16,5 @@ $(document).ready(function(){
         $("body").removeClass("stop-scrolling");
     });
 });
+
+Snipcart.execute('config', 'show_continue_shopping', true);
