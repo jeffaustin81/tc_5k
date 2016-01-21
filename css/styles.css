@@ -1178,7 +1178,7 @@ body {
 
 }*/
 
-@media(max-width:416px) {
+@media(max-width:516px) {
 
   .btn-circle {
     margin-top: 10px;
@@ -1487,7 +1487,7 @@ body {
   }
 
   .product-photo {
-    height: 100%;
+    height: auto;
     width: 75%;
   }
 
