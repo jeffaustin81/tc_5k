@@ -1,0 +1,18 @@
+.snipcart-checkout-container  { z-index: 10000000; }
+
+.snipcart-th-4, .snipcart-td-4 { display: none !important; }
+
+#snipcart-discounts {
+  display: none !important;
+}
+
+.snipcart-overwrite #snipcart-footer {
+    display: none;
+}
+
+.snipcart-overwrite #snipcart-header #snipcart-title {
+    color: white;
+    background: url('../img/tc-logo.png') no-repeat 0 center;
+    padding-left: 90px;
+    font-family: "sitewide_din";
+}

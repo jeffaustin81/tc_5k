@@ -17,4 +17,4 @@ $(document).ready(function(){
     });
 });
 
-Snipcart.execute('config', 'show_continue_shopping', true);
+// Snipcart.execute('config', 'show_continue_shopping', true);
