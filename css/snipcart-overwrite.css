@@ -1,18 +1,120 @@
-.snipcart-checkout-container  { z-index: 10000000; }
-
-.snipcart-th-4, .snipcart-td-4 { display: none !important; }
-
+.snipcart-checkout-container {
+  z-index: 10000000;
+}
+.snipcart-th-4, .snipcart-td-4 {
+  display: none !important;
+}
 #snipcart-discounts {
   display: none !important;
 }
-
 .snipcart-overwrite #snipcart-footer {
-    display: none;
+  display: none;
+}
+.snipcart-overwrite #snipcart-header #snipcart-title {
+  color: white;
+  background: url('../img/tc-logo.png') no-repeat 0 center;
+  padding-left: 90px;
+  font-family: "sitewide_din";
 }
 
-.snipcart-overwrite #snipcart-header #snipcart-title {
-    color: white;
-    background: url('../img/tc-logo.png') no-repeat 0 center;
-    padding-left: 90px;
-    font-family: "sitewide_din";
+#snipcart-main-container a.snipcart-next, #snipcart-main-container a.snipcart-finalize, #snipcart-main-container a.snipcart-mainaction {
+  background: rgb(135,219,87);
+  background: -moz-linear-gradient(top,  rgba(227, 185, 100, .7) 1%, rgba(227, 185, 100, .7) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(227, 185, 100, .7)), color-stop(100%,rgba(227, 185, 100, .7)));
+  background: -webkit-linear-gradient(top,  rgba(227, 185, 100, .7) 1%,rgba(227, 185, 100, .7) 100%);
+  background: -o-linear-gradient(top,  rgba(227, 185, 100, .7) 1%,rgba(227, 185, 100, .7) 100%);
+  background: -ms-linear-gradient(top,  rgba(227, 185, 100, .7) 1%,rgba(227, 185, 100, .7) 100%);
+  background: linear-gradient(to bottom,  rgba(227, 185, 100, .7) 1%,rgba(227, 185, 100, .7) 100%);
+  border: 1px solid rgba(70, 78, 84, .1);
+}
+
+#snipcart-main-container label {
+    font: 11px brandon_grotesquebold;
+    text-transform: uppercase;
+    display: block;
+    color: #333;
+    opacity: .7;
+    margin-top: 0;
+}
+
+
+@media (max-width: 768px) {
+
+  .snipcart-overwrite #snipcart-main-container input[type=password], #snipcart-main-container input[type=text], #snipcart-main-container select {
+  /*width: 160px;*/
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+}
+
+button, input, optgroup, select, textarea {
+    margin-top: 5px;
+}
+
+#snipcart-main-container label {
+    font: 11px brandon_grotesquebold;
+    text-transform: uppercase;
+    display: block;
+    color: #333;
+    opacity: .7;
+    margin-top: 5;
+}
+
+#snipcart-main-container table#snipcart-items td.snipcart-td-2 {
+    text-align: center;
+    padding: 10px 20px 20px;
+    border-top: 0;
+}
+
+  .snipcart-overwrite #snipcart-main-container table#snipcart-items span.snipcart-thumbnail-wrapper {
+    width: 65px;
+    height: 65px;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+  .snipcart-overwrite #snipcart-main-container table#snipcart-items td.snipcart-td-2 {
+    text-align: left;
+    padding: 10px 20px 20px;
+    border-top: 0;
+  }
+
+  #snipcart-main-container table.snipcart-list .snipcart-td-left, #snipcart-main-container table.snipcart-list .snipcart-th-left {
+     text-align: left;
+}
+
+#snipcart-main-container label {
+
+    margin-top: 10px;;
+}
+
+#snipcart-main-container table#snipcart-items td.snipcart-td-3, #snipcart-main-container table#snipcart-items td.snipcart-td-5 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    border-right: 1px solid #f1f1f2;
+    margin: 10px 0;
+    border-top: none;
+    background: #fff!important;
+}
+
+#snipcart-main-container table#snipcart-items td.snipcart-td-4 {
+  width: 0;
+}
+
+.snipcart-overwrite #snipcart-main-container table#snipcart-items td.snipcart-td-2 {
+    text-align: left;
+    padding: 30px 20px 20px;
+    border-top: 0;
+}
+
+
+
 }
