@@ -43,6 +43,15 @@ a {
     border-radius: 4px;
 }
 
+.down-button {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 26px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 
 /*::-moz-scrollbar {
   display: none;
@@ -849,6 +858,18 @@ border-bottom:1px solid #A3A3A3;
 
 .tc-map {
   /*margin-bottom: .8%;*/
+}
+
+.tc-partner-proposal {
+  color: #E3B964;
+}
+
+.tc-partner-proposal:hover {
+  color: #E3B964;
+}
+
+.tc-partner-proposal:visited {
+  color: #E3B964;
 }
 
 .racetest {
