@@ -128,21 +128,6 @@ a:hover, a:focus {
   -o-background-size: cover;
 }
 
-#merch {
-  display: table;
-  width: 100%;
-  height: 85%;
-  padding-top: 50px;
-  /*padding: 50px 0;*/
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/reg.jpg) no-repeat center center scroll;
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
@@ -243,95 +228,6 @@ a:hover, a:focus {
   padding-bottom: 0;
 }
 
-.trees {
-  height: 250px;
-  width: 100%;
-  /*height: 100%;*/
-  /*padding: 50px 0;*/
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/trees2.jpeg) no-repeat bottom center scroll;
-  /*background: url(../img/sneakers_original.jpg) no-repeat center center scroll;*/
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.about-section {
-  width: 100%;
-  /*height: 100%;*/
-  /*padding: 50px 0;*/
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/sneakers_original.jpg) no-repeat bottom center scroll;
-  /*background: url(../img/sneakers_original.jpg) no-repeat center center scroll;*/
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.race-details-mobile {
-  width: 100%;
-  /*height: 210px;*/
-  /*height: 100%;*/
-  /*padding: 50px 0;*/
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/race-crop.jpg) no-repeat bottom center scroll;
-  /*background: url(../img/race.jpg) no-repeat center center scroll;*/
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.merch-mobile {
-  width: 100%;
-  /*height: 210px;*/
-  /*height: 100%;*/
-  /*padding: 50px 0;*/
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/reg.jpg) no-repeat bottom center scroll;
-  /*background: url(../img/crew.jpeg) no-repeat center center scroll;*/
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-.tc15 {
-  width: 100%;
-  /*height: 210px;*/
-  /*height: 100%;*/
-  /*padding: 50px 0;*/
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/cheers.jpeg) no-repeat bottom center scroll;
-  /*background: url(../img/crew.jpeg) no-repeat center center scroll;*/
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-
-.social-mobile {
-  width: 100%;
-  /*height: 210px;*/
-  /*height: 100%;*/
-  /*padding: 50px 0;*/
-  color: #fff;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/path.jpg) no-repeat bottom center scroll;
-  /*background: url(../img/crew.jpeg) no-repeat center center scroll;*/
-  background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
 #map {
   width: 100%;
   height: auto;
@@ -350,90 +246,7 @@ a:hover, a:focus {
   color: rgba(255, 255, 255, .8)
 }
 @media (min-width:767px) {
-  .about-section {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    background: url(../img/sneakers_original.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
-  .race-details-mobile {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    background: url(../img/race-crop.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
-  #merch {
-    position: relative;
-    width: 100%;
-    height: 75%;
-    color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/reg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
-  .merch-mobile {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    background: url(../img/reg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
-  .tc15 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    background: url(../img/cheers.jpeg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
-  /*.donate {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    background: url(../img/folks.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }*/
-  .social-mobile {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    background: url(../img/path.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
+
   .full-width {
     width: 100%;
   }
@@ -447,27 +260,6 @@ a:hover, a:focus {
   .align:hover {
     color: rgba(255, 255, 255, .8)
   }
-  /*#about {
-    height: 100%;
-  }
-  #race-details-mobile {
-    height: 100%;
-  }
-  #merch-mobile {
-    height: 100%;
-  }
-  #tc15 {
-    height: 100%;
-  }
-  #donate {
-    height: 100%;
-  }
-  #social-mobile {
-    height: 100%;
-  }*/
-  /*#merch {
-    height: 100%;
-  }*/
   .content-section {
     padding-top: 0px;
   }
@@ -476,14 +268,9 @@ a:hover, a:focus {
   }
   #map {
     height: 250px;
-    /*margin-bottom: 25px;*/
-    /*margin-top: -25px;*/
-    /*margin-top: 250px;*/
   }
 }
 .btn {
-  /*height: 50px;
-  width: 50px;*/
   border-radius: 50%;
   text-transform: uppercase;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -535,9 +322,6 @@ ul.banner-social-buttons {
   }
 }
 
-footer {
-  /*padding: 50px 0;*/
-}
 footer p {
   margin: 0;
 }
