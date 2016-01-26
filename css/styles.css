@@ -443,12 +443,23 @@ a[href^="https://maps.google.com/maps"] {
   -ms-flex-align: center;
   align-items: center;
 }
+.flex-merch-link{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 .flex-merch-item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  height: 100%;
   padding-bottom: 10px;
 }
 .flex-merch-item-reg {
@@ -457,6 +468,7 @@ a[href^="https://maps.google.com/maps"] {
   display: -ms-flexbox;
   display: flex;
   width: 65%;
+  height: 100%;
   padding-bottom: 10px;
 }
 .product-text {
@@ -571,8 +583,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .product-details-back {
   font-family: 'intro_din';
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 6px;
 }
 .product-details {
   font-family: 'intro_din';
@@ -1144,7 +1156,7 @@ a[href^="https://maps.google.com/maps"] {
     text-align: center;
   }
   .product-details-back {
-    padding-top: 70px;
+    padding-top: 60px;
     padding-bottom: 0;
     display: -webkit-box;
     display: -webkit-flex;
