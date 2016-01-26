@@ -38,7 +38,7 @@
 .hamburger .hamburger__icon,
 .hamburger .hamburger__icon:before,
 .hamburger .hamburger__icon:after {
-    background-color: #fff;
+    background-color: #464e54;
 }
 
 .hamburger__icon:before, .hamburger__icon:after {

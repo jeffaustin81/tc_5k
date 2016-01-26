@@ -79,10 +79,22 @@
 
 /* SPLASH */
 
+.lil-divvy {
+  position: fixed;
+}
+.navbar-brand {
+  position: fixed;
+}
+
 .tc-nav-logo {
   height: 2em;
   width: 2em;
   fill: #fff;
+}
+.tc-nav-logo-dark {
+  height: 2em;
+  width: 2em;
+  fill: #464e54;
 }
 .main_logo {
   fill: white;
@@ -109,6 +121,22 @@
   color: #fff;
   font-family: 'tabor_font';
   text-shadow: 0 0 .3px black;
+}
+.tc-title-dark {
+  z-index: 9998;
+  top: 40px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 46px;
+  color: #464e54;
+  font-family: 'tabor_font';
+  text-shadow: 0 0 0 black;
 }
 .tc-subtitle {
   z-index: 9998;
@@ -543,6 +571,8 @@ a[href^="https://maps.google.com/maps"] {
 }
 .product-details-back {
   font-family: 'intro_din';
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 .product-details {
   font-family: 'intro_din';
@@ -847,6 +877,9 @@ a[href^="https://maps.google.com/maps"] {
   .tc-title {
     font-size: 24px;
   }
+  .tc-title-dark {
+    font-size: 24px;
+  }
   .merch-font {
     font-size: 52px;
   }
@@ -972,6 +1005,10 @@ a[href^="https://maps.google.com/maps"] {
     visibility: visible;
   }
   .tc-title {
+    font-size: 20px;
+    top: 37px;
+  }
+  .tc-title-dark {
     font-size: 20px;
     top: 37px;
   }
@@ -1107,6 +1144,8 @@ a[href^="https://maps.google.com/maps"] {
     text-align: center;
   }
   .product-details-back {
+    padding-top: 70px;
+    padding-bottom: 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
