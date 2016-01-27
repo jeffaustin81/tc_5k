@@ -126,6 +126,10 @@
   text-decoration: none;
 }
 
+a.hamburger:focus {
+    outline: none;
+}
+
 @media(max-width:744px) {
   .hamburger {
 
