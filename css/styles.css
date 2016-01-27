@@ -583,8 +583,18 @@ a[href^="https://maps.google.com/maps"] {
 }
 .product-details-back {
   font-family: 'intro_din';
-  padding-top: 60px;
-  padding-bottom: 6px;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+.product-details-back p {
+  margin-bottom: 0;
+}
+.product-back-link {
+  color: #A3A3A3;
+}
+.product-back-link:hover {
+  text-decoration: none;
+  color: #A3A3A3;
 }
 .product-details {
   font-family: 'intro_din';
