@@ -842,7 +842,7 @@ a[href^="https://maps.google.com/maps"] {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 4px;
 }
 .flex-sponsor-logos {
   display: -webkit-box;
@@ -875,7 +875,7 @@ a[href^="https://maps.google.com/maps"] {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 4px;
 }
 .stop-scrolling {
   height: 100%;
