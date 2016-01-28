@@ -777,12 +777,12 @@ a[href^="https://maps.google.com/maps"] {
 }
 .pilot-photo {
   /*width: 75%;*/
-  width: 50%;
+  width: 75%;
   height: 100%;
 }
 .clubhouse-photo {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .tc15-gallery {
   /*padding-top: 15px;*/
@@ -1202,7 +1202,7 @@ a[href^="https://maps.google.com/maps"] {
   }
   .pilot-photo {
     /*width: 75%;*/
-    width: 50%;
+    width: 100%;
     height: 100%;
   }
   .faq-mobile {

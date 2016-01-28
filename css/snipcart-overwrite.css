@@ -29,6 +29,18 @@ label[for="snipcart-billing-phone"] {
 label[for="snipcart-billing-creditcardnumber"] {
   value="";
 }
+.snipcart-customfield {
+    float: left !important;
+    padding: 5px !important
+}
+
+.snipcart-td-2 {
+  width: 300px !important;
+}
+
+.snipcart-customfield-textbox label {
+  /*padding-bottom: 6px !important;*/
+}
 .snipcart-overwrite #snipcart-footer {
   display: none;
 }
@@ -60,7 +72,7 @@ label[for="snipcart-billing-creditcardnumber"] {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   #snipcart-main-container #snipcart-header.snipcart-total-hidden #snipcart-title {
     display: none;
@@ -73,9 +85,27 @@ label[for="snipcart-billing-creditcardnumber"] {
       width: 100%;
   }
 
+  .snipcart-td-2 {
+    width: 85% !important;
+  }
+  .snipcart-customfield-dropdown {
+    width: 100%;
+  }
+
+  .snipcart-customfield-textbox {
+    width: 100%;
+  }
+
+  .snipcart-td-2 .snipcart-td-left {
+    width: 400px;
+  }
+
+
   button, input, optgroup, select, textarea {
       margin-top: 5px;
   }
+
+
 
   #snipcart-main-container label {
       font: 11px brandon_grotesquebold;
