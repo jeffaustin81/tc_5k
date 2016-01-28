@@ -1,6 +1,6 @@
 # [Tabor Challenge](http://taborchallenge.com/)
 
- Tabor Challenge is an annual fundraising 5k in Portland, Oregon that raises money for scholarships given to 2 deserving Cleveland High School seniors and also honors the memory of the great LTJG Thomas Cameron who lost his life in a helicopter accident while serving the Coast Guard.
+ Tabor Challenge is an annual fundraising 5k in Portland, Oregon that raises money for scholarships given to 2 deserving Cleveland High School seniors and also honors the memory of the great LTJG Thomas Cameron who lost his life in a helicopter accident while serving with the Coast Guard.
 
 ## Creators
 
