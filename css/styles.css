@@ -266,6 +266,10 @@ select:-moz-focusring {
 .faq-title {
   padding-bottom: 10px;
 }
+.tc15-title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .tester {
   padding: 0px;
   min-width: 30px;
@@ -609,11 +613,50 @@ a[href^="https://maps.google.com/maps"] {
   background: #eaeaea;
 }
 .history-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+          align-items: center;
   height: 210px;
+}
+.flex-tc15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.flex-tc15-gallery {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.flex-tc15-photo {
+  /*display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;*/
+  width: 100%;
+  height: auto;
+  padding: 2px;
 }
 .test1 {
   background: url(../img/adult.png);
@@ -1236,6 +1279,10 @@ a[href^="https://maps.google.com/maps"] {
   .faq-title {
     padding-top: 10px;
   }
+  .tc15-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   #map {
     /*width: 100%;
     height: 200px;*/
@@ -1244,6 +1291,9 @@ a[href^="https://maps.google.com/maps"] {
 
   .tc15-gallery {
     font-size: 16px;
+  }
+  .flex-tc15 {
+    /*flex-direction: column;*/
   }
   .sponsor-description {
     font-size: 16px;
