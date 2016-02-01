@@ -14,97 +14,94 @@
   <link href="css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="css/grayscale.css" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet">
+  <link type="text/css" href="css/grayscale.css" rel="stylesheet">
+  <link type="text/css" href="css/styles.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Comfortaa:300' rel='stylesheet' type='text/css'>
-  <link href="dist/jquery.fatNav.css" rel="stylesheet" type="text/css">
-  <!-- <link href="dist/jquery.faqList.css" rel="stylesheet" type="text/css"> -->
 
   <!-- Custom Links -->
+  <link href="css/jquery.fatNav.css" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" href="img/favicon.png">
 
   <!-- Snipcart Links -->
-
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdn.snipcart.com/scripts/snipcart.js" id="snipcart" data-api-key="Y2NmN2Y3MzAtZjEwZi00NDhmLWI2ZTMtZTg4ZTlkMGEzZWQy"></script>
+  <script type="text/javascript" src="https://cdn.snipcart.com/scripts/snipcart.js" id="snipcart" data-api-key="ZTAyMDliMWYtOGNlNi00OTRlLTg3NWUtMzgyYjViNWE0YWQ2"></script>
   <link type="text/css" href="https://cdn.snipcart.com/themes/base/snipcart.min.css" rel="stylesheet" />
 
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  <!-- test -->
+  <!-- More custom links -->
+  <script type="text/javascript" src="dist/navColor.js"></script>
+  <script type="text/javascript" src="dist/scrollToggle.js"></script>
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="snipcart-overwrite">
+
   <!-- FATNAV MENU -->
+
   <div class="fat-nav">
     <div class="fat-nav__wrapper menu-text">
       <ul>
-        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-        <!-- <li class="hidden">
-          <a href="#page-top"></a>
-        </li> -->
-        <li><a class="page-scroll" href="#page-top" onclick="externalMenuHome()">HOME</a></li>
-        <li><a class="page-scroll" href="#race-details" onclick="externalMenuRaceDetails()">RACE DETAILS</a></li>
-        <li><a class="page-scroll" href="#about" onclick="externalMenuAbout()">ABOUT TC</a></li>
-        <li><a class="page-scroll" href="#merch" onclick="externalMenuMerch()">MERCH + REGISTRATION</a></li>
+        <li><a href="/">HOME</a></li>
+        <li><a href="/merch">REGISTRATION</a></li>
+        <li><a href="/history">ABOUT TC</a></li>
+        <li><a href="/race-details">RACE DETAILS</a></li>
+        <li><a href="/tc15">TC 2015</a></li>
+        <li><a href="/sponsorship">SPONSORS</a></li>
+        <li><a href="/donate">DONATE</a></li>
       </ul>
     </div>
   </div>
-  <!-- Navigation -->
-  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div>
-      <div class="navbar-header" id="home-logo">
-        <a class="navbar-brand page-scroll" href="">
-          <svg class="nav_logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="864px" height="864px" viewBox="0 0 864 864" enable-background="new 0 0 864 864" xml:space="preserve">
-            <g>
-              <path d="M742.305,325.513c-0.586,16.465-1.551,31.064-3.068,41.834l-1.297,9.887c-4.367,35.334-13.445,108.865-54.332,197.219
-                C632.994,683.649,550.922,778.298,439.684,855.72l-9.443,6.564l-9.441-6.564c-111.24-77.422-193.28-172.07-243.895-281.299
-                c-40.917-88.322-50.012-161.854-54.425-197.188l-1.233-9.887c-1.646-11.703-2.626-27.963-3.195-46.215l30.637,23.613
-                c0.506,7.039,1.123,13.238,1.883,18.568l1.328,10.266c4.16,33.848,12.875,104.264,51.863,188.441
-                c46.834,101.1,122.389,189.436,224.471,262.588l2.008,1.439l1.979-1.439c102.174-73.152,177.652-161.488,224.502-262.588
-                c38.955-84.146,47.719-154.594,51.895-188.441l1.312-10.266c0.568-4.223,1.09-8.904,1.518-14.123L742.305,325.513z
-                M263.723,142.513c-58.253,8.905-95.09,20.72-112.789,27.474l-2.088,0.807l-0.095,2.31c-0.332,7.022-0.664,24.643-1.013,44.698
-                h-29.751c0.648-31.27,1.534-54.853,1.646-56.719l0.506-9.743l8.794-4.239c2.784-1.345,51.23-24.199,153.485-37.122L263.723,142.513
-                z M580.848,110.342c100.355,12.97,147.949,35.413,150.701,36.758l8.793,4.239l0.475,9.743c0.111,1.866,1.029,25.417,1.678,56.655
-                l-29.736,0.063c-0.316-20.104-0.727-37.676-0.996-44.698l-0.078-2.31l-2.137-0.807c-17.398-6.596-53.27-18.189-109.83-26.999
-                L580.848,110.342z" />
-              <polygon points="698.111,327.204 670.117,327.157 670.117,314.694 712.68,314.614 750.561,285.448 670.117,285.56 670.117,273.538
-                764.605,273.413 802.74,244.104 62.028,244.263 99.498,273.317 193.687,273.507 193.687,285.671 114.539,285.718 151.566,314.505
-                193.687,314.772 193.687,327.284 167.811,327.331 204.236,355.802 246.91,355.802 246.91,302.056 398.939,302.056 398.939,523.522
-                463.123,523.522 463.123,301.772 616.434,301.772 616.434,356.069 660.531,356.069 	" />
-              <polygon points="383.551,360.483 325.25,360.483 282.117,398.585 282.117,559.409 325.25,598.065 579.186,598.065 579.186,518.999
-                515.588,518.999 515.588,540.224 346.713,540.224 346.713,417.755 383.551,417.755 	" />
-              <polygon points="478.971,359.978 579.455,359.978 579.455,438.745 515.35,438.745 515.35,418.056 479.225,418.056 	" />
-              <polygon points="399.066,613.915 463.219,613.915 463.219,673.671 509.451,673.671 509.451,731.464 352.486,731.464
-                352.486,674.081 399.066,674.081 	" />
-              <polygon points="334.219,220.268 526.326,220.268 491.988,161.524 510.051,161.524 476.172,102.718 488.352,102.718 430.051,1.491
-                371.719,102.307 383.471,102.307 350.035,161.524 367.67,161.524 	" />
-              <polygon points="351.395,128.499 319.303,72.461 279.508,140.283 287.654,140.283 265.494,179.587 276.771,179.587
-                254.645,219.366 316.139,219.366 340.529,177.325 323.367,177.325 	" />
-              <polygon points="508.723,128.499 540.783,72.461 580.562,140.283 572.449,140.283 594.576,179.587 583.252,179.587
-                605.426,219.366 543.932,219.366 519.541,177.325 536.734,177.325 	" />
-            </g>
-          </svg>
-        </a>
-      </div>
-      <div class="tc_title">
-        Tabor Challenge
-      </div>
-    </div>
-  </nav>
 
-  <!-- Intro Header -->
+  <!-- Navigation -->
+  <div clas="lil-divvy">
+    <a class="navbar-brand page-scroll" href="/">
+      <svg class="tc-nav-logo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="864px" height="864px" viewBox="0 0 864 864" enable-background="new 0 0 864 864" xml:space="preserve">
+        <g>
+          <path d="M742.305,325.513c-0.586,16.465-1.551,31.064-3.068,41.834l-1.297,9.887c-4.367,35.334-13.445,108.865-54.332,197.219
+            C632.994,683.649,550.922,778.298,439.684,855.72l-9.443,6.564l-9.441-6.564c-111.24-77.422-193.28-172.07-243.895-281.299
+            c-40.917-88.322-50.012-161.854-54.425-197.188l-1.233-9.887c-1.646-11.703-2.626-27.963-3.195-46.215l30.637,23.613
+            c0.506,7.039,1.123,13.238,1.883,18.568l1.328,10.266c4.16,33.848,12.875,104.264,51.863,188.441
+            c46.834,101.1,122.389,189.436,224.471,262.588l2.008,1.439l1.979-1.439c102.174-73.152,177.652-161.488,224.502-262.588
+            c38.955-84.146,47.719-154.594,51.895-188.441l1.312-10.266c0.568-4.223,1.09-8.904,1.518-14.123L742.305,325.513z
+            M263.723,142.513c-58.253,8.905-95.09,20.72-112.789,27.474l-2.088,0.807l-0.095,2.31c-0.332,7.022-0.664,24.643-1.013,44.698
+            h-29.751c0.648-31.27,1.534-54.853,1.646-56.719l0.506-9.743l8.794-4.239c2.784-1.345,51.23-24.199,153.485-37.122L263.723,142.513
+            z M580.848,110.342c100.355,12.97,147.949,35.413,150.701,36.758l8.793,4.239l0.475,9.743c0.111,1.866,1.029,25.417,1.678,56.655
+            l-29.736,0.063c-0.316-20.104-0.727-37.676-0.996-44.698l-0.078-2.31l-2.137-0.807c-17.398-6.596-53.27-18.189-109.83-26.999
+            L580.848,110.342z" />
+          <polygon points="698.111,327.204 670.117,327.157 670.117,314.694 712.68,314.614 750.561,285.448 670.117,285.56 670.117,273.538
+            764.605,273.413 802.74,244.104 62.028,244.263 99.498,273.317 193.687,273.507 193.687,285.671 114.539,285.718 151.566,314.505
+            193.687,314.772 193.687,327.284 167.811,327.331 204.236,355.802 246.91,355.802 246.91,302.056 398.939,302.056 398.939,523.522
+            463.123,523.522 463.123,301.772 616.434,301.772 616.434,356.069 660.531,356.069 	" />
+          <polygon points="383.551,360.483 325.25,360.483 282.117,398.585 282.117,559.409 325.25,598.065 579.186,598.065 579.186,518.999
+            515.588,518.999 515.588,540.224 346.713,540.224 346.713,417.755 383.551,417.755 	" />
+          <polygon points="478.971,359.978 579.455,359.978 579.455,438.745 515.35,438.745 515.35,418.056 479.225,418.056 	" />
+          <polygon points="399.066,613.915 463.219,613.915 463.219,673.671 509.451,673.671 509.451,731.464 352.486,731.464
+            352.486,674.081 399.066,674.081 	" />
+          <polygon points="334.219,220.268 526.326,220.268 491.988,161.524 510.051,161.524 476.172,102.718 488.352,102.718 430.051,1.491
+            371.719,102.307 383.471,102.307 350.035,161.524 367.67,161.524 	" />
+          <polygon points="351.395,128.499 319.303,72.461 279.508,140.283 287.654,140.283 265.494,179.587 276.771,179.587
+            254.645,219.366 316.139,219.366 340.529,177.325 323.367,177.325 	" />
+          <polygon points="508.723,128.499 540.783,72.461 580.562,140.283 572.449,140.283 594.576,179.587 583.252,179.587
+            605.426,219.366 543.932,219.366 519.541,177.325 536.734,177.325 	" />
+        </g>
+      </svg>
+    </a>
+  </div>
+  <a href="/">
+  <div class="tc-title">
+    Tabor Challenge
+  </div>
+  </a>
+  <div class="tc-subtitle">
+    The Realest 5k in Town
+  </div>
+
+  <!-- SPLASH PAGE -->
+
   <header id="splash" class="intro">
     <div class="intro-body">
       <div class="container">
@@ -140,13 +137,15 @@
                   605.426,219.366 543.932,219.366 519.541,177.325 536.734,177.325 	" />
               </g>
             </svg>
-            <p></p>
+            <!-- <p></p> -->
             <p class="intro-text">ROUND TWO
               <br>4.9.2016</p>
-            <!-- <a href="#race-details" class="btn btn-circle page-scroll"> -->
-            <!-- <i class="fa fa-angle-double-down animated"></i> -->
-            <a class="btn register page-scroll" id="register-now">
-              <i class="fa animated"></i>REGISTER NOW
+            <a class="btn register page-scroll" href="/merch">
+              <i class="animated"></i>REGISTER NOW
+            </a>
+            <br>
+            <a href="#start-scroll" class="btn btn-circle page-scroll">
+              <i class="down-button fa-angle-double-down animated"></i>
             </a>
           </div>
         </div>
@@ -154,239 +153,100 @@
     </div>
   </header>
 
-  <!-- Race Details Mobile -->
-  <section id="race-details-mobile" class="content-section text-center race-details-mobile history_padding history-flex">
-    <a id=race-details-mobile-link>
-      <h2 class="full-width history-font">Race Details</h2>
+  <div id="start-scroll"></div>
+
+  <!-- HIDDEN MOBILE REGISTRATION + MERCH BANNER -->
+  <div id="mobile-registration-banner" class="mobile-registration-banner">
+    <a href="/merch">
+      <img class="flexbanner tester" src="img/registration-text.jpg" alt="Merch" />
     </a>
-  </section>
+  </div>
 
-  <!-- Race Details Section for Web -->
-  <section id="race-details" class="content-section text-center">
-    <!-- Race Details Title -->
-
-    <div class="faq">
-      <div class="race-details-position">
-        <h2 class="race-details-title race-details">Race Details</h2>
-      </div>
-      <div id="map"></div>
-      <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
-      <ul class="faq-list sitewide-text">
-        <li>
-          <span class="questions">Where is this thing?</span> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
-        <li>
-          <span class="questions">Where do I park?</span> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
-        <li>
-          <span class="questions">Will there be support on the course?</span> Tons of moral support, just look to your fellow participants!</li>
-        <li>
-          <span class="questions">Is the race chip timed?</span> No, this is a fun run/walk!</li>
-        <li>
-          <span class="questions">Are dogs allowed?</span> Yes! Friendly pups are welcome on a leash.</li>
-        <li>
-          <span class="questions">Are strollers allowed?</span> Yes, but there are stairs and narrow trails on the route so be prepared to ask a fellow runner to help navigate those tricky spots.</li>
-        <li>
-          <span class="questions">Is there a kids race?</span> This race is open to children and children at heart. Discounted registration is available to students with valid student IDs and kids under *7* can join for free without a shirt or bib. Kids under *16* need parent
-          signature.
-        </li>
-        <li>
-          <span class="questions">Where do I pick up my packet?</span> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see
-          one of the important projects your race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
-        <li>
-          <span class="questions">Is there a bag check?</span> There is no official bag check.</li>
-        <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li>
-        <p></p>
-      </ul>
+  <!-- FIRST BANNERS GROUP -->
+  <div id="banners-1" class="flextest">
+    <div id="race-details-banner" class="flexbanner race-details-margin">
+      <a href="/race-details">
+        <img class="flexbanner tester" src="img/race-text.jpg" alt="Race Details" />
+      </a>
     </div>
-
-    <!-- CLICKABLE MOBILE VERSION -->
-
-    <div class="faq-mobile">
-      <h3 style="text-decoration: underline" class="sitewide-text questions faq-title">FAQ</h3>
-      <ul class="faq-list sitewide-text">
-        <li>
-          <span id="mobile-question-1" onclick="show1()">Where is this thing?</span>
-          <span id="mobile-answer-1" style="visibility: hidden; display: none;"> Plug Southeast Salmon Way, Portland, OR 97215 into your iphones and you will be on the right track!</li>
-        </span>
-        <li>
-          <span id="mobile-question-2" onclick="show2()">Where do I park?</span>
-          <span id="mobile-answer-2" style="visibility: hidden; display: none;"> There is street parking around the park and in the Mount Tabor neighborhood. Please be respectful of the residents by being mindful of driveways and Saturday sleeper-iners. Save the “whoop whoops” for the starting line!</li>
-        </span>
-        <li>
-          <span id="mobile-question-3" onclick="show3()">Will there be support on the course?</span>
-          <span id="mobile-answer-3" style="visibility: hidden; display: none;"> Tons of moral support, just look to your fellow participants!</li>
-        </span>
-        <li>
-          <span id="mobile-question-4" onclick="show4()">Is the race chip timed?</span>
-          <span id="mobile-answer-4" style="visibility: hidden; display: none;"> No, this is a fun run/walk!</li>
-        </span>
-        <li>
-          <span id="mobile-question-5" onclick="show5()">Are dogs allowed?</span>
-          <span id="mobile-answer-5" style="visibility: hidden; display: none;"> Yes! Friendly pups are welcome on a leash.</li>
-        </span>
-        <li>
-          <span id="mobile-question-6" onclick="show6()">Are strollers allowed?</span>
-          <span id="mobile-answer-6" style="visibility: hidden; display: none;"> Yes, but there are stairs and narrow trails on the route so be prepared to ask a fellow runner to help navigate those tricky spots.</li>
-        </span>
-        <li>
-          <span id="mobile-question-7" onclick="show7()">Is there a kids race?</span>
-          <span id="mobile-answer-7" style="visibility: hidden; display: none;"> This race is open to children and children at heart. Discounted registration is available to students with valid student IDs and kids under *7* can join for free without a shirt or bib. Kids under *16* need parent signature.</li>
-        </span>
-        <li>
-          <span id="mobile-question-8" onclick="show8()">Where do I pick up my packet?</span>
-          <span id="mobile-answer-8" style="visibility: hidden; display: none;"> We will be distributing packets at the LTJG Thomas J Cameron Memorial Field House on 31st in between Powell and Franklin Streets on Friday, April 8th, from 3:00pm-7:00pm. Come grab your race packet and see one of the important projects your
-            race registration supports! If you cannot attend you can still get your packet on race day from 8:15am-8:45am or after the race is over.</li>
-        </span>
-        <li>
-          <span id="mobile-question-9" onclick="show9()">Is there a bag check?</span>
-          <span id="mobile-answer-9" style="visibility: hidden; display: none;"> There is no official bag check.</li>
-        </span>
-        <!-- <li>* There is no cost increase for registering on the day of event. We strongly encourage pre race registration and packet pick up so that you can have time to mingle on race day!</li> -->
-        <p></p>
-      </ul>
+    <div id="history-banner" class="flexbanner history-margin">
+      <a href="/history">
+        <img class="flexbanner tester" src="img/history-text.jpg" alt="History" />
+      </a>
     </div>
-    <a href="https://www.google.com/maps/place/SE+Reservoir+Loop+Dr,+Portland,+OR+97215/@45.5114749,-122.5964876,17z/data=!3m1!4b1!4m2!3m1!1s0x5495a056250dc94f:0xb472a61eedcde9c1">
-      <img id="map-mobile" src="img/map-text.png" alt="map" width="100%" height="auto" />
-    </a>
-  </section>
-
-
-  <!-- About Section -->
-  <section id="about" class="content-section text-center about-section history_padding history-flex">
-    <a href="#">
-      <h2 class="full-width history-font">History of Tabor Challenge</h2>
-    </a>
-  </section>
-
-  <section id="merch-mobile" class="content-section text-center merch-mobile history_padding history-flex">
-    <a id="merch-mobile-link">
-      <h2 class="full-width history-font">Registration
-        <br>+ Merch</h2>
-    </a>
-  </section>
-
-  <section id="social-mobile" class="content-section text-center social-mobile history_padding history-flex">
-    <ul class="list-inline social-icons-list">
-      <li>
-        <a href="https://www.instagram.com/taborchallenge/" target="_blank" class="social-icons-mobile"><i class="fa fa-instagram fa-fw"></i><span class="instagram"></span></a>
-      </li>
-      <li>
-        <a href="mailto:taborchallenge5k@gmail.com" target="_blank" class="social-icons-mobile"><i class="fa fa-envelope fa-fw"></i><span class="mail"></span></a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/taborchallenge/" target="_blank" class="social-icons-mobile"><i class="fa fa-facebook-square fa-fw"></i><span class="facebook"></span></a>
-      </li>
-    </ul>
-  </section>
-
-  <!-- Merch Section -->
-  <section id="merch" class="content-section text-center history_padding" style="display: none;">
-    <div class="merch-section"></div>
-  </section>
-
-  <section id="merch-test" class="group" style="display: none;">
-    <h2 class="full-width text-center merch-font">Registration
-      <br>+ Merch</h2>
-    <div class="photos group">
-      <ul>
-        <li>
-          <a href="#" class="snipcart-add-item" data-item-id="1" data-item-name="Adult Registration" data-item-price="35.00" data-item-weight="20" data-item-url="/" data-item-image="img/adult.png" data-item-description="Adult Registration">
-            <img class="merch-item photo margin-test" src="img/adult.png" alt="Adult Registration" />
-          </a>
-        </li>
-        <li>
-          <a href="#" class="snipcart-add-item" data-item-id="2" data-item-name="Student Registration" data-item-price="20.00" data-item-weight="20" data-item-url="/" data-item-image="img/student.png" data-item-description="Student Registration">
-            <img class="merch-item photo margin-test" src="img/student.png" alt="Student Registration" />
-          </a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#" class="snipcart-add-item" data-item-id="3" data-item-name="T-Shirt" data-item-price="20.00" data-item-weight="20" data-item-url="/" data-item-image="img/shirt.jpg" data-item-description="Tabor Challenge T-Shirt">
-            <img class="merch-item photo margin-test" src="img/shirt.jpg" alt="T Shirt" />
-          </a>
-        </li>
-        <li>
-          <a href="#" class="snipcart-add-item" data-item-id="4" data-item-name="Koozie" data-item-price="5.00" data-item-weight="20" data-item-url="/" data-item-image="img/koozie.jpg" data-item-description="Tabor Challenge Koozie">
-            <img class="merch-item photo margin-test" src="img/koozie.jpg" alt="Koozie" />
-          </a>
-        </li>
-      </ul>
+    <div id="tc15-banner" class="flexbanner tc15-margin">
+      <a href="/tc15">
+        <img class="flexbanner tester" src="img/tc15-text.jpg" alt="TC 2015" />
+      </a>
     </div>
-  </section>
+  </div>
 
-  <!-- Social Section -->
-  <section id="social" class="container content-section text-center">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-        <ul class="list-inline banner-social-buttons">
-          <li>
-            <a href="https://www.instagram.com/taborchallenge/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i><span class="instagram"></span></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/taborchallenge/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="facebook"></span></a>
-          </li>
-          <li>
-            <a href="mailto:taborchallenge5k@gmail.com" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i><span class="mail"></span></a>
-          </li>
-        </ul>
+  <!-- WIDER CENTER BANNER -->
+  <a href="/merch">
+    <img id="center-banner" class="center-banner flexbanner tester nav-color" src="img/trees-banner-text.jpg" alt="Merch" />
+  </a>
+  <!-- <div id="map" class="tc-map"></div> -->
+
+  <!-- SECOND BANNERS GROUP -->
+  <div id="banners-2" class="flextest">
+    <div id="sponsor-banner" class="flexbanner nav-color">
+      <a href="/sponsorship">
+        <img class="flexbanner tester" src="img/sponsor-text.jpg" alt="Sponsors" />
+      </a>
+    </div>
+    <div id="donate-banner" class="flexbanner nav-color donate-margin">
+      <a href="/donate">
+        <img class="flexbanner tester" src="img/donate-text.jpg" alt="Donate" />
+      </a>
+    </div>
+    <div id="icons-on-path" class="flexbanner social-margin tester">
+      <img id="social-icons-image" class="flexbanner tester" src="img/path.jpg" alt="Social" />
+      <div id="path-icons" class="social-logos social-logos-group social-flex text-center">
+        <a href="https://www.instagram.com/taborchallenge/" target="_blank">
+          <img class="social-logo" src="img/instagram-logo.png" alt="Student Registration" />
+        </a>
+        <a href="mailto:taborchallenge5k@gmail.com" target="_blank">
+          <img class="social-logo" src="img/mail-logo.png" alt="Student Registration" />
+        </a>
+        <a href="https://www.facebook.com/taborchallenge/" target="_blank">
+          <img class="social-logo" src="img/facebook-logo.png" alt="Student Registration" />
+        </a>
       </div>
     </div>
-  </section>
-
+  </div>
 
   <!-- Footer -->
   <section id="footer">
-    <div class="container content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <!-- <br> -->
-          <p class="mailing-list-text">Like us? Join our mailing list!
-          </p>
-          <form class="email_text">
-            <input type="text" name="firstname" placeholder="Email Address">
-            <a class="btn sign-up page-scroll" id="sign-up">
-              <i></i>SIGN UP
-            </a>
-          </form>
-          <br>
-          <div class="row sponsers">
-            <div>
-              <ul class="list-inline text-center">
-                <li class="sponsor">
-                  <a target="_blank">
-                    <img src="img/tecate.png" alt="Tecate Logo" width="40" height="auto">
-                  </a>
-                </li>
-                <li class="sponsor">
-                  <a target="_blank">
-                    <img src="img/gatorade.png" alt="Gatorade Logo" width="40" height="auto">
-                  </a>
-                </li>
-                <li class="sponsor">
-                  <a target="_blank">
-                    <img src="img/nike.png" alt="Nike Logo" width="40" height="auto">
-                  </a>
-                </li>
-                <li class="sponsor">
-                  <a target="_blank">
-                    <img src="img/visa.png" alt="Visa Logo" width="40" height="auto">
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- <div class="line-separator"></div> -->
-          <p class="copyright_text">&copy; 2015 Tabor Challenge</p>
-        </div>
+    <div class="flex-mailing-list">
+      <p class="mailing-list-text">Like us? Join our mailing list!
+      </p>
+    </div>
+    <div class="flex-mailing-list">
+      <form action="//formspree.io/taborchallenge@gmail.com" method="POST" class="email_text">
+        <input type="email" name="_replyto" placeholder="Email Address">
+        <input type="submit" class="sign-up" value="Send">
+        <!-- <a type="submit" class="btn sign-up page-scroll heyyy" id="sign-up">
+          <i></i>SIGN UP
+        </a> -->
+      </form>
+    </div>
+    <div class="flex-sponsor-footer">
+      <div class="flex-sponsor-logos">
+        <img class="flex-sponsor-logo" src="img/tc-logo.jpg" alt="Sponsor logo" />
+        <img class="flex-sponsor-logo" src="img/heli.jpg" alt="Sponsor logo" />
+        <img class="flex-sponsor-logo" src="img/chs.jpg" alt="Sponsor logo" />
+        <!-- <img class="flex-sponsor-logo" src="img/visa.png" alt="Race Details Page" /> -->
       </div>
+    </div>
+    <div class="flex-copyright">
+      <p class="copyright_text">&copy; 2015 Tabor Challenge</p>
     </div>
   </section>
 
   <!-- jQuery -->
-  <script src="js/jquery-1.11.3.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- <script src="js/jquery-1.11.3.js"></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
   <script src="js/jquery.easing.min.js"></script>
-  <!-- Bootstrap Core JavaScript -->
 
   <!-- Plugin JavaScript -->
   <script src="js/bootstrap.min.js"></script>
@@ -398,14 +258,15 @@
   <!-- Custom Theme JavaScript -->
   <script src="js/grayscale.js"></script>
 
+  <!-- MY JS FILES -->
   <script src="js/index.js"></script>
   <script type="text/javascript" src="dist/jquery.fatNav.js"></script>
   <script type="text/javascript" src="dist/main.js"></script>
   <script type="text/javascript" src="dist/mobileQuestions.js"></script>
+  <script type="text/javascript" src="dist/agreement.js"></script>
   <script type="text/javascript" src="dist/navigation.js"></script>
-  <script type="text/javascript" src="dist/homeLogo.js"></script>
-  <script type="text/javascript" src="dist/externalPageMenu.js"></script>
+  <link type="text/css" href="css/snipcart-overwrite.css" rel="stylesheet">
+  <!-- <script type="text/javascript" src="dist/hamburgerMenu.js"></script> -->
 
 </body>
-
 </html>

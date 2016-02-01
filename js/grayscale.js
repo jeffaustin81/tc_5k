@@ -5,13 +5,13 @@
  */
 
 // jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
-    } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
-    }
-});
+// $(window).scroll(function() {
+//     if ($(".navbar").offset().top > 50) {
+//         $(".navbar-fixed-top").addClass("top-nav-collapse");
+//     } else {
+//         $(".navbar-fixed-top").removeClass("top-nav-collapse");
+//     }
+// });
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
@@ -42,11 +42,17 @@ function init() {
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(45.509670242020604, -122.59437561035156), // Portland
+        // mapTypeId: google.maps.MapTypeId.TERRAIN,
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
         scrollwheel: false,
-        draggable: false,
+        draggable: true,
+        zoomControl: true,
+        // mapTypeControl: true,
+        // scaleControl: true,
+        // streetViewControl: true,
+        // rotateControl: true,
 
         // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
@@ -56,13 +62,13 @@ function init() {
         "elementType": "all",
         "stylers": [
             {
-                "hue": "#252525"
+                "hue": "#E5B870"
             },
             {
                 "saturation": -100
             },
             {
-                "lightness": -81
+                "lightness": 8
             },
             {
                 "visibility": "on"
@@ -74,7 +80,7 @@ function init() {
         "elementType": "all",
         "stylers": [
             {
-                "hue": "#666666"
+                "hue": "yellow"
             },
             {
                 "saturation": -100
@@ -110,10 +116,10 @@ function init() {
         "elementType": "all",
         "stylers": [
             {
-                "hue": "#777777"
+                "hue": "#E5B870"
             },
             {
-                "saturation": -100
+                "saturation": -90
             },
             {
                 "lightness": -6
@@ -188,7 +194,7 @@ function init() {
     var map = new google.maps.Map(mapElement, mapOptions);
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var image = 'img/tc_marker_fill_white.png';
+    var image = '../img/tc_marker_fill_white.png';
     var myLatLng = new google.maps.LatLng(45.509670242020604, -122.59437561035156);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,

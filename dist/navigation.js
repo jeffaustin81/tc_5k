@@ -1,77 +1,192 @@
-$("#register-now").click(function(){
-    $("#merch").fadeIn();
-    $("#merch-test").fadeIn();
-    $("#splash").hide(); // or .fadeIn(), etc.
-    $("#race-details").hide();
-    $("#about").hide();
-    $("#race-details-mobile").hide();
-    $("#merch-mobile").hide();
-    $("#social-mobile").hide();
-
-});
-
-$("#race-details-mobile-link").click(function(){
-    window.scrollTo(0, 0);
-    $("#race-details").fadeIn();
-    // $("#map").fadeIn();
-    $("#splash").hide(); // or .fadeIn(), etc.
-    $("#merch").hide();
-    $("#merch-test").hide();
-    $("#about").hide();
-    // $("#race-details-mobile").hide();
-    $("#merch-mobile").hide();
-    $("#social-mobile").hide();
-
-});
-
-$("#merch-mobile-link").click(function(){
-    window.scrollTo(0, 0);
-    $("#merch").fadeIn();
-    $("#merch-test").fadeIn();
-    $("#splash").hide(); // or .fadeIn(), etc.
-    $("#race-details").hide();
-    $("#about").hide();
-    $("#race-details-mobile").hide();
-    $("#merch-mobile").hide();
-    $("#social-mobile").hide();
-
-});
-
-$("#about-link").click(function(){
-    window.scrollTo(0, 0);
-    $("#merch").hide();
-    $("#merch-test").hide();
-    $("#splash").hide(); // or .fadeIn(), etc.
-    $("#race-details").hide();
-    $("#about").fadeIn();
-    $("#race-details-mobile").hide();
-    $("#merch-mobile").hide();
-    $("#social-mobile").hide();
-
-});
-
-
-// $(document).ready(function(){
-//   $("#register-now").click(function() {
-//     $("#splash").hide();
-//   )}
+// $(".home-banner").click(function(){
+//     location.reload();
+//     window.scrollTo(0, 0);
+// });
+//
+// $(".fat-nav").click(function(){
+//     $(".hamburger.toggler").toggleClass("active");
+//     window.scrollTo(0, 0);
 // });
 
+// REGISTER NOW BUTTON
 
-// function navigate() {
-//   var splash = document.getElementById("splash");
-//   var details = document.getElementById("race-details");
-//   var about = document.getElementById("about");
-//   var merch = document.getElementById("merch");
+// $("#register-now").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".tc-subtitle").hide();
+//     $("#splash").hide();
+//     $("#mobile-registration-banner").hide();
+//     $("#banners-1").hide();
+//     $("#banners-2").hide();
+//     $("#center-banner").hide();
+//     $("#history-page").hide();
+//     $("#race-details-page").hide();
+//     $("#tc15-page").hide();
+//     $("#sponsor-page").hide();
+//     $("#donate-page").hide();
+//     $("#registration-page").fadeIn();
+// });
+
+// BANNERS
+
+// $(".race-details-banner").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".tc-subtitle").hide();
+//     $("#splash").hide();
+//     $("#mobile-registration-banner").hide();
+//     $("#banners-1").hide();
+//     $("#banners-2").hide();
+//     $("#center-banner").hide();
+//     $("#registration-page").hide();
+//     $("#history-page").hide();
+//     $("#tc15-page").hide();
+//     $("#sponsor-page").hide();
+//     $("#donate-page").hide();
+//     $("#race-details-page").fadeIn();
+// });
 //
-//     splash.style.visibility = "hidden";
-//     splash.style.display = "none";
+// $(".history-banner").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".tc-subtitle").hide();
+//     $("#splash").hide();
+//     $("#mobile-registration-banner").hide();
+//     $("#banners-1").hide();
+//     $("#banners-2").hide();
+//     $("#center-banner").hide();
+//     $("#registration-page").hide();
+//     $("#race-details-page").hide();
+//     $("#tc15-page").hide();
+//     $("#sponsor-page").hide();
+//     $("#donate-page").hide();
+//     $("#history-page").fadeIn();
+// });
 //
-//     details.style.visibility = "hidden";
-//     details.style.display = "none";
+// $(".tc15-banner").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".tc-subtitle").hide();
+//     $("#splash").hide();
+//     $("#mobile-registration-banner").hide();
+//     $("#banners-1").hide();
+//     $("#banners-2").hide();
+//     $("#center-banner").hide();
+//     $("#registration-page").hide();
+//     $("#history-page").hide();
+//     $("#race-details-page").hide();
+//     $("#sponsor-page").hide();
+//     $("#donate-page").hide();
+//     $("#tc15-page").fadeIn();
+// });
 //
-//     about.style.visibility = "hidden";
-//     about.style.display = "none";
+// $(".registration-banner").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".tc-subtitle").hide();
+//     $("#splash").hide();
+//     $("#mobile-registration-banner").hide();
+//     $("#banners-1").hide();
+//     $("#banners-2").hide();
+//     $("#center-banner").hide();
+//     $("#history-page").hide();
+//     $("#race-details-page").hide();
+//     $("#tc15-page").hide();
+//     $("#sponsor-page").hide();
+//     $("#donate-page").hide();
+//     $("#registration-page").fadeIn();
+// });
 //
-//     merch.style.visibility = "visible";
-//     merch.style.display = "inline";
+// $(".sponsor-banner").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".tc-subtitle").hide();
+//     $("#splash").hide();
+//     $("#mobile-registration-banner").hide();
+//     $("#banners-1").hide();
+//     $("#banners-2").hide();
+//     $("#center-banner").hide();
+//     $("#registration-page").hide();
+//     $("#history-page").hide();
+//     $("#race-details-page").hide();
+//     $("#tc15-page").hide();
+//     $("#sponsor-page").hide();
+//     $("#donate-page").hide();
+//     $("#sponsor-page").fadeIn();
+// });
+//
+// $(".donate-banner").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".tc-subtitle").hide();
+//     $("#splash").hide();
+//     $("#banners-1").hide();
+//     $("#banners-2").hide();
+//     $("#mobile-registration-banner").hide();
+//     $("#center-banner").hide();
+//     $("#registration-page").hide();
+//     $("#history-page").hide();
+//     $("#race-details-page").hide();
+//     $("#tc15-page").hide();
+//     $("#sponsor-page").hide();
+//     $("#donate-page").fadeIn();
+// });
+
+// MERCH ITEMS
+
+// $(".adult-reg-product").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".reg-photo").hide();
+//     $(".flex-merch").hide();
+//     $(".external-page-title").hide();
+//     $(".adult-reg-details").fadeIn();
+// });
+//
+// $(".student-reg-product").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".reg-photo").hide();
+//     $(".flex-merch").hide();
+//     $(".external-page-title").hide();
+//     $(".student-reg-details").fadeIn();
+// });
+//
+// $(".shirt-product").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".reg-photo").hide();
+//     $(".flex-merch").hide();
+//     $(".external-page-title").hide();
+//     $(".shirt-details").fadeIn();
+// });
+//
+// $(".koozie-product").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".reg-photo").hide();
+//     $(".flex-merch").hide();
+//     $(".external-page-title").hide();
+//     $(".koozie-details").fadeIn();
+// });
+//
+// $(".adult-reg-back").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".adult-reg-details").hide();
+//     $(".reg-photo").fadeIn();
+//     $(".flex-merch").fadeIn();
+//     $(".external-page-title").fadeIn();
+// });
+//
+// $(".student-reg-back").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".student-reg-details").hide();
+//     $(".reg-photo").fadeIn();
+//     $(".flex-merch").fadeIn();
+//     $(".external-page-title").fadeIn();
+// });
+//
+// $(".shirt-back").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".shirt-details").hide();
+//     $(".reg-photo").fadeIn();
+//     $(".flex-merch").fadeIn();
+//     $(".external-page-title").fadeIn();
+// });
+//
+// $(".koozie-back").click(function(){
+//     window.scrollTo(0, 0);
+//     $(".koozie-details").hide();
+//     $(".reg-photo").fadeIn();
+//     $(".flex-merch").fadeIn();
+//     $(".external-page-title").fadeIn();
+// });

@@ -4,53 +4,101 @@
   outline: solid #f00 1px !important;
 }*/
 
-/*NAVBAR*/
+/* OVERRIDES*/
 
-::-webkit-scrollbar {
-  display: none;
+.list-inline {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
 }
-
-/*::-moz-scrollbar {
-  display: none;
-}*/
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+  /* vertical-align: middle; */
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.down-button {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 26px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+/* FONTS */
 
 @font-face {
   font-family: 'intro_din';
   src: url(../fonts/gidole-regular.otf);
 }
-
 @font-face {
   font-family: 'sitewide_din';
   src: url(../fonts/DIN_Condensed_Bold.ttf);
 }
-
 @font-face {
   font-family: 'section_titles_din';
   src: url(../fonts/DIN_Alternate_Bold.ttf);
 }
-
 @font-face {
   font-family: 'tabor_font';
   src: url(../fonts/Haymaker.ttf);
 }
+@font-face {
+  font-family: 'futura';
+  src: url(../fonts/GlacialIndifference-Regular.otf);
+}
 
+/* GENERAL STUFF */
+
+::-webkit-scrollbar {
+  display: none;
+}
 .body {
   color: #fff;
 }
-
-.btn:hover,
-.btn:focus,
-.btn.focus {
+.btn:hover, .btn:focus, .btn.focus {
   color: #fff;
   text-decoration: none;
 }
 
-.nav_logo {
+/* SPLASH */
+
+.lil-divvy {
+  position: fixed;
+}
+.navbar-brand {
+  position: fixed;
+}
+
+.tc-nav-logo {
   height: 2em;
   width: 2em;
   fill: #fff;
 }
-
+.tc-nav-logo-dark {
+  height: 2em;
+  width: 2em;
+  fill: #464e54;
+}
 .main_logo {
   fill: white;
   height: 15em;
@@ -61,80 +109,152 @@
   padding: 1%;
   text-align: center;
 }
-
-/*TITLE HEADER*/
-
-.tc_title {
+.intro-text {
+  padding-top: 20px;
+}
+.tc-title {
+  z-index: 9998;
   top: 40px;
   margin: 0;
   position: absolute;
   left: 50%;
-  /* Bring back once hanburger menu is in the nav and TC title is centered */
-
-  /*-moz-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -o-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);*/
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-size: 46px;
   color: #fff;
   font-family: 'tabor_font';
+  text-shadow: 0 0 .3px black;
 }
-
+.tc-title-dark {
+  z-index: 9998;
+  top: 40px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 46px;
+  color: #464e54;
+  font-family: 'tabor_font';
+  text-shadow: 0 0 0 black;
+}
+.tc-subtitle {
+  z-index: 9998;
+  top: 75px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'intro_din';
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 .1px black;
+  text-transform: uppercase;
+}
 .history-font {
   font-family: 'sitewide_din';
-  font-size: 110px;
+  font-size: 34px;
   color: white;
-  /*line-height: .5;*/
 }
-
-.race-details-title {
-  font-family: 'section_titles_din';
-  font-size: 72px;
+.external-page {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.paragraph-text {
+  text-indent: 50px;
+  font-family: 'intro_din';
   color: #858585;
 }
-
-.race-details-position {
-  padding-bottom: 35px;
-  padding-top: 11.5px;
+.history-quote {
+  display: flex;
+  justify-content: center;
 }
-
-#race-details-mobile {
+.history-quote p {
+  font-family: 'section_titles_din';
+  font-size: 42px;
+  font-weight: bold;
+  color: #464e54;
+}
+.faq-list {
+  padding: 0;
+}
+#social-banner {
+  position: relative;
+}
+.fa {
+  display: inline-block;
+  font-size: inherit;
+}
+.social-path {
+  height: auto;
+  width: 100%;
+  color: #fff;
+  background: url(../img/path.jpg) no-repeat bottom center scroll;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.external-page-header {
+  text-align: center;
+  padding: 80px 0 0;
+}
+.external-page-title {
+  max-width: 600px;
+  margin: 0 auto 1em;
+  font-size: 20px;
+  color: #464e54;
+  text-transform: uppercase;
+}
+.external-page-content {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.mobile-registration-banner {
   visibility: hidden;
   display: none;
 }
-
-#merch-mobile {
+.tabor-title-1 {
+  visibility: visible;
+  display: inline;
+}
+.tabor-title-2 {
   visibility: hidden;
   display: none;
 }
-
-#map-mobile {
+.faq-mobile {
   visibility: hidden;
   display: none;
 }
-
-#social-mobile {
-  visibility: hidden;
-  display: none;
+.faq {
+  visibility: visible;
+  display: inline;
 }
-
-/*.intro .intro-body .intro-text {
-  font-size: 18px;
-  font-family: 'intro_din';
-  opacity: .8;
-}*/
-
+.questions {
+  font-size: 26px;
+  color: #464e54;
+}
 .sitewide-text {
   font-family: 'section_titles_din';
 }
-
 .menu-text {
-  /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: 'sitewide_din';
-  font-size: 20px;
+  font-size: 18px;
 }
 .sneakers {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/sneakers.jpg) no-repeat bottom center scroll;
@@ -143,132 +263,91 @@
   vertical-align: middle;
   display: inline-block;
 }
-/*.race-details {
-  margin-top: 11.5px;
-}*/
-
 .faq-title {
   padding-bottom: 10px;
 }
-
-#social {
-  margin-top: 15px;
-  margin-bottom: 10px;
+.tc15-title {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-
-a[href^="http://maps.google.com/maps"]{display:none !important}
-a[href^="https://maps.google.com/maps"]{display:none !important}
-
+.tester {
+  padding: 0px;
+  min-width: 30px;
+}
+a[href^="http://maps.google.com/maps"] {
+  display: none !important
+}
+a[href^="https://maps.google.com/maps"] {
+  display: none !important
+}
 .gmnoprint a, .gmnoprint span, .gm-style-cc {
-    display:none;
+  display: none;
 }
 .gmnoprint div {
-    background:none !important;
-}
-
-.sponsors {
-  margin: -15px 0;
+  background: none !important;
 }
 .faq-list {
   list-style: none;
   font-size: 20px;
   text-align: left;
-  margin: 0 75px;
-  /*margin-right: 16.66666667%;*/
 }
-
-.faq-mobile {
-  visibility: hidden;
-  display: none;
-}
-
-.faq {
-  visibility: visible;
-  display: inline;
-}
-
-.questions {
-  font-size: 26px;
-  color: #858585;
-}
-
-/*.mobile-questions {
-  font-size: 26px;
-  color: #858585;
-}*/
-
 #mobile-question-1 {
-  font-size: 24px;
+  font-size: 20px;
   color: #858585;
 }
-
 #mobile-question-2 {
-  font-size: 24px;
+  font-size: 20px;
   color: #858585;
 }
-
 #mobile-question-3 {
-  font-size: 24px;
+  font-size: 20px;
   color: #858585;
 }
-
 #mobile-question-4 {
-  font-size: 24px;
+  font-size: 20px;
   color: #858585;
 }
-
 #mobile-question-5 {
-  font-size: 24px;
+  font-size: 20px;
   color: #858585;
 }
-
 #mobile-question-6 {
-  font-size: 24px;
+  font-size: 20px;
   color: #858585;
 }
-
 #mobile-question-7 {
-  font-size: 24px;
+  font-size: 20px;
   color: #858585;
 }
-
 #mobile-question-8 {
-  font-size: 24px;
+  font-size: 20px;
   color: #858585;
 }
-
 #mobile-question-9 {
-  font-size: 24px;
+  font-size: 20px;
   color: #858585;
 }
-
-.map-mobile {
-
+.map-mobile {}
+.social-icons-list li {
+  color: white;
 }
-
-.line-separator{
-height:1px;
-background:#717171;
-border-bottom:1px solid #A3A3A3;
+.line-separator {
+  height: 1px;
+  background: #717171;
+  border-bottom: 1px solid #A3A3A3;
 }
-
 .flex-footer-outer {
   display: flex;
   justify-content: center;
 }
-
 .flex-footer {
   display: flex;
   width: 50%;
   justify-content: center;
-  /*border-top: 1px solid #A3A3A3;*/
 }
-
-.btn-lg,
-.btn-group-lg > .btn {
+.btn-lg, .btn-group-lg > .btn {
   padding: 10px 10px;
 }
-
 .register {
   font-size: 16px;
   color: #fff;
@@ -276,27 +355,30 @@ border-bottom:1px solid #A3A3A3;
   border: 1px solid rgba(255, 255, 255, .9);
   border-radius: 24px;
 }
-
 .register:hover {
   color: rgba(0, 0, 0, 0.5);
   background-color: rgba(255, 255, 255, .9);
 }
-
+.donate {
+  font-size: 16px;
+  color: black;
+  font-family: 'futura';
+  border: 1px solid rgba(0, 0, 0, .9);
+  border-radius: 1;
+  background-color: white;
+}
+.donate:hover {
+  background-color: rgba(0, 0, 0, .9);
+  color: white;
+}
 .sign-up {
-  font-size: 10px;
+  font-size: 11px;
   color: white;
   font-family: 'section_titles_din';
-  /*border: 1px solid #858585;*/
-  border-radius: 1px;
-  padding: 6px;
+  border-radius: 0;
+  padding: 4px 8px 4px 8px;
   background-color: #858585;
 }
-
-.sign-up:hover {
-  color: rgba(0, 0, 0, 0.5);
-  background-color: rgba(255, 255, 255, .9);
-}
-
 .copyright_text {
   font-family: 'section_titles_din';
   font-size: 12px;
@@ -305,141 +387,621 @@ border-bottom:1px solid #A3A3A3;
   font-family: 'section_titles_din';
   margin-bottom: 8px;
 }
-
 .about-section {
   box-sizing: border-box;
 }
-
+.flex-merch {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.flex-regs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+}
+.flex-products {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+}
+.product-with-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.flex-merch-link{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.flex-merch-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  height: 100%;
+  padding-bottom: 10px;
+}
+.flex-merch-item-reg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  height: 100%;
+  padding-bottom: 10px;
+}
+.product-text {
+  font-family: 'sitewide_din';
+  font-size: 16px;
+  color: black;
+}
 #merch-test {
   width: 75%;
   margin: auto;
 }
-
-.group:after {
+.merch-items-group:after {
   content: "";
   display: table;
   clear: both;
 }
-
-.photos{
-  width:75%;
+.merch-items {
   margin: auto;
 }
-
-.photos ul{
+.merch-items ul {
   list-style: none;
-
 }
-
 .margin-test {
   padding-right: 25px;
 }
-
 .photo {
-  /*margin: 1.66%;*/
-  /*margin-left: 10px;
-  margin-right: 10px;*/
 }
-
 .merch-font {
   top: 80px;
   font-size: 72px;
   color: #858585;
   padding-top: 20px;
   font-family: 'section_titles_din';
-
 }
-
-.merch-items-list {
-  padding-top: 10px;
-}
-
-.merch-items-list ul{
-  list-style: none;
-}
-
-.merch-items-list img{
-  max-width:10%;
-}
-
-.merch-items {
-
-}
-
 .merch-item {
-
-}
-
-/*body, html {
-  height: 100%;
-}*/
-
-.merch-items-list {
-  top: 0;
-  left: 0;
-  width: 25%;
-  height: 300px;
-  margin: auto;
-}
-
-.merch-item {
-
   float: left;
   width: 50%;
   background: #fff;
   color: #ccc;
   text-align: center;
-  height: 50%;
+  height: auto;
 }
-
+/*.product-layout {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}*/
+.product-layout {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+     -webkit-box-align: start;
+     -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+     align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.product-layout-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 32%;
+}
+.product-layout-left-image-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+.empty-test {
+  padding-right: 40px;
+}
+.product-layout-right {
+  width: 59%;
+  /*height: auto;*/
+}
+.product-photo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: 350px;
+  padding-bottom: 20px;
+}
+.mmm {
+  height: 100%;
+  width: 100%;
+}
+.product-title {
+  font-family: 'futura';
+  color: #000;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.agreement {
+  text-align: center;
+}
+.agreement-link {
+  font-family: 'intro_din';
+  color: #858585;
+  text-align: center;
+}
+.agreement {
+  font-family: 'intro_din';
+}
+.product-details-back {
+  font-family: 'intro_din';
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+.product-details-back p {
+  margin-bottom: 0;
+}
+.product-back-link {
+  color: #A3A3A3;
+}
+.product-back-link:hover {
+  text-decoration: none;
+  color: #A3A3A3;
+}
+.product-details {
+  font-family: 'intro_din';
+}
 .col.two, .col.three {
   background: #eaeaea;
 }
-
 .history-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+          align-items: center;
   height: 210px;
-  /*border: 10px solid black;*/
-
 }
-
-.snipcart-add-item {
-  overflow:hidden;
+.flex-tc15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
-
-#overlay-adultreg {
-  background:rgba(0,0,0,.75);
-  text-align:center;
-  padding:45px 0 66px 0;
-  opacity:0;
-  -webkit-transition: opacity .25s ease;
-  -moz-transition: opacity .25s ease;
+.flex-tc15-gallery {
+  width: 50%;
+  /*display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;*/
 }
-
-#adultreg:hover #overlay-adultreg {
-  opacity:1;
+.flex-tc15-photo {
+  /*display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;*/
+  width: 100%;
+  height: 100%;
+  padding: 2px;
 }
-
-/*.navbar-custom {
-  margin-bottom: 0;
-  border-bottom: 1px solid rgba(255,255,255,.3);
+.test1 {
+  background: url(../img/adult.png);
+  height: auto;
+  width: auto;
+}
+.flextest {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: .8%;
+  margin-bottom: .8%;
+}
+.flexbanner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.center-banner {
+  width: 100%;
+  height: auto;
+  margin-bottom: .8%;
+}
+.tc-map {
+  /*margin-bottom: .8%;*/
+}
+.tc-partner-proposal {
+  text-decoration: none;
+}
+.tc-partner-proposal:link, .tc-partner-proposal:visited {
+  color: #E3B964;
+}
+.tc-partner-proposal:hover {
+  color: #E3B964;
+}
+.history-margin {
+  margin-left: .8%;
+  margin-right: .8%;
+}
+.donate-margin {
+  margin-left: .8%;
+  margin-right: .8%;
+}
+.sponsor-description {
+  font-family: 'sitewide_din';
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+.donate-layout {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+.donate-layout-left {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.donate-layout-right {
+  width: 0%;
+  height: auto;
+}
+.donate-title {
+  font-family: 'section_titles_din';
+  color: #000;
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding-bottom: 10px;
-}*/
-
-/*.navbar-custom .navbar-brand .navbar-toggle:focus,*/
-/*#race-details:active {
-    background-color: blue;
-    font-size: 100px;
-
-}*/
+  font-size: 30px;
+}
+.donate-text {
+  font-family: 'intro_din';
+  font-size: 16px;
+}
+.proposal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.proposal-file {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.social-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.social-logo {
+  width: 65%;
+}
+.sports-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto;
+}
+.club-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /*flex-direction: column;*/
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto;
+}
+.sports-photo {
+  width: 25%;
+  height: 100%;
+}
+.sports-photos-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pilot-photo {
+  /*width: 75%;*/
+  width: 75%;
+  height: 100%;
+}
+.clubhouse-photo {
+  width: 100%;
+  height: 100%;
+}
+.tc15-gallery {
+  /*padding-top: 15px;*/
+  font-family: 'sitewide_din';
+  font-size: 26px;
+  color: black;
+  text-align: center;
+}
+.social-logos-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.social-logos {
+  width: 75%;
+  margin: auto;
+}
+#icons-on-path {
+  position: relative;
+}
+#social-icons-image {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+#path-icons {
+  z-index: 100;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.social-logos ul {
+  list-style: none;
+}
+.banner-social-icons {
+  font-size: 56px;
+  color: white;
+}
+.flex-mailing-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.flex-sponsor-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 4px;
+}
+.flex-sponsor-logos {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 200px;
+}
+.flex-sponsor-logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  height: auto;
+}
+.flex-copyright {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 4px;
+}
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+.link-illusion {
+  cursor: pointer;
+}
+::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: 'section_titles_din';
+}
+:-moz-placeholder {
+  font-size: 14px;
+  font-family: 'section_titles_din';
+  font-weight: bold;
+}
+::-moz-placeholder {
+  font-size: 14px;
+  font-family: 'section_titles_din';
+}
+:-ms-input-placeholder {
+  font-size: 14px;
+  font-family: 'section_titles_din';
+}
 
 /*MEDIA QUERIES*/
+
+@media(max-height:654px) {
+  /*.tc-title {
+    font-size: 24px;
+  }
+  .tc-subtitle {
+    font-size: 16px;
+  }*/
+  /*.main_logo {
+    fill: white;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: rgba(227, 185, 100, .7);
+    color: white;
+    padding: 1%;
+    text-align: center;
+  }*/
+  /*.intro-text {
+    margin: 0 0 10px;
+    padding-top: 0;
+  }*/
+  /*.intro .intro-body .intro-text {
+    font-size: 18px;
+  }*/
+
+  /*.register {
+    font-size: 12px;
+  }*/
+
+}
 
 @media (min-width: 768px) {
   .navbar-header {
@@ -452,35 +1014,120 @@ border-bottom:1px solid #A3A3A3;
   }
 }
 @media (max-width:768px) {
-  .tc_title {
+  .tc-title {
     font-size: 24px;
   }
-
+  .tc-title-dark {
+    font-size: 24px;
+  }
   .merch-font {
     font-size: 52px;
   }
 }
-@media (max-width:480px) {
-  /*.tc_title {
-    font-size: 16px;
-  }*/
+@media (max-width:844px) {
+  .product-layout {
+    /*display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;*/
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /*justify-content: center;*/
+  }
+  .product-layout-left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /*align-items: center;*/
+  }
+  .empty-test {
+    /*display: flex;*/
+    padding-right: 0;
+  }
+  .product-layout-right {
+    width: 100%;
+    height: auto;
+    /*text-align: center;*/
+  }
+  .product-photo {
+    height: 310px;
+    width: auto;
+  }
+  .mmm {
+    height: auto;
+    width: auto;
+  }
+  .product-title {
+    font-family: 'section_titles_din';
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 12px;
+    text-align: center;
+  }
+  .product-details-back {
+    padding-top: 60px;
+    padding-bottom: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'intro_din';
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .adult-reg-back {
+    margin: 0;
+  }
+  .product-details {
+    font-family: 'intro_din';
+  }
 }
-
-@media(max-width:416px) {
-
-  .tc_title {
-    font-size: 20px;
-    top: 37px;
+@media (max-width:744px) {
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 2px;
+    font-size: 18px;
+    line-height: 20px;
   }
 
-  /*.nav_logo {
-    margin-left: -5px;
-  }*/
+}
+@media(min-width:480px) {
 
-  /*.intro .intro-body .intro-text {
-    font-size: 14px;
-  }*/
-
+}
+@media(max-height:644px) {
+  .tc-title {
+    font-size: 36px;
+    top: 37px;
+  }
+  .tc-title-dark {
+    font-size: 36px;
+    top: 37px;
+  }
+  .tc-subtitle {
+    top: 60px;
+    font-size: 18px;
+  }
   .main_logo {
     fill: white;
     height: 10em;
@@ -491,50 +1138,278 @@ border-bottom:1px solid #A3A3A3;
     padding: 1%;
     text-align: center;
   }
-
-  .navbar-brand {
-    float: left;
-    height: 50px;
-    padding: 15px 2px;
+  .intro .intro-body .intro-text {
     font-size: 18px;
-    line-height: 20px;
   }
+  .register {
+    font-size: 14px;
+  }
+}
+@media(max-height:504px) {
+  .tc-title {
+    font-size: 28px;
+    top: 37px;
+  }
+  .tc-title-dark {
+    font-size: 28px;
+    top: 37px;
+  }
+  .tc-subtitle {
+    top: 60px;
+    font-size: 14px;
+  }
+  .main_logo {
+    fill: white;
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    background-color: rgba(227, 185, 100, .7);
+    color: white;
+    padding: 1%;
+    margin-top: 28px;
+    text-align: center;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 18px;
+  }
+  .intro-text {
+    padding-top: 10px;
+  }
+  .intro p {
+      margin-bottom: 10px;
+      /*font-size: 18px;*/
+      /*line-height: 1.5;*/
+  }
+  .register {
+    font-size: 14px;
+  }
+}
+@media(max-height:405px) {
+  .tc-title {
+    font-size: 22px;
+    top: 37px;
+  }
+  .tc-title-dark {
+    font-size: 22px;
+    top: 37px;
+  }
+  .tc-subtitle {
+    top: 60px;
+    font-size: 10px;
+  }
+  .main_logo {
+    fill: white;
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    background-color: rgba(227, 185, 100, .7);
+    color: white;
+    padding: 1%;
+    margin-top: 32px;
+    text-align: center;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 14px;
+  }
+  .intro-text {
+    padding-top: 0;
+  }
+  .intro p {
+      margin-bottom: 5;
+      /*font-size: 18px;*/
+      /*line-height: 1.5;*/
+  }
+  .register {
+    font-size: 10px;
+  }
+  .btn-circle {
+    margin-top: 5px;
+  }
+}
+@media(max-height:360px) {
+  .tc-title {
+    font-size: 22px;
+    top: 37px;
+  }
+  .tc-title-dark {
+    font-size: 22px;
+    top: 37px;
+  }
+  .tc-subtitle {
+    top: 60px;
+    font-size: 10px;
+  }
+  .main_logo {
+    fill: white;
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    background-color: rgba(227, 185, 100, .7);
+    color: white;
+    padding: 1%;
+    margin-top: 54px;
+    text-align: center;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 14px;
+  }
+  .intro-text {
+    padding-top: 0;
+  }
+  .intro p {
+      margin-bottom: 1;
+      /*font-size: 18px;*/
+      /*line-height: 1.5;*/
+  }
+  .register {
+    font-size: 8px;
+  }
+  .btn-circle {
+    margin-top: 5px;
+  }
+}
+@media(max-width:520px) {
 
+
+}
+
+@media(max-width:416px) {
+  p {
+    margin: 0 0 20px;
+  }
+  .btn-circle {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .flextest {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .flexbanner {
+    width: 100%;
+    height: auto;
+  }
+  .flex-merch {
+    padding-top: 50px;
+  }
+  .flex-regs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .flex-products {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .flex-merch-item {
+    padding-bottom: 20px;
+    width: 70%;
+    padding-bottom: 5px;
+  }
+  .flex-merch-item-reg {
+    padding-bottom: 20px;
+    width: 60%;
+    padding-bottom: 5px;
+  }
+  .history-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .paragraph-text {
+    text-indent: 25px;
+    font-family: 'intro_din';
+    font-size: 12px;
+  }
+  .history-quote p {
+    font-size: 18px;
+  }
+  .donate-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #map {
+    display: none;
+    visibility: hidden;
+  }
+  .center-banner {
+    display: none;
+    visibility: hidden;
+  }
+  .mobile-registration-banner {
+    display: inline;
+    visibility: visible;
+  }
+  .tc-title {
+    font-size: 20px;
+    top: 37px;
+  }
+  .tc-title-dark {
+    font-size: 20px;
+    top: 37px;
+  }
+  .tc-subtitle {
+    top: 60px;
+    font-size: 14px;
+  }
+  .main_logo {
+    fill: white;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-color: rgba(227, 185, 100, .7);
+    color: white;
+    padding: 1%;
+    text-align: center;
+  }
+  .tabor-title-1 {
+    visibility: hidden;
+    display: none;
+  }
+  .tabor-title-2 {
+    visibility: visible;
+    display: inline;
+  }
   .history-font {
     font-size: 34px;
     color: white;
   }
-
-  #race-details {
-    visibility: hidden;
-    display: none;
+  .external-page-title {
+    font-size: 14px;
   }
-
-  #social {
-    visibility: hidden;
-    display: none;
+  .external-page-header {
+    padding: 60px 0 0;
   }
-
-  #race-details-mobile {
-    visibility: visible;
-    display: inline-flex;
+  .merch-item {
+    width: 100%;
+    height: auto;
   }
-
-  #merch-mobile {
-    visibility: visible;
-    display: inline-flex;
+  .pilot-photo {
+    /*width: 75%;*/
+    width: 100%;
+    height: 100%;
   }
-
-  #map-mobile {
-    visibility: visible;
-    display: inline-flex;
-  }
-
-  #social-mobile {
-    visibility: visible;
-    display: inline-flex;
-  }
-
   .faq-mobile {
     visibility: visible;
     display: inline;
@@ -543,84 +1418,77 @@ border-bottom:1px solid #A3A3A3;
     visibility: hidden;
     display: none;
   }
-
-  .race-details-title {
-    font-size: 30px;
-  }
-
   .history_padding {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-
-  .race-details-position {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
   .faq-list {
     list-style: none;
     font-size: 15px;
     text-align: left;
     margin: 0 0;
-    padding-left: 34px;
-    padding-right: 34px;
   }
-
-  .social-icons-mobile {
-    font-size: 56px;
-    color: white;
-
+  .faq-list li {
+    text-align: center;
   }
-
   .social-icons-list li {
     padding-left: 0px;
     padding-right: 0px;
   }
-
-
-
-
   .questions {
     font-size: 18px;
-    /*color: #858585;*/
   }
-
   .faq-title {
     padding-top: 10px;
   }
-
+  .tc15-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   #map {
     /*width: 100%;
     height: 200px;*/
+    /*margin-top: 0;*/
+  }
+
+  .tc15-gallery {
+    font-size: 16px;
+  }
+  .flex-tc15 {
+    /*flex-direction: column;*/
+  }
+  .sponsor-description {
+    font-size: 16px;
+  }
+  .donate-layout {}
+  .donate-layout-left {}
+  .donate-layout-right {}
+  .donate-mobile-padding {
+    padding-bottom: 10px;
+  }
+  p.donate-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  p.donate-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .banner-social-icons {
+    font-size: 46px;
+    color: white;
+  }
+  /* Overwriting bootstrap styling */
+  ul, ol {
     margin-top: 0;
+    margin-bottom: 0;
   }
-
-  #merch {
-    position: relative;
-    width: 100%;
-    /*height: 100%;*/
-    height: 45%;
-    color: #fff;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/crew.jpeg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  .list-inline {
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
   }
-
-  .merch-font {
-    font-size: 20px;
+  .mailing-list-text {
+    padding-top: 10px;
   }
-
-  .merch-items-list li{
-    display:list-item;
-    text-align:center;
-  }
-
-  .merch-font {
-    font-size: 30px;
-  }
-
 }
