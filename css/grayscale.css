@@ -144,7 +144,7 @@ a:hover, a:focus {
   /*font-size: 18px;*/
   font-size: 18px;
   font-family: 'intro_din';
-  opacity: .8;
+  /*opacity: .8;*/
 }
 @media(min-width:768px) {
   .intro {
