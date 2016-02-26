@@ -859,6 +859,21 @@ a[href^="https://maps.google.com/maps"] {
   color: black;
   text-align: center;
 }
+.flex-sponsor-grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 2%;
+}
+.sponsor-grid-logo {
+  width: 25%;
+  height: 100%;
+}
 .social-logos-group:after {
   content: "";
   display: table;
