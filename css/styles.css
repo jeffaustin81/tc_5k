@@ -112,6 +112,9 @@ select:-moz-focusring {
 .intro-text {
   padding-top: 20px;
 }
+/*.runtime {
+  font-size:
+}*/
 .tc-title {
   z-index: 9998;
   top: 40px;
@@ -324,6 +327,10 @@ a[href^="https://maps.google.com/maps"] {
   color: #858585;
 }
 #mobile-question-9 {
+  font-size: 20px;
+  color: #858585;
+}
+#mobile-question-10 {
   font-size: 20px;
   color: #858585;
 }
