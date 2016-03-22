@@ -195,6 +195,30 @@ select:-moz-focusring {
 .faq-list {
   padding: 0;
 }
+.sign-area {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sign {
+  width: 50%;
+  height: 100%;
+}
+.sign-mobile {
+  width: 75%;
+  height: 100%;
+}
+.sign-link {
+  text-decoration: underline;;
+  color: #A3A3A3;
+
+}
+.sign-link:hover, .sign-link:visited, .sign-link:active, .sign-link:focus {
+  text-decoration: underline;;
+  color: #A3A3A3;
+}
 #social-banner {
   position: relative;
 }
